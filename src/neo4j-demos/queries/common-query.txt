@@ -1,0 +1,42 @@
+LOAD CSV FROM 'file:///db-roaming-countries.csv' AS row 
+WITH row[0] AS visitedcountry
+RETURN visitedcountry
+LIMIT 3;
+
+LOAD CSV FROM 'file:///db-roaming-plans.csv' AS row
+WITH row[0] AS roamingplanid, row[1] AS roamingplanname, toInteger(row[2]) AS validitydays, toInteger(row[3]) AS pricekidr, row[4] AS benefits
+RETURN roamingplanid, roamingplanname, validitydays, pricekidr, benefits
+LIMIT 3;
+
+LOAD CSV FROM 'file:///db-roaming-plans-countries.csv' AS row
+WITH row[0] AS roamingplanid, row[1] AS visitedcountry
+RETURN roamingplanid, visitedcountry
+LIMIT 3;
+
+CREATE CONSTRAINT Unique_roamingplanid FOR (rp:RoamingPlan) REQUIRE rp.roamingplanid IS UNIQUE;
+CREATE CONSTRAINT Unique_visitedcountry FOR (c:VisitedCountry) REQUIRE c.visitedcountry IS UNIQUE;
+
+LOAD CSV FROM 'file:///db-roaming-countries.csv' AS row 
+WITH row[0] AS visitedcountry
+MERGE (c:VisitedCountry {visitedcountry: visitedcountry})
+RETURN count(c);
+
+LOAD CSV FROM 'file:///db-roaming-plans.csv' AS row
+WITH row[0] AS roamingplanid, row[1] AS roamingplanname, toInteger(row[2]) AS validitydays, toInteger(row[3]) AS pricekidr, row[4] AS benefits
+MERGE (rp:RoamingPlan {roamingplanid: roamingplanid})
+    SET rp.roamingplanname = roamingplanname,
+        rp.validitydays = validitydays,
+        rp.pricekidr = pricekidr,
+        rp.benefits = benefits
+RETURN count(rp);
+
+LOAD CSV FROM 'file:///db-roaming-plans-countries.csv' AS row
+WITH row[0] AS roamingplanid, row[1] AS visitedcountry
+MATCH (rp:RoamingPlan {roamingplanid: roamingplanid})
+MATCH (c:VisitedCountry {visitedcountry: visitedcountry})
+MERGE (rp)-[rel:APPLIES_TO]->(c)
+RETURN count(rp);
+
+MATCH (c:VisitedCountry {visitedcountry: "China"})<-[:APPLIES_TO]-(rp:RoamingPlan)
+WHERE rp.validitydays > 3
+RETURN c, rp;
