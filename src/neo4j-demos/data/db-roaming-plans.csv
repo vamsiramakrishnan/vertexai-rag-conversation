@@ -1,0 +1,12 @@
+roamingplanid, roamingplanname, validitydays, pricekidr, benefits
+1001, Roam Quota 1GB Asia Australia 3 Days, 3, 100, 1 GB
+1002, Roam Quota 2GB America Europe Africa Asia Australia 7 Days, 7, 400, 2 GB
+1003, Roam Quota 300MB Asia Australia 1 Days, 1, 45, 300 MB
+1004, Roam Quota 2.5GB Asia Australia 7 Days, 7, 200, 2.5 GB
+2001, Roam Single Country (China) 7 Days, 7, 200, 5 GB & 30 Minutes / day
+2002, Roam Single Country (Malaysia) 7 Days, 7, 100, 100 GB & 30 Minutes / day
+2003, Roam Single Country (Maldives) 7 Days, 7, 100, 1 GB & 30 Minutes
+2004, Roam Single Country (Qatar) 7 Days, 7, 100, 100 GB & 30 Minutes
+2005, Roam Single Country (Singapore) 7 Days, 7, 100, 100 GB & 30 Minutes / day
+2006, Roam Single Country (UAE) 7 Days, 7, 100, 100 GB & 30 Minutes / day
+2007, Roam Single Country (USA) 7 Days, 7, 200, 10 GB & 30 Minutes
