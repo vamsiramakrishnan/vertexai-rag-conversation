@@ -1,0 +1,46 @@
+
+
+
+A eSIM tidak dapat digunakan lebih dari 1 perangkat. Kode QR dari 1 nomor MSISDN yang sudah dipindai dan instal di 1 perangkat, tidak dapat dipindai lagi di perangkat lain.
+
+
+A Ada beberapa batasan penggunaan eSIM di beberapa perangkat. QR Code dari 1 nomor MSISDN yang sudah diunduh dan dipasang di 1 perangkat pelanggan, tidak dapat diunduh di perangkat lain
+
+
+A Pelanggan dapat melakukan pemindaian ulang sebanyak 10x percobaan di perangkat yang sama.
+
+
+A Jika kode QR eSIM hilang atau terhapus, pelanggan dapat menghubungi Call Center IM3 185 untuk mendapatkan kembali kode QR tersebut.
+
+
+A Jika kode QR eSIM terhapus pada perangkat lama, pelanggan dapat menghubungi Call Center IM3 185 untuk mendapatkan kembali kode QR tersebut.
+
+
+A Jika terjadi kegagalan saat memindai kode QR eSIM, pastikan Anda terhubung ke Internet, lalu:
+- Periksa kondisi pencahayaan yang mungkin akan mempengaruhi kamera pada saat pemindaian.
+- Periksa apakah kode QR rusak atau tidak.
+- Jika perangkat masih terkendala untuk melakukan pemindaian, pelanggan bisa hubungi Call Center IM3 untuk mendapatkan kode QR kembali.
+
+
+A Jika perangkat akan diperbaiki, kami sarankan untuk menghapus profil eSIM dari perangkat terlebih dahulu agar nomor telepon Anda tidak disalahgunakan oleh pihak lain.
+
+
+A IM3 tidak akan mengubah pengaturan pada perangkat yang menggunakan eSIM.
+
+
+A eSIM yang sudah digunakan di perangkat lain tidak dapat dipindahkan ke perangkat baru
+
+
+A Daftar perangkat pendukung eSIM dapat dicek di website im3.id/esim. Saat memilih perangkat, pastikan perangkat tersebut mendukung fitur eSIM. Perangkat harus resmi dijual di Indonesia dan IMEI telah terdaftar di Kementerian Perindustrian. Anda dapat mengecek status IMEI di https://imei.kemenperin.go.id/ atau menghubungi Contact Center KOMINFO 159. Indosat Ooredoo Hutchison tidak bertanggung jawab jika proses aktivasi eSIM gagal karena perangkat tidak mendukung layanan eSIM dan IMEI tidak terdaftar di Kementerian Perindustrian
+
+
+A Tidak ada perbedaan untuk jenis eSIM device, seperti iPhhone, Samsung, Huawei
+
+
+A Pengirim email untuk kode QR eSIM adalah esim@ioh.co.id
+
+
+A Jika aktivasi eSIM sudah berhasil, namun pelanggan tidak dapat menggunakan SMS, nelpon, atau internet maka pelanggan harus menghubungi Call Center IM3 185 untuk mengatasi masalah tersebut.
+
+
+A Jika perangkat dengan eSIM IM3 hilang, pelanggan dapat menghubungi Call Center IM3 185 untuk memblokir profil eSIM dan disarankan untuk mengunjungi Gerai IM3 terdekat untuk mengaktifkan kembali nomor IM3 di kartu SIM fisik atau eSIM.

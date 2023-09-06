@@ -1,0 +1,15 @@
+fastapi
+hypercorn
+langchain
+unstructured
+pydantic
+shapely==1.8.5
+faiss-cpu
+google-cloud-aiplatform
+google-cloud-translate
+google-auth
+google-cloud-logging
+tabulate
+iso639
+configparser
+pytz

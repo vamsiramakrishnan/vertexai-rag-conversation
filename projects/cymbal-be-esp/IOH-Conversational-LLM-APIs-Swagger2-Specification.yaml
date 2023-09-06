@@ -1,0 +1,534 @@
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: IOH Conversational LLM Interaction APIs
+  description: This API provides two LLM powered conversational interaction capabilities. First to receive conversation input for purpose of intent recognition, static Q&A based on KDB and dynamic customer profile information retrieval routing. Secondly to support multi-turn conversation for cases related to respond to customer queries on dynamic customer profile information. Made available under Apache-2.0 License https://www.apache.org/licenses/LICENSE-2.0
+  contact: {}
+host: ESP_VAR_CR_HOSTNAME
+
+securityDefinitions:
+  ApiKeyAuth:
+    type: apiKey
+    name: x-api-key
+    in: header
+schemes:
+- https
+consumes:
+- application/json
+produces:
+- application/json
+x-google-backend:
+  address: https://ESP_VAR_CR_BE_HOSTNAME
+  protocol: h2
+paths:
+  /routeragent:
+    post:
+      description: Receive conversation input for purpose of intent recognition, static Q&A based on KDB and dynamic customer profile information retrieval routing. Returns depending on scenario if the question related to general FAQ or specific to customer profile information. If question is either classified as a SmallTalk or StaticKnowledgeBaseQnA senario, then an appropriate response in form of a small talk response or a static Q&A database based response is returned. If question is classified as a query specific to some customer profile information, the response indicates the customer profile scenario as a specific DynamicFlowAPI for which backend API information needs to be retrieved by the client and passed back to the chatllm
+      summary: getRouterAgentResponse
+      operationId: getRouterAgentResponse
+      deprecated: false
+      produces:
+      - application/json
+      consumes:
+      - application/json
+      parameters:
+      - name: Content-Type
+        in: header
+        required: false
+        enum:
+        - application/json
+        type: string
+        description: ''
+      - name: body
+        in: body
+        required: true
+        description: ''
+        schema:
+          $ref: '#/definitions/RouteragentRequest'
+      responses:
+        '200':
+          description: Success response code for scenarios 1 - 4. The reponse can fall into 5 different scenarios. 1 > "smallTalk", this means the recognized query intent relates to making small talk and approriate responses are returned for the input query. 2 > "staticKnowledgebaseQnA", this means the reconized query intent relates to general Q&A on IOH products for which a response can be found in the FAQ Knowledge Base and appropriate responses are returned for the input query. 3 > "dynamicAPIFlow" , this means the recognized query intent relates to a question requiring specific customer information from the backend and reprocessing of the back end customer information along with the query in a second LLM API call to the getDynamicChatAgentResponse operation, the appropriate response indicated which type of customer information needs to be retieved from the backend system. 4 > "fallbackIntent" means query intent could not be recognized by the Router Agent, requiring appropriate fallback handling on client side. The fifth response description "llmFailure" will not be retured under code 200 but instead will be returned under code 400 or 500 since this deals with client or backend processing error responses
+          schema:
+            $ref: '#/definitions/RouteragentResponse'
+          headers: {}
+        '400':
+          description: Error response code for scenarios 5. < 5 > "llmFailure" means backend processing error occured on the API server side due to malformed or incomplete request and needs to be corrected on client side
+          schema:
+            $ref: '#/definitions/Routeragent400Error1'
+          headers: {}
+        '500':
+          description: Error response code for scenarios 5. < 5 > "llmFailure" means backend processing error occured on the API server side due to server side processing failure
+          schema:
+            $ref: '#/definitions/Routeragent500Error1'
+          headers: {}
+      security:
+      - ApiKeyAuth: []
+  /chatagent:
+    post:
+      description: Receive conversation input for purpose of intent recognition and dynamic Q&A based on dynamic customer profile information passed in input prompt. Returns an appropriate conversational output based on prompt payload including prompt instructions and customer profile information. For multi turn conversations requiring conversation history tracking, client needs to pass previous chat request / responses in input as well.
+      summary: getChatAgentResponse
+      operationId: getChatAgentResponse
+      deprecated: false
+      produces:
+      - application/json
+      consumes:
+      - application/json
+      parameters:
+      - name: Content-Type
+        in: header
+        required: false
+        enum:
+        - application/json
+        type: string
+        description: ''
+      - name: body
+        in: body
+        required: true
+        description: ''
+        schema:
+          $ref: '#/definitions/ChatagentRequest'
+      responses:
+        '200':
+          description: Success response code when approriate responses are returned for the input query without any client or server side error
+          schema:
+            $ref: '#/definitions/ChatagentResponse'
+          headers: {}
+        '400':
+          description: Error response code for scenario "llmFailure" means backend processing error occured on the API server side due to malformed or incomplete request and needs to be corrected on client side
+          schema:
+            $ref: '#/definitions/Chatagent400Error1'
+          headers: {}
+        '500':
+          description: Error response code for scenario "llmFailure" means backend processing error occured on the API server side due to server side processing failure
+          schema:
+            $ref: '#/definitions/Chatagent500Error1'
+          headers: {}
+      security:
+      - ApiKeyAuth: []
+definitions:
+  requestMetadata:
+    title: requestMetadata
+    description: Transaction meta data attributes for client / session & user transaction correlation
+    type: object
+    properties:
+      clientInfo:
+        description: Metadata attribute identifying client. E.g. KATAAI
+        type: string
+      clientInfoAddnl:
+        description: Additonal metadata attribute identifying client. E.g. Channel like MobileApp, Web etc if available for operational monitoring and debugging
+        type: string
+      sessionInfo:
+        description: Metadata attribute identifying session E.g. Session ID on the client side to correlate log information
+        type: string
+      sessionInfoAddnl:
+        description: Additonal metadata attribute identifying session. For Future Use
+        type: string
+      userInfo:
+        description: Metadata attribute identifying user. E.g. MSISDN
+        type: string
+      userInfoAddnl:
+        description: Additonal metadata attribute identifying user. For Future Use
+        type: string
+  developerOptions:
+    title: developerOptions
+    description: Developer options to control & override specific server side configuration settings
+    type: object
+    properties:
+      enableBasicLogging:
+        description: Enable basic logging for this specific request. INFO logging will be enabled for this request on server side
+        type: boolean
+      enableAdvancedLogging:
+        description: Enable additional logging for this specific request. DEBUG logging will be enabled for this request on server side
+        type: boolean
+  smallTalkResponse:
+    title: smallTalkResponse
+    description: The response to the small talk input
+    type: object
+    properties:
+      answer:
+        description: The answer to the user's query
+        type: string
+      recognizedNLPEntities:
+        description: The entities recognized from the user's query by the NLU system
+        type: array
+        items:
+          $ref: '#/definitions/recognizedNLPEntity'
+  staticKnowledgebaseQnAResponse:
+    title: staticKnowledgebaseQnAResponse
+    description: The response from the knowledgebase collection
+    type: object
+    properties:
+      topic:
+        description: The main topic of the user's query
+        type: string
+      subTopic:
+        description: The subtopic of the user's query
+        type: string
+      answer:
+        description: The answer to the user's query
+        type: string
+      recognizedNLPEntities:
+        description: The entities recognized from the user's query by the NLU system
+        type: array
+        items:
+          $ref: '#/definitions/recognizedNLPEntity'
+  dynamicAPIFlowResponse:
+    title: dynamicAPIFlowResponse
+    description: The type of dynamic API flow
+    type: object
+    properties:
+      flowType:
+        type: object
+        allOf:
+        - $ref: '#/definitions/FlowType'
+        - description: The type of dynamic API flow
+      subFlowType:
+        description: The type of dynamic API sub flow. For future use
+        type: string
+      recognizedNLPEntities:
+        description: The entities recognized from the user's query by the NLU system
+        type: array
+        items:
+          $ref: '#/definitions/recognizedNLPEntity'
+  fallbackIntentResponse:
+    title: fallbackIntentResponse
+    description: The response when the intent is not recognized
+    type: object
+    properties:
+      fallBackReason:
+        description: The reason for the fallback
+        type: string
+      fallBackResponse:
+        description: The fallback response
+        type: string
+      recognizedNLPEntities:
+        description: The entities recognized from the user's query by the NLU system
+        type: array
+        items:
+          $ref: '#/definitions/recognizedNLPEntity'
+  llmFailureResponse:
+    title: llmFailureResponse
+    description: The response when the LLM fails
+    type: object
+    properties:
+      llmFailureErrorCode:
+        description: The error code for the LLM failure
+        type: string
+      llmFailureReasonMsg:
+        description: The reason for the LLM failure
+        type: string
+      llmFailureResponseMsg:
+        description: The response for the LLM failure
+        type: string
+  llmChatRequest:
+    title: llmChatRequest
+    description: The request payload from the client. This should contain (a) The prompt instructions for the model and associated payloads. Text input to generate model response. Prompts can include preamble, questions, suggestions, instructions, or examples and user profile information. (b) OPTIONALLY examples for finetuning output (c) OPTIONALLY previous request messages from user and response messages from bot (d) parameters to configure model. Max input token is 4096 (input token includes prompt, examples, previous request messages), max output token is 1024 for chat bison, see this link https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models#foundation_models
+    type: object
+    properties:
+      context:
+        description: The request payload from the client containing the ihe prompt instructions & associated payloads for the model
+        type: string
+      examples:
+        description: The request payload from the client optionally containing list of example chat query input / response pairs. List of structured messages to the model to learn how to respond to the conversation.
+        type: array
+        items:
+          $ref: '#/definitions/Example'
+      messages:
+        description: List of previous query / response paired messages from user and response messages from bot.Conversation history provided to the model in a structured alternate-author form. Messages appear in chronological order - oldest first, newest last. When the history of messages causes the input to exceed the maximum length, the oldest messages are removed until the entire prompt is within the allowed limit.
+        type: array
+        items:
+          $ref: '#/definitions/Message'
+      parameters:
+        type: object
+        allOf:
+        - $ref: '#/definitions/Parameters'
+        - description: Additional parameters to optionally pass to LLM model
+  llmChatResponse:
+    title: llmChatResponse
+    description: The response from the model
+    type: object
+    properties:
+      answer:
+        description: The answer to the user's query
+        type: string
+      safetyAttributes:
+        type: object
+        allOf:
+        - $ref: '#/definitions/SafetyAttributes'
+        - description: The safety attributes for the response
+  Author:
+    title: Author
+    description: Indicates who the message originated from - user (query) or bot (response)
+    type: string
+    enum:
+    - user
+    - bot
+  Chatagent400Error1:
+    title: Chatagent400Error1
+    type: object
+    properties:
+      responseType:
+        type: object
+        allOf:
+        - $ref: '#/definitions/ResponseType1'
+        - description: The type of the response
+      llmFailureResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/llmFailureResponse'
+        - description: The response when the LLM fails
+  Chatagent500Error1:
+    title: Chatagent500Error1
+    type: object
+    properties:
+      responseType:
+        type: object
+        allOf:
+        - $ref: '#/definitions/ResponseType1'
+        - description: The type of the response
+      llmFailureResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/llmFailureResponse'
+        - description: The response when the LLM fails
+  ChatagentRequest:
+    title: ChatagentRequest
+    type: object
+    properties:
+      llmChatRequest:
+        type: object
+        allOf:
+        - $ref: '#/definitions/llmChatRequest'
+        - description: The request payload from the client. This should contain (a) The prompt instructions for the model and associated payloads. Text input to generate model response. Prompts can include preamble, questions, suggestions, instructions, or examples and user profile information. (b) OPTIONALLY examples for finetuning output (c) OPTIONALLY previous request messages from user and response messages from bot (d) parameters to configure model. Max input token is 4096 (input token includes prompt, examples, previous request messages), max output token is 1024 for chat bison, see this link https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models#foundation_models
+      requestMetadata:
+        type: object
+        allOf:
+        - $ref: '#/definitions/requestMetadata'
+        - description: Transaction meta data attributes for client / session & user transaction correlation
+      developerOptions:
+        type: object
+        allOf:
+        - $ref: '#/definitions/developerOptions'
+        - description: Developer options to control & override specific server side configuration settings
+  ChatagentResponse:
+    title: ChatagentResponse
+    type: object
+    properties:
+      responseType:
+        type: object
+        allOf:
+        - $ref: '#/definitions/ResponseType3'
+        - description: The type of the response
+      llmChatResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/llmChatResponse'
+        - description: The response from the model
+  Example:
+    title: Example
+    description: Instance of example chat query input / response pair
+    type: object
+    properties:
+      input:
+        type: object
+        allOf:
+        - $ref: '#/definitions/Input'
+        - description: Specific example chat query input
+      output:
+        type: object
+        allOf:
+        - $ref: '#/definitions/Output'
+        - description: Specific example chat query output
+  FlowType:
+    title: FlowType
+    description: The type of dynamic API flow
+    type: string
+    enum:
+    - accountInfo
+    - billPaymentInfo
+    - imPoinInfo
+  Input:
+    title: Input
+    description: Specific example chat query input
+    type: object
+    properties:
+      content:
+        type: string
+  Message:
+    title: Message
+    description: Instance of previous query / response paired messages from user and response messages from bot
+    type: object
+    properties:
+      author:
+        type: object
+        allOf:
+        - $ref: '#/definitions/Author'
+        - description: Indicates who the message originated from - user (query) or bot (response)
+      content:
+        description: Actual message from - user (query) or bot (response)
+        type: string
+  Output:
+    title: Output
+    description: Specific example chat query output
+    type: object
+    properties:
+      content:
+        type: string
+  Parameters:
+    title: Parameters
+    description: Additional parameters to optionally pass to LLM model
+    type: object
+    properties:
+      temperature:
+        description: The temperature is used for sampling during the response generation, which occurs when topP and topK are applied. Temperature controls the degree of randomness in token selection. Lower temperatures are good for prompts that require a more deterministic and less open-ended or creative response, while higher temperatures can lead to more diverse or creative results. A temperature of 0 is deterministic - the highest probability response is always selected. For most use cases, try starting with a temperature of 0.2. Should be 0.0 - 1.0, default 0
+        type: number
+        format: double
+      maxOutputTokens:
+        description: Maximum number of tokens that can be generated in the response. Specify a lower value for shorter responses and a higher value for longer responses. A token may be smaller than a word. A token is approximately four characters. 100 tokens correspond to roughly 60-80 words. May be 1–1024, default 128
+        type: number
+        format: double
+      topP:
+        description: Top-p changes how the model selects tokens for output. Tokens are selected from most K (see topK parameter) probable to least until the sum of their probabilities equals the top-p value. For example, if tokens A, B, and C have a probability of 0.3, 0.2, and 0.1 and the top-p value is 0.5, then the model will select either A or B as the next token (using temperature) and doesn't consider C. The default top-p value is 0.95. Specify a lower value for less random responses and a higher value for more random responses. Should be 0.0 - 1.0, default 0.95
+        type: number
+        format: double
+      topK:
+        description: Top-k changes how the model selects tokens for output. A top-k of 1 means the selected token is the most probable among all tokens in the model's vocabulary (also called greedy decoding), while a top-k of 3 means that the next token is selected from among the 3 most probable tokens (using temperature). For each token selection step, the top K tokens with the highest probabilities are sampled. Then tokens are further filtered based on topP with the final token selected using temperature sampling. Specify a lower value for less random responses and a higher value for more random responses. Should be 1–40, Default- 40
+        type: number
+        format: double
+      modelOverride:
+        description: For future use
+        type: string
+  recognizedNLPEntity:
+    title: recognizedNLPEntity
+    type: object
+    properties:
+      entity:
+        description: The name of the entity
+        type: string
+      value:
+        description: The value of the entity
+        type: string
+  ResponseType:
+    title: ResponseType
+    description: The type of the response
+    type: string
+    enum:
+    - smallTalk
+    - staticKnowledgebaseQnA
+    - dynamicAPIFlow
+    - fallbackIntent
+  ResponseType1:
+    title: ResponseType1
+    description: The type of the response
+    type: string
+    enum:
+    - llmFailure
+  ResponseType3:
+    title: ResponseType3
+    description: The type of the response
+    type: string
+    enum:
+    - llmChatResponse
+  Routeragent400Error1:
+    title: Routeragent400Error1
+    type: object
+    properties:
+      responseType:
+        type: object
+        allOf:
+        - $ref: '#/definitions/ResponseType1'
+        - description: The type of the response
+      llmFailureResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/llmFailureResponse'
+        - description: The response when the LLM fails
+  Routeragent500Error1:
+    title: Routeragent500Error1
+    type: object
+    properties:
+      responseType:
+        type: object
+        allOf:
+        - $ref: '#/definitions/ResponseType1'
+        - description: The type of the response
+      llmFailureResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/llmFailureResponse'
+        - description: The response when the LLM fails
+  RouteragentRequest:
+    title: RouteragentRequest
+    type: object
+    properties:
+      llmRouterRequest:
+        description: The request payload from the client for which intent determination, routing and if applicable response needs to be provided. Max input token is 8192, max output token is 1024 for text bison, see this link https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models#foundation_models
+        type: string
+      requestMetadata:
+        type: object
+        allOf:
+        - $ref: '#/definitions/requestMetadata'
+        - description: Transaction meta data attributes for client / session & user transaction correlation
+      developerOptions:
+        type: object
+        allOf:
+        - $ref: '#/definitions/developerOptions'
+        - description: Developer options to control & override specific server side configuration settings
+      messages:
+        description: List of previous query / response paired messages from user and response messages from bot.Conversation history provided to the model in a structured alternate-author form. Messages appear in chronological order - oldest first, newest last. When the history of messages causes the input to exceed the maximum length, the oldest messages are removed until the entire prompt is within the allowed limit.
+        type: array
+        items:
+          $ref: '#/definitions/Message'
+  RouteragentResponse:
+    title: RouteragentResponse
+    type: object
+    properties:
+      responseType:
+        type: object
+        allOf:
+        - $ref: '#/definitions/ResponseType'
+        - description: The type of the response
+      smallTalkResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/smallTalkResponse'
+        - description: The response to the small talk input
+      originalUserQuery:
+        description: The original query from the user
+        type: string
+      staticKnowledgebaseQnAResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/staticKnowledgebaseQnAResponse'
+        - description: The response from the knowledgebase collection
+      dynamicAPIFlowResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/dynamicAPIFlowResponse'
+        - description: The type of dynamic API flow
+      fallbackIntentResponse:
+        type: object
+        allOf:
+        - $ref: '#/definitions/fallbackIntentResponse'
+        - description: The response when the intent is not recognized
+  SafetyAttributes:
+    title: SafetyAttributes
+    description: The safety attributes for the response
+    type: object
+    properties:
+      scores:
+        description: An array of scores for the response
+        type: array
+        items:
+          type: number
+          format: double
+      blocked:
+        description: A boolean value that indicates whether the response is blocked
+        type: boolean
+      categories:
+        description: An array of categories for the response
+        type: array
+        items:
+          type: string
+security: []
+tags: []

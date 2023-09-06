@@ -1,0 +1,35 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  dir: src/
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    gsutil -m rm -rf "gs://"$PROJECT_ID"-ioh-kb-bucket-dev/raw_input"
+- name: 'gcr.io/cloud-builders/gsutil'
+  dir: src/
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    gsutil -m cp -r ./raw_input "gs://"$PROJECT_ID"-ioh-kb-bucket-dev/raw_input"
+- name: gcr.io/google.com/cloudsdktool/cloud-sdk
+  args:
+    - run
+    - jobs
+    - update
+    - crbe-preproc-dev-v1
+    - '--image'
+    - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-preproc-dev:v1'
+    - '--region'
+    - us-central1
+    - '--service-account'
+    - sa-crbe-llm
+    - '--cpu'
+    - '2'
+    - '--memory'
+    - 8192Mi
+    - '--task-timeout'
+    - '1800'
+    - '--execute-now'     
+  entrypoint: gcloud    

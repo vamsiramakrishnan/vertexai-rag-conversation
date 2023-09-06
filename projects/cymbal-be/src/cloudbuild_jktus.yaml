@@ -1,0 +1,39 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - '-t'
+      - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-llm-dev:v1'
+      - .      
+    dir: src/crbe_llm
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-llm-dev:v1'
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    args:
+      - run
+      - deploy
+      - crbe-llm-dev-v1
+      - '--image'
+      - 'asia-southeast2-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-llm-dev:v1'
+      - '--region'
+      - us-central1
+      - '--platform'
+      - managed
+      - '--service-account'
+      - sa-crbe-llm
+      - '--execution-environment'
+      - gen2
+      - '--cpu-boost'
+      - '--cpu'
+      - '2'
+      - '--memory'
+      - 8192Mi
+      - '--min-instances'
+      - '1'
+      - '--max-instances'
+      - '2'
+      - '--no-allow-unauthenticated'   
+      - '--use-http2'             
+    entrypoint: gcloud
