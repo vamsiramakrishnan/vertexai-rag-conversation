@@ -21,7 +21,7 @@ from langchain.llms.vertexai import _VertexAICommon
 class NLURouterChain:
     def __init__(
         self,
-        bucket_name: str = "gs://ioh-kb-bucket",
+        bucket_name: str = "gs://cymbal-kb-bucket",
         llm: Optional[_VertexAICommon] = None,
         vertexai_params: Optional[Dict[str, float]] = None,
         folder_name: Optional[str] = "preprocessed_output",

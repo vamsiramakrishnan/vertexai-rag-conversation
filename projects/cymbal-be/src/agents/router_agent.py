@@ -23,11 +23,11 @@ from models.llm_cr_be_models import *
 class RouterAgent:
     def __init__(
         self,
-        bucket_name: str = "gs://ioh-kb-bucket",
+        bucket_name: str = "gs://cymbal-kb-bucket",
         project_id: str = "marc-genai-01",
         region: str = "us-central1",
-        index_name: str = "ioh_kb_index_EN",
-        index_name_id: str = "ioh_kb_index_ID",
+        index_name: str = "cymbal_kb_index_EN",
+        index_name_id: str = "cymbal_kb_index_ID",
         log_level: int = logging.INFO,
     ):
         self.bucket_name = bucket_name
@@ -69,7 +69,7 @@ class RouterAgent:
 
     @property
     def default_bucket_name(self):
-        return "gs://ioh-kb-bucket"
+        return "gs://cymbal-kb-bucket"
 
     @property
     def default_project_id(self):
@@ -81,7 +81,7 @@ class RouterAgent:
 
     @property
     def default_index_names(self):
-        return {"en": "ioh_kb_index_EN", "id": "ioh_kb_index_ID"}
+        return {"en": "cymbal_kb_index_EN", "id": "cymbal_kb_index_ID"}
 
     @property
     def default_response(self):

@@ -5,7 +5,7 @@ steps:
       - '-t'
       - 'us-central1-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-preproc-dev:v1'
       - .      
-    dir: src/crbe-preproc
+    dir: projects/crbe-preproc/src
   - name: gcr.io/cloud-builders/docker
     args:
       - push

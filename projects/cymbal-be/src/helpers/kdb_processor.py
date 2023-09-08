@@ -10,8 +10,8 @@ from helpers.logging_configurator import logger, request_origin
 class KDBProcessor:
     def __init__(
         self,
-        index_name: str = "ioh_kb_index_EN",
-        bucket_name: str = "gs://ioh-kb-bucket",
+        index_name: str = "cymbal_kb_index_EN",
+        bucket_name: str = "gs://cymbal-kb-bucket",
         folder_name: str = "preprocessed_output",
     ):
         self.storage_client = storage.Client()

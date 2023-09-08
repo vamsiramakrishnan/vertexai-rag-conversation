@@ -21,8 +21,8 @@ class StaticKnowledgebaseChain:
 
     def __init__(
         self,
-        bucket_name: str = "gs://ioh-kb-bucket",
-        index_name: str = "ioh_kb_index_EN",
+        bucket_name: str = "gs://cymbal-kb-bucket",
+        index_name: str = "cymbal_kb_index_EN",
         llm: Optional[_VertexAICommon] = None,
         search_type: str = "similarity",
         k: int = 3,

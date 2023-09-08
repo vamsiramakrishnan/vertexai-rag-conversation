@@ -39,7 +39,7 @@ class DynamicAPIPrompt:
 
     """
 
-    def __init__(self, bucket_name: str = "gs://ioh-kb-bucket"):
+    def __init__(self, bucket_name: str = "gs://cymbal-kb-bucket"):
         self.logger = self._setup_logger()
         self.bucket_name = bucket_name
         self.dynamic_api_output_parser = PydanticOutputParser(

@@ -19,7 +19,7 @@ from langchain.llms.vertexai import _VertexAICommon
 class DynamicAPIFlowChain:
     def __init__(
         self,
-        bucket_name: str = "gs://ioh-kb-bucket",
+        bucket_name: str = "gs://cymbal-kb-bucket",
         llm: Optional[_VertexAICommon] = None,
         dynamic_api_prompt: Optional[DynamicAPIPrompt] = None,
         llm_chain: Optional[LLMChain] = None,

@@ -70,7 +70,7 @@ JSON Response:
     EXAMPLES_FOLDER_NAME = "preprocessed_output"
     K_NEAREST = 3
 
-    def __init__(self, bucket_name: str = "gs://ioh-kb-bucket"):
+    def __init__(self, bucket_name: str = "gs://cymbal-kb-bucket"):
         self.logger = self._setup_logger()
         self.bucket_name = bucket_name
         self.router_output_parser = PydanticOutputParser(

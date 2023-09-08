@@ -98,7 +98,7 @@ class KDBPreProcessor:
 
     def generate_and_persist_embeddings(self, docs: List[str], vector_db_gcs_path: Path, glob_expr: str):
         extracted_language = self._extract_language(glob_expr)
-        index_name = "ioh_kb_index_" + extracted_language
+        index_name = "cymbal_kb_index_" + extracted_language
         
         # Create a new directory for these embeddings
         local_index_dir = self.local_path / vector_db_gcs_path
