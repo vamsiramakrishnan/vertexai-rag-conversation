@@ -1,18 +1,18 @@
 steps:
+# - name: 'gcr.io/cloud-builders/gsutil'
+#   dir: src/
+#   entrypoint: 'bash'
+#   args:
+#   - '-c'
+#   - |
+#     gsutil -m rm -rf "gs://"$PROJECT_ID"-cymbal-kb-bucket-dev/raw_input"
 - name: 'gcr.io/cloud-builders/gsutil'
   dir: src/
   entrypoint: 'bash'
   args:
   - '-c'
   - |
-    gsutil -m rm -rf "gs://"$PROJECT_ID"-cymbal-kb-bucket-dev/raw_input"
-- name: 'gcr.io/cloud-builders/gsutil'
-  dir: src/
-  entrypoint: 'bash'
-  args:
-  - '-c'
-  - |
-    gsutil -m cp -r raw_input "gs://"$PROJECT_ID"-cymbal-kb-bucket-dev/raw_input"
+    gsutil -m cp -r ./raw_input "gs://"$PROJECT_ID"-cymbal-kb-bucket-dev/raw_input"
 - name: gcr.io/google.com/cloudsdktool/cloud-sdk
   args:
     - run
