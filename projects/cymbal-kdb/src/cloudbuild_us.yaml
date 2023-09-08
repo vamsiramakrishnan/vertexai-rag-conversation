@@ -12,7 +12,7 @@ steps:
   args:
   - '-c'
   - |
-    gsutil -m cp -r ./raw_input "gs://"$PROJECT_ID"-cymbal-kb-bucket-dev/raw_input"
+    gsutil -m cp -r raw_input "gs://"$PROJECT_ID"-cymbal-kb-bucket-dev/raw_input"
 - name: gcr.io/google.com/cloudsdktool/cloud-sdk
   args:
     - run
