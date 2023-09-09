@@ -16,8 +16,8 @@ class ReframeQueryPrompt:
         match langcode:
             case "en":
                 self.PROMPT_PREFIX = """
-                Given the following chat history and a follow up phrase, convert the follow up phrase if it is incomplete into a standalone phrase while preserving all original information in follow up phrase.
-
+                Given the following chat history and a follow up phrase, convert the follow up phrase if it is incomplete into a standalone phrase in same language as in follow up phrase and preserving all the original information in it.
+                
                 Do NOT ATTEMPT to provide an answer to the standalone phrase
 
                 Chat History:

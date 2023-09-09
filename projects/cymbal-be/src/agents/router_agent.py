@@ -19,6 +19,7 @@ from helpers.google_translate import TranslationService
 from helpers.service_metrics import ServiceMetrics
 from config.config import configcontex
 from models.llm_cr_be_models import *
+from helpers.vertexai import LoggingVertexAIEmbeddings
 
 class RouterAgent:
     def __init__(
@@ -40,10 +41,10 @@ class RouterAgent:
             project_id=project_id, region=region
         )
         self.staticknowledgebase_chain = StaticKnowledgebaseChain(
-            bucket_name=self.bucket_name, index_name=index_name, embeddings_non_english=false
+            bucket_name=self.bucket_name, index_name=index_name, embeddings_non_english=False
         )
         self.staticknowledgebase_chain_id = StaticKnowledgebaseChain(
-            bucket_name=self.bucket_name, index_name=index_name_id, embeddings_non_english=true
+            bucket_name=self.bucket_name, index_name=index_name_id, embeddings_non_english=True
         )        
         self.split_chain = SplitChain()
         self.combine_chain = CombineChain()

@@ -14,7 +14,7 @@ from helpers.logging_configurator import logger, request_origin
 from langchain.text_splitter import CharacterTextSplitter
 from config.config import configcontex
 from langchain.llms.vertexai import _VertexAICommon
-
+from helpers.vertexai import LoggingVertexAIEmbeddings
 
 class StaticKnowledgebaseChain:
     """Creates a chain for question-answering tasks based on VertexAI, with logging."""
@@ -38,7 +38,7 @@ class StaticKnowledgebaseChain:
             "top_k": 20,
         },
         similarity_threshold: Optional[float] = 0.7,
-        embeddings_non_english: Optional[bool] = false
+        embeddings_non_english: Optional[bool] = False
     ):
         self.logger = self._setup_logger()
         self.bucket_name = bucket_name
@@ -65,9 +65,9 @@ class StaticKnowledgebaseChain:
         self.embeddings_non_english = embeddings_non_english
         self.embeddings = None
         if(embeddings_non_english):
-            self.embeddings = VertexAIEmbeddings(model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_QUERY')
+            self.embeddings = LoggingVertexAIEmbeddings(model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_QUERY')
         else:
-            self.embeddings = VertexAIEmbeddings(model_name='textembedding-gecko@latest', task_type='RETRIEVAL_QUERY')
+            self.embeddings = LoggingVertexAIEmbeddings(model_name='textembedding-gecko@latest', task_type='RETRIEVAL_QUERY')
 
     def _setup_logger(self):
         logger = logging.getLogger(__name__)

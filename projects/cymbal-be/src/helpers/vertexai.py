@@ -127,5 +127,7 @@ class LoggingVertexAIEmbeddings(VertexAIEmbeddings):
 
     def embed_query(self, text: str) -> List[float]:
         embeddings = super().embed_query(TextEmbeddingInput(task_type=self.task_type, text=text))
-        print(f"Embeddings Model Used {self.model_name} / {self.task_type}")
+        logger.info(
+            f"VertexEmbeddings - Origin: {request_origin.get()} | Embeddings Model Used {self.model_name} / {self.task_type}"
+        )          
         return embeddings
