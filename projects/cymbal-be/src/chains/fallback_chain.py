@@ -20,6 +20,7 @@ class FallBackChain:
             "top_p": 0.8,
             "top_k": 40,
         },
+        langcode: str = "en"
     ):
         """
         The constructor for the FallBackChain class.
@@ -30,9 +31,9 @@ class FallBackChain:
         else:
             self.llm = llm if llm else LoggingVertexAI(**vertexai_params)        
         self.fallback_prompt = (
-            fallback_prompt.create_fallback_prompt()
+            fallback_prompt.create_fallback_prompt(langcode)
             if fallback_prompt
-            else FallBackPrompt().create_fallback_prompt()
+            else FallBackPrompt().create_fallback_prompt(langcode)
         )
         self.initialize_llm_chain(llm_chain)
 

@@ -22,6 +22,7 @@ class SmallTalkChain:
             "top_p": 0.8,
             "top_k": 40,
         },
+        langcode: str = "en"
     ):
         """
         The constructor for the SmallTalkChain class.
@@ -32,9 +33,9 @@ class SmallTalkChain:
         else:
             self.llm = llm if llm else LoggingVertexAI(**vertexai_params)
         self.small_talk_prompt = (
-            small_talk_prompt.create_small_talk_prompt()
+            small_talk_prompt.create_small_talk_prompt(langcode)
             if small_talk_prompt
-            else SmallTalkPrompt().create_small_talk_prompt()
+            else SmallTalkPrompt().create_small_talk_prompt(langcode)
         )
         self.initialize_llm_chain(llm_chain)
 

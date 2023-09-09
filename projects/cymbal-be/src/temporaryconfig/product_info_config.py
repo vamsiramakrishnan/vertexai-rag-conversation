@@ -1,5 +1,5 @@
 PRODUCT_CONFIG_EN="""
-System: Only respond based on data available in <Context>. Fact check your response with <Context>
+System: Always Answer in ENGLISH. Only respond based on data available in <Context>. Fact check your response with <Context>
 
 Context:
 # Internet Plans
@@ -198,7 +198,7 @@ For Freedom U package, if apps quota and main quota depleted, next usage will us
 """
 
 PRODUCT_CONFIG_ID="""
-System: Hanya tanggapi berdasarkan data yang tersedia di <Context>. Periksa fakta tanggapan Anda dengan <Context>
+System: Selalu Jawab dalam BAHASA INDONESIA. Hanya tanggapi berdasarkan data yang tersedia di <Context>. Periksa fakta tanggapan Anda dengan <Context>
 
 Context:
 # Paket Internet

@@ -16,6 +16,7 @@ class ReformatAnswerPrompt:
         match langcode:
             case "en":
                 self.PROMPT_PREFIX = """
+                SYSTEM: Always Answer in ENGLISH
                 1/ Split <Context> into steps without changing the information in it, optimize for Mobile screen readability
                 2/ Format as <Context> as Markdown
                 3/ Break-down <Context> and organize as Paragraphs, Bullet Points, use Bold, Italics wherever necessary
@@ -34,6 +35,7 @@ class ReformatAnswerPrompt:
             
             case "id":
                 self.PROMPT_PREFIX = """
+                SYSTEM: Selalu Jawab dalam BAHASA INDONESIA
                 1/ Pisahkan <Konteks> menjadi langkah-langkah tanpa mengubah informasi di dalamnya, optimalkan untuk keterbacaan layar Seluler
                 2/ Format sebagai <Konteks> sebagai Markdown
                 3/ Pecahkan <Konteks> dan atur sebagai Paragraf, Poin Peluru, gunakan Bold, Italics jika diperlukan
