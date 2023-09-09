@@ -1,0 +1,205 @@
+Question 1 / 41 - Ada berapa poin loyalty yang masih ada pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa poin loyalty yang masih ada pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2807 ms
+
+
+Question 2 / 41 - Ada berapa poin loyalty yang masih ada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa poin loyalty yang masih ada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 4412 ms
+
+
+Question 3 / 41 - Ada berapa poin loyalty yang masih tersedia pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa poin loyalty yang masih tersedia pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 3013 ms
+
+
+Question 4 / 41 - Ada berapa poin loyalty yang masih tersedia saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa poin loyalty yang masih tersedia saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2661 ms
+
+
+Question 5 / 41 - Ada berapa poin loyalty yang saya punya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa poin loyalty yang saya punya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2650 ms
+
+
+Question 6 / 41 - Apa jumlah poin loyalty yang ada dalam akun saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah poin loyalty yang ada dalam akun saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2734 ms
+
+
+Question 7 / 41 - Apa jumlah poin loyalty yang masih tersedia di akun loyalitas saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah poin loyalty yang masih tersedia di akun loyalitas saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2863 ms
+
+
+Question 8 / 41 - Apa jumlah poin loyalty yang masih tersedia di akun saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah poin loyalty yang masih tersedia di akun saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 4638 ms
+
+
+Question 9 / 41 - Apa jumlah poin loyalty yang masih tersedia saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah poin loyalty yang masih tersedia saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2737 ms
+
+
+Question 10 / 41 - Apa jumlah poin loyalty yang tersisa di akun loyalitas saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah poin loyalty yang tersisa di akun loyalitas saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2652 ms
+
+
+Question 11 / 41 - Berapa jumlah poin loyalty yang tersedia saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa jumlah poin loyalty yang tersedia saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2633 ms
+
+
+Question 12 / 41 - Berapa nilai poin loyalitas yang saya miliki? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa nilai poin loyalitas yang saya miliki?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2641 ms
+
+
+Question 13 / 41 - Berapa nilai poin loyalty yang saya miliki? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa nilai poin loyalty yang saya miliki?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2719 ms
+
+
+Question 14 / 41 - Berapa poin loyalty yang tersisa di akun saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa poin loyalty yang tersisa di akun saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2654 ms
+
+
+Question 15 / 41 - Berapa poin yang tersisa dalam akun loyalitas saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa poin yang tersisa dalam akun loyalitas saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2679 ms
+
+
+Question 16 / 41 - Berapa poin yang tersisa pada akun loyalitas saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa poin yang tersisa pada akun loyalitas saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2662 ms
+
+
+Question 17 / 41 - Berapa total poin loyalitas yang ada dalam akun saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa total poin loyalitas yang ada dalam akun saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2664 ms
+
+
+Question 18 / 41 - Berapa total poin loyalty yang ada pada akun saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa total poin loyalty yang ada pada akun saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2649 ms
+
+
+Question 19 / 41 - Berapa total poin yang ada dalam akun loyalitas saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa total poin yang ada dalam akun loyalitas saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2612 ms
+
+
+Question 20 / 41 - Berapa total poin yang ada di akun loyalitas saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa total poin yang ada di akun loyalitas saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2795 ms
+
+
+Question 21 / 41 - Berapa total poin yang tersedia dalam akun loyalitas saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa total poin yang tersedia dalam akun loyalitas saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 4210 ms
+
+
+Question 22 / 41 - Bisa Anda memberi tahu jumlah poin loyalty yang tersisa saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda memberi tahu jumlah poin loyalty yang tersisa saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 5191 ms
+
+
+Question 23 / 41 - Bisa Anda memberitahu jumlah poin loyalty yang tersisa saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda memberitahu jumlah poin loyalty yang tersisa saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2719 ms
+
+
+Question 24 / 41 - Bisa Anda memberitahu saya jumlah poin loyalty yang saya miliki saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda memberitahu saya jumlah poin loyalty yang saya miliki saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2586 ms
+
+
+Question 25 / 41 - Bisa Anda memberitahu saya jumlah poin loyalty yang tersisa saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda memberitahu saya jumlah poin loyalty yang tersisa saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2644 ms
+
+
+Question 26 / 41 - Bisa Anda sebutkan jumlah poin loyalty yang masih tersedia pada akun saya? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda sebutkan jumlah poin loyalty yang masih tersedia pada akun saya?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2675 ms
+
+
+Question 27 / 41 - Bisa Anda sebutkan jumlah poin loyalty yang tersisa saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda sebutkan jumlah poin loyalty yang tersisa saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2639 ms
+
+
+Question 28 / 41 - Bisakah Anda sebutkan berapa poin loyalty yang masih tersedia saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisakah Anda sebutkan berapa poin loyalty yang masih tersedia saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2702 ms
+
+
+Question 29 / 41 - Poin loyalitas saya berapa? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Poin loyalitas saya berapa?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2867 ms
+
+
+Question 30 / 41 - Poin loyalitas yang saya punya berapa? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Poin loyalitas yang saya punya berapa?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2771 ms
+
+
+Question 31 / 41 - Poin loyalty saya berapa? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Poin loyalty saya berapa?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 4141 ms
+
+
+Question 32 / 41 - Poin loyalty yang saya punya saat ini berapa? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Poin loyalty yang saya punya saat ini berapa?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2606 ms
+
+
+Question 33 / 41 - Saya ingin mengetahui berapa poin loyalty yang masih tersedia sekarang. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya ingin mengetahui berapa poin loyalty yang masih tersedia sekarang.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2707 ms
+
+
+Question 34 / 41 - Saya ingin mengetahui berapa poin loyalty yang masih tersisa sekarang. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya ingin mengetahui berapa poin loyalty yang masih tersisa sekarang.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2758 ms
+
+
+Question 35 / 41 - Saya ingin mengetahui berapa poin loyalty yang saya punya sekarang. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya ingin mengetahui berapa poin loyalty yang saya punya sekarang.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2690 ms
+
+
+Question 36 / 41 - Saya memiliki berapa poin loyalty pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya memiliki berapa poin loyalty pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2645 ms
+
+
+Question 37 / 41 - Saya memiliki berapa poin loyalty saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya memiliki berapa poin loyalty saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2674 ms
+
+
+Question 38 / 41 - Tolong informasikan jumlah poin loyalty yang masih tersedia. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tolong informasikan jumlah poin loyalty yang masih tersedia.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2676 ms
+
+
+Question 39 / 41 - Tolong informasikan jumlah poin loyalty yang tersedia. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tolong informasikan jumlah poin loyalty yang tersedia.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2689 ms
+
+
+Question 40 / 41 - Tolong sebutkan berapa poin loyalty yang tersisa saat ini. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tolong sebutkan berapa poin loyalty yang tersisa saat ini.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2674 ms
+
+
+Question 41 / 41 - Tolong sebutkan jumlah poin loyalty yang tersisa di akun saya. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tolong sebutkan jumlah poin loyalty yang tersisa di akun saya.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2950 ms
+
+

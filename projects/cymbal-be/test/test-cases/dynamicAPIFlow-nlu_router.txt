@@ -1,0 +1,276 @@
+What is my remaining credit and until when is it active ?
+What is my remaining account balance and when does it expire ?
+What is my remaining prepaid balance and until when is it active ?
+What is my remaining main balance and when does it expire ?
+I want to check my account information
+I want to check my prepaid info
+I want to check my reload balance
+I want to check my topup information
+How much credit do I have left and when does it expire?
+Can you provide information about my current account balance and its expiration date?
+What is the remaining balance in my prepaid account and when will it expire?
+When does my main balance expire and how much is remaining?
+Could you please give me an update on my account details?
+Can you provide me with information about my remaining credit and its expiry date?
+What is the current balance in my account and when will it expire?
+Could you please let me know the remaining prepaid balance and its validity period?
+I would like to check my account information.
+What is my current credit balance and when is its expiry date?
+Can you provide me with details about my remaining account balance and its expiration?
+How much prepaid balance is remaining in my account and until when is it active?
+When will my main balance expire and what is the remaining amount?
+Can you please update me on my account information?
+What is the expiration date for my remaining credit balance?
+Please provide information regarding the remaining prepaid balance and its validity period.
+When is the expiration date for my main balance and how much is left?
+I want to check my account details.
+Remaining credit and expiration date?
+Account balance and expiry?
+Prepaid balance and validity?
+Main balance and expiry?
+Check account info, please.
+Check prepaid details, please.
+Check reload balance, please.
+Check topup information, please.
+How much credit left, expiry?
+Account balance, when does it expire?
+Prepaid balance, until when active?
+Main balance, when does it expire?
+Update my account details.
+Remaining credit, expiry date?
+Current balance, when will it expire?
+Remaining prepaid balance, validity period?
+Main balance, expiry, remaining?
+Check my account info.
+Credit remaining, when expires?
+Current balance, expiry date?
+Remaining prepaid balance, validity?
+Please update my account.
+Remaining credit, when expire?
+Balance, when does it expire?
+Remaining credit, expiry?
+Prepaid balance, expiry?
+Main balance, when expire?
+Check account, please.
+Check prepaid, please.
+Check top-up, please.
+Credit left, when expire?
+Balance, expiry date?
+Prepaid balance, when expire?
+Main balance, how much?
+Update account details, please.
+Remaining credit, when expires?
+Remaining prepaid, validity period?
+Main balance, when expires?
+Check my info, please.
+Credit remaining, expiry?
+Current balance, when expire?
+Remaining prepaid, validity?
+Remaining credit, when?
+Balance, when expire?
+Service class number?
+MSISDN number?
+Package name description?
+Expiry date of main package?
+Remaining main quota?
+Type of benefit?
+Expiry date of bonus quota?
+Remaining bonus quota?
+Expiry date of voice quota?
+Remaining voice quota?
+Expiry date of SMS quota?
+Remaining SMS quota?
+End date of service?
+Start date of service?
+Registration keyword used?
+Service name description?
+Service type category?
+Package code information?
+Sim type used?
+Customer balance amount?
+Prepaid or postpaid?
+Date of expiration?
+Date of termination?
+Subscription type information?
+Cycle count available?
+Package description type?
+Expiry date main?
+Benefit type available?
+Expiry date voice?
+Expiry date SMS?
+Start date service?
+Service name?
+Service type?
+Package code?
+Free unit
+balance info
+Account credit
+Payment due date?
+Pulsa balance amount?
+Tagihan SKR?
+SAMU flag status?
+Tagihan asset amount?
+Remaining balance amount?
+Credit
+prepaid Credit ?
+Credit prepaid balance?
+SIM card type?
+Subscription type?
+Expired date postpaid?
+Terminate date postpaid?
+MSISDN?
+pulsa amount?
+SAMU flag?
+tagihan asset?
+remaining balance?
+What's my package name?
+When does the main quota end?
+How much main quota is left?
+What are the main quota benefits?
+When does the quota bonus end?
+How much bonus quota is left?
+What are the types of quota bonus benefits?
+When will the call quota to IM3 Ooredoo & Tri end?
+How much call quota to IM3 Ooredoo & Tri is left?
+When will the call quota to other operators end?
+How much call quota to other operators is left?
+When will the SMS quota to all operators end?
+How much SMS quota is left?
+What are the types of SMS quota benefits?
+When will the package end?
+What is the current balance amount?
+What is my SIM card type?
+When is the expiration date?
+When is the termination date?
+What is my subscription type?
+I want to check my quota
+What is my account quota
+I want to check my usage for active packages
+What active packages do I have
+How much free units is used
+How much free units is left
+I want to see my quota used and remaining balance
+Until when is my data plan active
+How many free minutes do I have
+What is my balance for Calls to IM3 Ooredoo and Tri
+What is my balance for Calls to other operators
+What is my balance for Calls
+How much is my Rollover Quota
+What is my Application data quota
+I want to see my bonus quota
+How much is my monthly bill?
+Can you provide information about my recent bill?
+How much total payment should I make?
+When is my bill payment due?
+May you provide an update on the status of my payment?
+How many unpaid bills?
+Please provide information about this month's bill.
+When is the last bill payment due date?
+I want to check the status of my bill payment.
+How many invoices do I have to pay?
+Latest information about my bill?
+How many bills have I paid?
+When is the nearest bill payment due date?
+Payment status updates please?
+Billing information of the month, please?
+How many outstanding bills?
+Billing information and due date?
+Up-to-date information on my bill please?
+When is the next bill payment due date?
+Check my bill payment status.
+What is the final payment amount?
+What is the final payment method?
+Last payment date?
+How much was the previous payment?
+What were the previous payment methods?
+Previous payment date?
+What is the final bill amount?
+Is the last charge active?
+Last bill due date?
+How much was the previous bill?
+Is the previous charge active?
+Previous bill due date?
+What is the total unbilled usage?
+What is the current credit balance?
+What is the last billing date?
+How much is the current bill worth?
+What is the current total bill amount?
+What is the amount of the asset bill?
+What is the credit limit?
+Payment due date?
+What's the remaining balance?
+What is the current total bill?
+I want my bill information
+How much is my bill for this month
+What is my bill amount and payment due date
+Have I already paid my bill
+I need information on my bill invoices
+Do I have any payment due
+Have I paid my bill this month
+What is my unbilled usage
+What is my usage this month
+What is my total outstanding bill amount this month
+When is my bill due for payment
+I want my bill invoice for Jan
+Need invoice for Feb
+Need bill for May
+What is my postpaid invoice for June
+What is my postpaid payment for July
+What is bill information for August
+What is account information for September
+My invoice information for October
+My account data for November
+Need postpaid invoice for December
+Billing Monthly Amount
+Latest Billing Information
+Total payment
+Payment Due
+Payment Status Updates
+Not yet paid
+Information of the Month
+Last Due Date
+Check Payment Status
+Must pay
+New information
+Already paid
+Nearest Due Date
+Payment Status Updates
+This Month's Billing Information
+Not Resolved
+Information and Due Date
+Latest Billing Information
+Next Payment Due Date
+Check Payment Status
+Last payment
+Final Method
+Last Payment Date
+Prior Payment
+Previous Method
+Previous Date of Payment
+Final Bill
+Last Active
+Last Due Date
+Previous Bills
+Previously Active
+Previous Due Date
+Not Billed yet
+Current Balance
+Last Billing Date
+Rated Current
+Total Current
+Asset Claims
+Credit Limit
+My point balance?
+Value of my points?
+Am I an IMPoin member?
+Membership level status?
+Points expiration date?
+Points validity period?
+Points balance, expiry, level?
+How much IMPoin do I have
+What is my loyalty points value
+Am I registered in IMPoin membership
+What is my loyalty points membership level
+When are my loyalty points expiring
+Until when are my loyalty points active
+How much loyalty points do I have, when do they expire and what is my membership level

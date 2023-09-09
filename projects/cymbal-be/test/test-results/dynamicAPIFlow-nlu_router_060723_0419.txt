@@ -1,0 +1,1380 @@
+Question 1 / 276 - What is my remaining credit and until when is it active ? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my remaining credit and until when is it active ?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 6120 ms
+
+
+Question 2 / 276 - What is my remaining account balance and when does it expire ? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my remaining account balance and when does it expire ?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2688 ms
+
+
+Question 3 / 276 - What is my remaining prepaid balance and until when is it active ? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my remaining prepaid balance and until when is it active ?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2699 ms
+
+
+Question 4 / 276 - What is my remaining main balance and when does it expire ? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my remaining main balance and when does it expire ?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2595 ms
+
+
+Question 5 / 276 - I want to check my account information 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check my account information","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2649 ms
+
+
+Question 6 / 276 - I want to check my prepaid info 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check my prepaid info","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 5951 ms
+
+
+Question 7 / 276 - I want to check my reload balance 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check my reload balance","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2617 ms
+
+
+Question 8 / 276 - I want to check my topup information 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check my topup information","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 5872 ms
+
+
+Question 9 / 276 - How much credit do I have left and when does it expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much credit do I have left and when does it expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2556 ms
+
+
+Question 10 / 276 - Can you provide information about my current account balance and its expiration date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Can you provide information about my current account balance and its expiration date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2492 ms
+
+
+Question 11 / 276 - What is the remaining balance in my prepaid account and when will it expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the remaining balance in my prepaid account and when will it expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2577 ms
+
+
+Question 12 / 276 - When does my main balance expire and how much is remaining? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When does my main balance expire and how much is remaining?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2609 ms
+
+
+Question 13 / 276 - Could you please give me an update on my account details? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Could you please give me an update on my account details?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2576 ms
+
+
+Question 14 / 276 - Can you provide me with information about my remaining credit and its expiry date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Can you provide me with information about my remaining credit and its expiry date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2523 ms
+
+
+Question 15 / 276 - What is the current balance in my account and when will it expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the current balance in my account and when will it expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2558 ms
+
+
+Question 16 / 276 - Could you please let me know the remaining prepaid balance and its validity period? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Could you please let me know the remaining prepaid balance and its validity period?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2566 ms
+
+
+Question 17 / 276 - I would like to check my account information. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I would like to check my account information.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2551 ms
+
+
+Question 18 / 276 - What is my current credit balance and when is its expiry date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my current credit balance and when is its expiry date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2799 ms
+
+
+Question 19 / 276 - Can you provide me with details about my remaining account balance and its expiration? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Can you provide me with details about my remaining account balance and its expiration?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2606 ms
+
+
+Question 20 / 276 - How much prepaid balance is remaining in my account and until when is it active? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much prepaid balance is remaining in my account and until when is it active?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2631 ms
+
+
+Question 21 / 276 - When will my main balance expire and what is the remaining amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When will my main balance expire and what is the remaining amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2617 ms
+
+
+Question 22 / 276 - Can you please update me on my account information? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Can you please update me on my account information?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2563 ms
+
+
+Question 23 / 276 - What is the expiration date for my remaining credit balance? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the expiration date for my remaining credit balance?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2531 ms
+
+
+Question 24 / 276 - Please provide information regarding the remaining prepaid balance and its validity period. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Please provide information regarding the remaining prepaid balance and its validity period.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2518 ms
+
+
+Question 25 / 276 - When is the expiration date for my main balance and how much is left? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is the expiration date for my main balance and how much is left?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2533 ms
+
+
+Question 26 / 276 - I want to check my account details. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check my account details.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 3413 ms
+
+
+Question 27 / 276 - Remaining credit and expiration date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining credit and expiration date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2543 ms
+
+
+Question 28 / 276 - Account balance and expiry? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Account balance and expiry?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2596 ms
+
+
+Question 29 / 276 - Prepaid balance and validity? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Prepaid balance and validity?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2690 ms
+
+
+Question 30 / 276 - Main balance and expiry? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Main balance and expiry?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2633 ms
+
+
+Question 31 / 276 - Check account info, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check account info, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2651 ms
+
+
+Question 32 / 276 - Check prepaid details, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check prepaid details, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2596 ms
+
+
+Question 33 / 276 - Check reload balance, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check reload balance, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2529 ms
+
+
+Question 34 / 276 - Check topup information, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check topup information, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2635 ms
+
+
+Question 35 / 276 - How much credit left, expiry? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much credit left, expiry?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2579 ms
+
+
+Question 36 / 276 - Account balance, when does it expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Account balance, when does it expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2482 ms
+
+
+Question 37 / 276 - Prepaid balance, until when active? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Prepaid balance, until when active?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2621 ms
+
+
+Question 38 / 276 - Main balance, when does it expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Main balance, when does it expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2510 ms
+
+
+Question 39 / 276 - Update my account details. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Update my account details.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2472 ms
+
+
+Question 40 / 276 - Remaining credit, expiry date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining credit, expiry date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2558 ms
+
+
+Question 41 / 276 - Current balance, when will it expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Current balance, when will it expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2489 ms
+
+
+Question 42 / 276 - Remaining prepaid balance, validity period? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining prepaid balance, validity period?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2544 ms
+
+
+Question 43 / 276 - Main balance, expiry, remaining? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Main balance, expiry, remaining?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2599 ms
+
+
+Question 44 / 276 - Check my account info. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check my account info.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2487 ms
+
+
+Question 45 / 276 - Credit remaining, when expires? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Credit remaining, when expires?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2482 ms
+
+
+Question 46 / 276 - Current balance, expiry date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Current balance, expiry date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2558 ms
+
+
+Question 47 / 276 - Remaining prepaid balance, validity? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining prepaid balance, validity?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2597 ms
+
+
+Question 48 / 276 - Please update my account. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Please update my account.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2529 ms
+
+
+Question 49 / 276 - Remaining credit, when expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining credit, when expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2533 ms
+
+
+Question 50 / 276 - Balance, when does it expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Balance, when does it expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2597 ms
+
+
+Question 51 / 276 - Remaining credit, expiry? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining credit, expiry?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2548 ms
+
+
+Question 52 / 276 - Prepaid balance, expiry? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Prepaid balance, expiry?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2606 ms
+
+
+Question 53 / 276 - Main balance, when expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Main balance, when expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2449 ms
+
+
+Question 54 / 276 - Check account, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check account, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2652 ms
+
+
+Question 55 / 276 - Check prepaid, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check prepaid, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2468 ms
+
+
+Question 56 / 276 - Check top-up, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check top-up, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2526 ms
+
+
+Question 57 / 276 - Credit left, when expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Credit left, when expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2445 ms
+
+
+Question 58 / 276 - Balance, expiry date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Balance, expiry date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2708 ms
+
+
+Question 59 / 276 - Prepaid balance, when expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Prepaid balance, when expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2589 ms
+
+
+Question 60 / 276 - Main balance, how much? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Main balance, how much?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2538 ms
+
+
+Question 61 / 276 - Update account details, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Update account details, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2578 ms
+
+
+Question 62 / 276 - Remaining credit, when expires? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining credit, when expires?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2540 ms
+
+
+Question 63 / 276 - Remaining prepaid, validity period? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining prepaid, validity period?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2726 ms
+
+
+Question 64 / 276 - Main balance, when expires? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Main balance, when expires?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2487 ms
+
+
+Question 65 / 276 - Check my info, please. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check my info, please.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2578 ms
+
+
+Question 66 / 276 - Credit remaining, expiry? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Credit remaining, expiry?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2625 ms
+
+
+Question 67 / 276 - Current balance, when expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Current balance, when expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2498 ms
+
+
+Question 68 / 276 - Remaining prepaid, validity? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining prepaid, validity?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2591 ms
+
+
+Question 69 / 276 - Remaining credit, when? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining credit, when?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2662 ms
+
+
+Question 70 / 276 - Balance, when expire? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Balance, when expire?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2537 ms
+
+
+Question 71 / 276 - Service class number? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Service class number?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2560 ms
+
+
+Question 72 / 276 - MSISDN number? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"MSISDN number?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2489 ms
+
+
+Question 73 / 276 - Package name description? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Package name description?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2508 ms
+
+
+Question 74 / 276 - Expiry date of main package? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expiry date of main package?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2515 ms
+
+
+Question 75 / 276 - Remaining main quota? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining main quota?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2538 ms
+
+
+Question 76 / 276 - Type of benefit? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Type of benefit?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2901 ms
+
+
+Question 77 / 276 - Expiry date of bonus quota? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expiry date of bonus quota?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2465 ms
+
+
+Question 78 / 276 - Remaining bonus quota? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining bonus quota?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2537 ms
+
+
+Question 79 / 276 - Expiry date of voice quota? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expiry date of voice quota?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2637 ms
+
+
+Question 80 / 276 - Remaining voice quota? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining voice quota?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2482 ms
+
+
+Question 81 / 276 - Expiry date of SMS quota? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expiry date of SMS quota?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2504 ms
+
+
+Question 82 / 276 - Remaining SMS quota? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining SMS quota?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2607 ms
+
+
+Question 83 / 276 - End date of service? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"End date of service?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2527 ms
+
+
+Question 84 / 276 - Start date of service? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Start date of service?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2534 ms
+
+
+Question 85 / 276 - Registration keyword used? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Registration keyword used?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2497 ms
+
+
+Question 86 / 276 - Service name description? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Service name description?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2634 ms
+
+
+Question 87 / 276 - Service type category? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Service type category?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2574 ms
+
+
+Question 88 / 276 - Package code information? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Package code information?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2457 ms
+
+
+Question 89 / 276 - Sim type used? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Sim type used?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2484 ms
+
+
+Question 90 / 276 - Customer balance amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Customer balance amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2584 ms
+
+
+Question 91 / 276 - Prepaid or postpaid? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Prepaid or postpaid?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2518 ms
+
+
+Question 92 / 276 - Date of expiration? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Date of expiration?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2517 ms
+
+
+Question 93 / 276 - Date of termination? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Date of termination?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2726 ms
+
+
+Question 94 / 276 - Subscription type information? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Subscription type information?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 4488 ms
+
+
+Question 95 / 276 - Cycle count available? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Cycle count available?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2643 ms
+
+
+Question 96 / 276 - Package description type? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Package description type?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2522 ms
+
+
+Question 97 / 276 - Expiry date main? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expiry date main?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2525 ms
+
+
+Question 98 / 276 - Benefit type available? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Benefit type available?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2642 ms
+
+
+Question 99 / 276 - Expiry date voice? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expiry date voice?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2489 ms
+
+
+Question 100 / 276 - Expiry date SMS? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expiry date SMS?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2563 ms
+
+
+Question 101 / 276 - Start date service? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Start date service?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2578 ms
+
+
+Question 102 / 276 - Service name? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Service name?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2652 ms
+
+
+Question 103 / 276 - Service type? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Service type?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2546 ms
+
+
+Question 104 / 276 - Package code? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Package code?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2577 ms
+
+
+Question 105 / 276 - Free unit 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Free unit","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2566 ms
+
+
+Question 106 / 276 - balance info 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"balance info","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2593 ms
+
+
+Question 107 / 276 - Account credit 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Account credit","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2536 ms
+
+
+Question 108 / 276 - Payment due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Payment due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 9232 ms
+
+
+Question 109 / 276 - Pulsa balance amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Pulsa balance amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2556 ms
+
+
+Question 110 / 276 - Tagihan SKR? 
+Response - {"responseType":"fallbackIntent","smallTalkResponse":null,"originalUserQuery":"Tagihan SKR?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":null,"fallbackIntentResponse":{"fallBackReason":"Unknown Intent","fallBackResponse":"Maaf, saya tidak bisa menjawabnya. Saya agen layanan pelanggan AI untuk IM3. Saya dapat membantu Anda dengan pertanyaan terkait akun IM3, tetapi saya tidak dapat menjawab pertanyaan tentang perusahaan lain. Tahukah Anda: Saya dapat membantu Anda memeriksa saldo, membayar tagihan, dan mengelola paket data Anda.","recognizedNLPEntities":null}} 
+Response Time - 3864 ms
+
+
+Question 111 / 276 - SAMU flag status? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"SAMU flag status?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2532 ms
+
+
+Question 112 / 276 - Tagihan asset amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tagihan asset amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2815 ms
+
+
+Question 113 / 276 - Remaining balance amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Remaining balance amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2577 ms
+
+
+Question 114 / 276 - Credit 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Credit","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2719 ms
+
+
+Question 115 / 276 - prepaid Credit ? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"prepaid Credit ?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2561 ms
+
+
+Question 116 / 276 - Credit prepaid balance? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Credit prepaid balance?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2604 ms
+
+
+Question 117 / 276 - SIM card type? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"SIM card type?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2517 ms
+
+
+Question 118 / 276 - Subscription type? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Subscription type?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2600 ms
+
+
+Question 119 / 276 - Expired date postpaid? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Expired date postpaid?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2488 ms
+
+
+Question 120 / 276 - Terminate date postpaid? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Terminate date postpaid?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2560 ms
+
+
+Question 121 / 276 - MSISDN? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"MSISDN?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2623 ms
+
+
+Question 122 / 276 - pulsa amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"pulsa amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2584 ms
+
+
+Question 123 / 276 - SAMU flag? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"SAMU flag?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2718 ms
+
+
+Question 124 / 276 - tagihan asset? 
+Response - {"responseType":"fallbackIntent","smallTalkResponse":null,"originalUserQuery":"tagihan asset?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":null,"fallbackIntentResponse":{"fallBackReason":"Unknown Intent","fallBackResponse":"Maaf, saya tidak bisa menjawabnya. Saya perwakilan layanan pelanggan AI untuk IM3, dan saya hanya dapat menjawab pertanyaan tentang produk dan layanan IM3. Tahukah Anda: Saya dapat menjawab pertanyaan tentang saldo IM3, kuota, tagihan, pembayaran, keanggotaan loyalitas, dan poin Anda?","recognizedNLPEntities":null}} 
+Response Time - 3974 ms
+
+
+Question 125 / 276 - remaining balance? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"remaining balance?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2502 ms
+
+
+Question 126 / 276 - What's my package name? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What's my package name?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2572 ms
+
+
+Question 127 / 276 - When does the main quota end? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When does the main quota end?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2545 ms
+
+
+Question 128 / 276 - How much main quota is left? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much main quota is left?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2589 ms
+
+
+Question 129 / 276 - What are the main quota benefits? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What are the main quota benefits?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2578 ms
+
+
+Question 130 / 276 - When does the quota bonus end? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When does the quota bonus end?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2541 ms
+
+
+Question 131 / 276 - How much bonus quota is left? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much bonus quota is left?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2508 ms
+
+
+Question 132 / 276 - What are the types of quota bonus benefits? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What are the types of quota bonus benefits?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2521 ms
+
+
+Question 133 / 276 - When will the call quota to IM3 Ooredoo & Tri end? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When will the call quota to IM3 Ooredoo & Tri end?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2621 ms
+
+
+Question 134 / 276 - How much call quota to IM3 Ooredoo & Tri is left? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much call quota to IM3 Ooredoo & Tri is left?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2535 ms
+
+
+Question 135 / 276 - When will the call quota to other operators end? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When will the call quota to other operators end?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2605 ms
+
+
+Question 136 / 276 - How much call quota to other operators is left? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much call quota to other operators is left?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2607 ms
+
+
+Question 137 / 276 - When will the SMS quota to all operators end? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When will the SMS quota to all operators end?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2524 ms
+
+
+Question 138 / 276 - How much SMS quota is left? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much SMS quota is left?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2636 ms
+
+
+Question 139 / 276 - What are the types of SMS quota benefits? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What are the types of SMS quota benefits?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2721 ms
+
+
+Question 140 / 276 - When will the package end? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When will the package end?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2567 ms
+
+
+Question 141 / 276 - What is the current balance amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the current balance amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2585 ms
+
+
+Question 142 / 276 - What is my SIM card type? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my SIM card type?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2521 ms
+
+
+Question 143 / 276 - When is the expiration date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is the expiration date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2510 ms
+
+
+Question 144 / 276 - When is the termination date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is the termination date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2572 ms
+
+
+Question 145 / 276 - What is my subscription type? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my subscription type?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2580 ms
+
+
+Question 146 / 276 - I want to check my quota 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check my quota","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2573 ms
+
+
+Question 147 / 276 - What is my account quota 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my account quota","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2619 ms
+
+
+Question 148 / 276 - I want to check my usage for active packages 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check my usage for active packages","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2583 ms
+
+
+Question 149 / 276 - What active packages do I have 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What active packages do I have","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2594 ms
+
+
+Question 150 / 276 - How much free units is used 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much free units is used","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2563 ms
+
+
+Question 151 / 276 - How much free units is left 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much free units is left","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2525 ms
+
+
+Question 152 / 276 - I want to see my quota used and remaining balance 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to see my quota used and remaining balance","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2548 ms
+
+
+Question 153 / 276 - Until when is my data plan active 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Until when is my data plan active","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2522 ms
+
+
+Question 154 / 276 - How many free minutes do I have 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How many free minutes do I have","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2589 ms
+
+
+Question 155 / 276 - What is my balance for Calls to IM3 Ooredoo and Tri 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my balance for Calls to IM3 Ooredoo and Tri","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2595 ms
+
+
+Question 156 / 276 - What is my balance for Calls to other operators 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my balance for Calls to other operators","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2602 ms
+
+
+Question 157 / 276 - What is my balance for Calls 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my balance for Calls","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2534 ms
+
+
+Question 158 / 276 - How much is my Rollover Quota 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much is my Rollover Quota","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2572 ms
+
+
+Question 159 / 276 - What is my Application data quota 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my Application data quota","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2556 ms
+
+
+Question 160 / 276 - I want to see my bonus quota 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to see my bonus quota","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2513 ms
+
+
+Question 161 / 276 - How much is my monthly bill? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much is my monthly bill?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2616 ms
+
+
+Question 162 / 276 - Can you provide information about my recent bill? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Can you provide information about my recent bill?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2484 ms
+
+
+Question 163 / 276 - How much total payment should I make? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much total payment should I make?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2515 ms
+
+
+Question 164 / 276 - When is my bill payment due? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is my bill payment due?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2588 ms
+
+
+Question 165 / 276 - May you provide an update on the status of my payment? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"May you provide an update on the status of my payment?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2595 ms
+
+
+Question 166 / 276 - How many unpaid bills? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How many unpaid bills?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2589 ms
+
+
+Question 167 / 276 - Please provide information about this month's bill. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Please provide information about this month's bill.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2569 ms
+
+
+Question 168 / 276 - When is the last bill payment due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is the last bill payment due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2481 ms
+
+
+Question 169 / 276 - I want to check the status of my bill payment. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want to check the status of my bill payment.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2563 ms
+
+
+Question 170 / 276 - How many invoices do I have to pay? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How many invoices do I have to pay?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2567 ms
+
+
+Question 171 / 276 - Latest information about my bill? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Latest information about my bill?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2577 ms
+
+
+Question 172 / 276 - How many bills have I paid? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How many bills have I paid?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2564 ms
+
+
+Question 173 / 276 - When is the nearest bill payment due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is the nearest bill payment due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2559 ms
+
+
+Question 174 / 276 - Payment status updates please? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Payment status updates please?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2484 ms
+
+
+Question 175 / 276 - Billing information of the month, please? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Billing information of the month, please?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2562 ms
+
+
+Question 176 / 276 - How many outstanding bills? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How many outstanding bills?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2577 ms
+
+
+Question 177 / 276 - Billing information and due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Billing information and due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2637 ms
+
+
+Question 178 / 276 - Up-to-date information on my bill please? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Up-to-date information on my bill please?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2591 ms
+
+
+Question 179 / 276 - When is the next bill payment due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is the next bill payment due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2646 ms
+
+
+Question 180 / 276 - Check my bill payment status. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check my bill payment status.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2723 ms
+
+
+Question 181 / 276 - What is the final payment amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the final payment amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2566 ms
+
+
+Question 182 / 276 - What is the final payment method? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the final payment method?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2555 ms
+
+
+Question 183 / 276 - Last payment date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last payment date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2553 ms
+
+
+Question 184 / 276 - How much was the previous payment? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much was the previous payment?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2569 ms
+
+
+Question 185 / 276 - What were the previous payment methods? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What were the previous payment methods?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2528 ms
+
+
+Question 186 / 276 - Previous payment date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Previous payment date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2559 ms
+
+
+Question 187 / 276 - What is the final bill amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the final bill amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2551 ms
+
+
+Question 188 / 276 - Is the last charge active? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Is the last charge active?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2554 ms
+
+
+Question 189 / 276 - Last bill due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last bill due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2546 ms
+
+
+Question 190 / 276 - How much was the previous bill? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much was the previous bill?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2589 ms
+
+
+Question 191 / 276 - Is the previous charge active? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Is the previous charge active?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2505 ms
+
+
+Question 192 / 276 - Previous bill due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Previous bill due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2524 ms
+
+
+Question 193 / 276 - What is the total unbilled usage? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the total unbilled usage?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2577 ms
+
+
+Question 194 / 276 - What is the current credit balance? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the current credit balance?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2575 ms
+
+
+Question 195 / 276 - What is the last billing date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the last billing date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2526 ms
+
+
+Question 196 / 276 - How much is the current bill worth? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much is the current bill worth?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2741 ms
+
+
+Question 197 / 276 - What is the current total bill amount? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the current total bill amount?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2538 ms
+
+
+Question 198 / 276 - What is the amount of the asset bill? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the amount of the asset bill?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2619 ms
+
+
+Question 199 / 276 - What is the credit limit? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the credit limit?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2565 ms
+
+
+Question 200 / 276 - Payment due date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Payment due date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2661 ms
+
+
+Question 201 / 276 - What's the remaining balance? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What's the remaining balance?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2546 ms
+
+
+Question 202 / 276 - What is the current total bill? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is the current total bill?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2797 ms
+
+
+Question 203 / 276 - I want my bill information 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want my bill information","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2608 ms
+
+
+Question 204 / 276 - How much is my bill for this month 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much is my bill for this month","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2540 ms
+
+
+Question 205 / 276 - What is my bill amount and payment due date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my bill amount and payment due date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2511 ms
+
+
+Question 206 / 276 - Have I already paid my bill 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Have I already paid my bill","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2523 ms
+
+
+Question 207 / 276 - I need information on my bill invoices 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I need information on my bill invoices","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2529 ms
+
+
+Question 208 / 276 - Do I have any payment due 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Do I have any payment due","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2548 ms
+
+
+Question 209 / 276 - Have I paid my bill this month 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Have I paid my bill this month","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2572 ms
+
+
+Question 210 / 276 - What is my unbilled usage 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my unbilled usage","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2456 ms
+
+
+Question 211 / 276 - What is my usage this month 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my usage this month","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2450 ms
+
+
+Question 212 / 276 - What is my total outstanding bill amount this month 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my total outstanding bill amount this month","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2447 ms
+
+
+Question 213 / 276 - When is my bill due for payment 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When is my bill due for payment","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2553 ms
+
+
+Question 214 / 276 - I want my bill invoice for Jan 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"I want my bill invoice for Jan","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2523 ms
+
+
+Question 215 / 276 - Need invoice for Feb 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Need invoice for Feb","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2686 ms
+
+
+Question 216 / 276 - Need bill for May 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Need bill for May","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2696 ms
+
+
+Question 217 / 276 - What is my postpaid invoice for June 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my postpaid invoice for June","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2496 ms
+
+
+Question 218 / 276 - What is my postpaid payment for July 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my postpaid payment for July","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2579 ms
+
+
+Question 219 / 276 - What is bill information for August 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is bill information for August","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2514 ms
+
+
+Question 220 / 276 - What is account information for September 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is account information for September","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2453 ms
+
+
+Question 221 / 276 - My invoice information for October 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"My invoice information for October","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2542 ms
+
+
+Question 222 / 276 - My account data for November 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"My account data for November","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2501 ms
+
+
+Question 223 / 276 - Need postpaid invoice for December 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Need postpaid invoice for December","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2506 ms
+
+
+Question 224 / 276 - Billing Monthly Amount 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Billing Monthly Amount","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2775 ms
+
+
+Question 225 / 276 - Latest Billing Information 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Latest Billing Information","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2457 ms
+
+
+Question 226 / 276 - Total payment 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Total payment","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2531 ms
+
+
+Question 227 / 276 - Payment Due 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Payment Due","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2617 ms
+
+
+Question 228 / 276 - Payment Status Updates 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Payment Status Updates","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2511 ms
+
+
+Question 229 / 276 - Not yet paid 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Not yet paid","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2476 ms
+
+
+Question 230 / 276 - Information of the Month 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Information of the Month","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2520 ms
+
+
+Question 231 / 276 - Last Due Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last Due Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2698 ms
+
+
+Question 232 / 276 - Check Payment Status 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check Payment Status","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2500 ms
+
+
+Question 233 / 276 - Must pay 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Must pay","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2503 ms
+
+
+Question 234 / 276 - New information 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"New information","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2534 ms
+
+
+Question 235 / 276 - Already paid 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Already paid","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2538 ms
+
+
+Question 236 / 276 - Nearest Due Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Nearest Due Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2545 ms
+
+
+Question 237 / 276 - Payment Status Updates 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Payment Status Updates","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2502 ms
+
+
+Question 238 / 276 - This Month's Billing Information 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"This Month's Billing Information","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2566 ms
+
+
+Question 239 / 276 - Not Resolved 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Not Resolved","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2415 ms
+
+
+Question 240 / 276 - Information and Due Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Information and Due Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2559 ms
+
+
+Question 241 / 276 - Latest Billing Information 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Latest Billing Information","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2516 ms
+
+
+Question 242 / 276 - Next Payment Due Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Next Payment Due Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2547 ms
+
+
+Question 243 / 276 - Check Payment Status 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Check Payment Status","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2554 ms
+
+
+Question 244 / 276 - Last payment 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last payment","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2578 ms
+
+
+Question 245 / 276 - Final Method 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Final Method","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2595 ms
+
+
+Question 246 / 276 - Last Payment Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last Payment Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2594 ms
+
+
+Question 247 / 276 - Prior Payment 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Prior Payment","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2637 ms
+
+
+Question 248 / 276 - Previous Method 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Previous Method","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2600 ms
+
+
+Question 249 / 276 - Previous Date of Payment 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Previous Date of Payment","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2437 ms
+
+
+Question 250 / 276 - Final Bill 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Final Bill","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2511 ms
+
+
+Question 251 / 276 - Last Active 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last Active","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2581 ms
+
+
+Question 252 / 276 - Last Due Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last Due Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2588 ms
+
+
+Question 253 / 276 - Previous Bills 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Previous Bills","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2586 ms
+
+
+Question 254 / 276 - Previously Active 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Previously Active","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2575 ms
+
+
+Question 255 / 276 - Previous Due Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Previous Due Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2671 ms
+
+
+Question 256 / 276 - Not Billed yet 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Not Billed yet","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2538 ms
+
+
+Question 257 / 276 - Current Balance 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Current Balance","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2477 ms
+
+
+Question 258 / 276 - Last Billing Date 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Last Billing Date","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2589 ms
+
+
+Question 259 / 276 - Rated Current 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Rated Current","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2612 ms
+
+
+Question 260 / 276 - Total Current 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Total Current","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2887 ms
+
+
+Question 261 / 276 - Asset Claims 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Asset Claims","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2534 ms
+
+
+Question 262 / 276 - Credit Limit 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Credit Limit","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"billPaymentInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2607 ms
+
+
+Question 263 / 276 - My point balance? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"My point balance?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2644 ms
+
+
+Question 264 / 276 - Value of my points? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Value of my points?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2582 ms
+
+
+Question 265 / 276 - Am I an IMPoin member? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Am I an IMPoin member?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2563 ms
+
+
+Question 266 / 276 - Membership level status? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Membership level status?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2571 ms
+
+
+Question 267 / 276 - Points expiration date? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Points expiration date?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2619 ms
+
+
+Question 268 / 276 - Points validity period? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Points validity period?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2615 ms
+
+
+Question 269 / 276 - Points balance, expiry, level? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Points balance, expiry, level?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2592 ms
+
+
+Question 270 / 276 - How much IMPoin do I have 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much IMPoin do I have","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2526 ms
+
+
+Question 271 / 276 - What is my loyalty points value 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my loyalty points value","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2627 ms
+
+
+Question 272 / 276 - Am I registered in IMPoin membership 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Am I registered in IMPoin membership","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2534 ms
+
+
+Question 273 / 276 - What is my loyalty points membership level 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"What is my loyalty points membership level","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2529 ms
+
+
+Question 274 / 276 - When are my loyalty points expiring 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"When are my loyalty points expiring","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2532 ms
+
+
+Question 275 / 276 - Until when are my loyalty points active 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Until when are my loyalty points active","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2564 ms
+
+
+Question 276 / 276 - How much loyalty points do I have, when do they expire and what is my membership level 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"How much loyalty points do I have, when do they expire and what is my membership level","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"imPoinInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2528 ms
+
+

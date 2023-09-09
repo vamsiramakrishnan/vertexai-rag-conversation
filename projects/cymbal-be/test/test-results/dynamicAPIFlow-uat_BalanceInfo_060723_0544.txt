@@ -1,0 +1,135 @@
+Question 1 / 27 - Berapa jumlah pulsa yang masih ada di ponsel saya sekarang? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa jumlah pulsa yang masih ada di ponsel saya sekarang?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2737 ms
+
+
+Question 2 / 27 - Berapa saldo pulsa yang tersisa pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa saldo pulsa yang tersisa pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2649 ms
+
+
+Question 3 / 27 - Tolong informasikan jumlah pulsa yang tersisa sekarang. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tolong informasikan jumlah pulsa yang tersisa sekarang.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2649 ms
+
+
+Question 4 / 27 - Bisakah Anda memberi tahu berapa pulsa yang masih tersedia saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisakah Anda memberi tahu berapa pulsa yang masih tersedia saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2679 ms
+
+
+Question 5 / 27 - Apa jumlah pulsa yang tersisa di nomor saya saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah pulsa yang tersisa di nomor saya saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2772 ms
+
+
+Question 6 / 27 - Ada berapa pulsa yang masih ada di ponsel saya sekarang? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa pulsa yang masih ada di ponsel saya sekarang?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2732 ms
+
+
+Question 7 / 27 - Apa saldo pulsa yang tersisa pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa saldo pulsa yang tersisa pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2656 ms
+
+
+Question 8 / 27 - Saya ingin mengetahui berapa pulsa yang masih tersedia saat ini. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya ingin mengetahui berapa pulsa yang masih tersedia saat ini.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2775 ms
+
+
+Question 9 / 27 - Bisa Anda sebutkan jumlah pulsa yang tersisa pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda sebutkan jumlah pulsa yang tersisa pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2705 ms
+
+
+Question 10 / 27 - Berapa nilai pulsa yang masih tersedia saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa nilai pulsa yang masih tersedia saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2637 ms
+
+
+Question 11 / 27 - Sisa pulsa yang saya miliki saat ini berapa? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Sisa pulsa yang saya miliki saat ini berapa?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2682 ms
+
+
+Question 12 / 27 - Berapa jumlah pulsa yang belum digunakan saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa jumlah pulsa yang belum digunakan saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2653 ms
+
+
+Question 13 / 27 - Apa jumlah pulsa yang masih tersedia di ponsel saya sekarang? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah pulsa yang masih tersedia di ponsel saya sekarang?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2701 ms
+
+
+Question 14 / 27 - Tolong sebutkan berapa sisa pulsa yang tersedia saat ini. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tolong sebutkan berapa sisa pulsa yang tersedia saat ini.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2714 ms
+
+
+Question 15 / 27 - Berapa pulsa yang tersisa di nomor saya saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa pulsa yang tersisa di nomor saya saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2667 ms
+
+
+Question 16 / 27 - Ada berapa saldo pulsa yang masih ada pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa saldo pulsa yang masih ada pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2605 ms
+
+
+Question 17 / 27 - Apa jumlah pulsa yang masih tersisa di ponsel saya saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah pulsa yang masih tersisa di ponsel saya saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2669 ms
+
+
+Question 18 / 27 - Saya ingin mengetahui berapa pulsa yang tersedia sekarang. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya ingin mengetahui berapa pulsa yang tersedia sekarang.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2609 ms
+
+
+Question 19 / 27 - Bisa Anda memberi tahu jumlah pulsa yang masih tersisa saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisa Anda memberi tahu jumlah pulsa yang masih tersisa saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2694 ms
+
+
+Question 20 / 27 - Pulsa yang saya miliki saat ini berapa? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Pulsa yang saya miliki saat ini berapa?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2665 ms
+
+
+Question 21 / 27 - Berapa jumlah pulsa yang tersisa pada saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa jumlah pulsa yang tersisa pada saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2623 ms
+
+
+Question 22 / 27 - Berapa saldo pulsa yang masih ada di ponsel saya sekarang? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Berapa saldo pulsa yang masih ada di ponsel saya sekarang?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2704 ms
+
+
+Question 23 / 27 - Tolong informasikan sisa pulsa yang tersedia sekarang. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Tolong informasikan sisa pulsa yang tersedia sekarang.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2700 ms
+
+
+Question 24 / 27 - Bisakah Anda sebutkan berapa pulsa yang masih tersedia saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Bisakah Anda sebutkan berapa pulsa yang masih tersedia saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2665 ms
+
+
+Question 25 / 27 - Apa jumlah pulsa yang tersisa di nomor saya sekarang? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Apa jumlah pulsa yang tersisa di nomor saya sekarang?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2688 ms
+
+
+Question 26 / 27 - Ada berapa pulsa yang masih ada di ponsel saya saat ini? 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Ada berapa pulsa yang masih ada di ponsel saya saat ini?","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2599 ms
+
+
+Question 27 / 27 - Saya ingin mengetahui berapa sisa pulsa yang tersedia saat ini. 
+Response - {"responseType":"dynamicAPIFlow","smallTalkResponse":null,"originalUserQuery":"Saya ingin mengetahui berapa sisa pulsa yang tersedia saat ini.","staticKnowledgebaseQnAResponse":null,"dynamicAPIFlowResponse":{"flowType":"accountInfo","subFlowType":null,"recognizedNLPEntities":null},"fallbackIntentResponse":null} 
+Response Time - 2669 ms
+
+
