@@ -17,8 +17,8 @@ class Config:
         self.DEPLOYMENT_ENV = config.get('AppConfig', 'DEPLOYMENT_ENV')        
         self.BUCKET_NAME = "gs://" + self.PROJECT_ID + "-" + self.BUCKET_PREFIX + "-" + self.DEPLOYMENT_ENV
 
-config = Config('/home/user/repos/genai-e2e-demos/dev/GenAI-E2E-Demos/projects/cymbal-preproc/src/config.ini')
-#config = Config('config.ini')
+#config = Config('/home/user/repos/genai-e2e-demos/dev/GenAI-E2E-Demos/projects/cymbal-preproc/src/config.ini')
+config = Config('config.ini')
 vertexai.init(project=config.PROJECT_ID, location=config.REGION)
 
 # Load Preprocessor Configuration
