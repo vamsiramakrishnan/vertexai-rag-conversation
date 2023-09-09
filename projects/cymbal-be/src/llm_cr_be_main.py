@@ -21,7 +21,6 @@ from helpers.logging_configurator import (
 import asyncio
 from helpers.service_metrics import ServiceMetrics
 
-#config = AppConfig("./config/config.ini")
 config = configcontex
 app = FastAPI()
 logger.info("Starting Application")
