@@ -73,7 +73,7 @@ class NLURouterChain:
             self.prompt,
             self.output_parser,
         ) = self.nlu_routing_prompt.create_nlu_routing_prompt()
-        self.embeddings = LoggingVertexAIEmbeddings()
+        self.embeddings = LoggingVertexAIEmbeddings(model_name="textembedding-gecko@latest", task_type = "SEMANTIC_SIMILARITY")
         self.vectorstore = self._load_vectorstore_from_gcs()
         self._initialize_llm_chain()
 

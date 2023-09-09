@@ -1,9 +1,12 @@
 import time
+import vertexai 
+
 from typing import Dict, List
 from langchain.embeddings.base import Embeddings
 from langchain.llms.vertexai import _VertexAICommon
 from langchain.pydantic_v1 import root_validator
 from langchain.utilities.vertexai import raise_vertex_import_error
+from vertexai.language_models import TextEmbeddingInput
 
 def rate_limit(limit_per_minute : int, timestamps: list[float]) -> list[float]:
     
@@ -26,7 +29,8 @@ def rate_limit(limit_per_minute : int, timestamps: list[float]) -> list[float]:
 class VertexAIEmbeddings(_VertexAICommon, Embeddings):
     """Google Cloud VertexAI embedding models."""
 
-    model_name: str = "textembedding-gecko"
+    model_name: str = "textembedding-gecko",
+    task_type: str = "SEMANTIC_SIMILARITY"
     requests_per_minute: int = 15
 
     @root_validator()
@@ -53,13 +57,14 @@ class VertexAIEmbeddings(_VertexAICommon, Embeddings):
         Returns:
             List of embeddings, one for each text.
         """
-        print(f"Embeddings Model Used {self.model_name}")
+        print(f"Embeddings Model Used {self.model_name} / {self.task_type}")
         timestamps = []
 
         embeddings = []    
         for batch in range(0, len(texts), batch_size):
             text_batch = texts[batch : batch + batch_size]
-            embeddings_batch = self.client.get_embeddings(text_batch)
+            text_embedding_input_list = [TextEmbeddingInput(task_type=self.task_type, text=textinput) for textinput in text_batch]
+            embeddings_batch = self.client.get_embeddings(text_embedding_input_list)
             embeddings.extend([el.values for el in embeddings_batch])
             rate_limit(self.requests_per_minute, timestamps)
         return embeddings

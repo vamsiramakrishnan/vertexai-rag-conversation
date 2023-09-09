@@ -51,7 +51,7 @@ class DynamicAPIFlowChain:
             self.prompt,
             self.output_parser,
         ) = self.dynamic_api_prompt.create_dynamic_api_prompt()
-        self.embeddings = LoggingVertexAIEmbeddings()
+        self.embeddings = LoggingVertexAIEmbeddings(model_name="textembedding-gecko@latest", task_type = "SEMANTIC_SIMILARITY")
         self.vectorstore = self.vectorstore_load_from_gcs()
         self.initialize_llm_chain(llm_chain)
         self.similarity_search_k = similarity_search_k

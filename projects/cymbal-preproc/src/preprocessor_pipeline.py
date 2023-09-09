@@ -17,7 +17,8 @@ class Config:
         self.DEPLOYMENT_ENV = config.get('AppConfig', 'DEPLOYMENT_ENV')        
         self.BUCKET_NAME = "gs://" + self.PROJECT_ID + "-" + self.BUCKET_PREFIX + "-" + self.DEPLOYMENT_ENV
 
-config = Config('config.ini')
+config = Config('/home/user/repos/genai-e2e-demos/dev/GenAI-E2E-Demos/projects/cymbal-preproc/src/config.ini')
+#config = Config('config.ini')
 vertexai.init(project=config.PROJECT_ID, location=config.REGION)
 
 # Load Preprocessor Configuration
@@ -36,11 +37,10 @@ print(f"Configuration Settings reprocess_kdb - {kdb_reprocessing}, reprocess_rou
 
 # KDB embeddings generation flow
 if kdb_reprocessing:
-    kdb_preprocessor = KDBPreProcessor(bucket_name = config.BUCKET_NAME, project_id = config.PROJECT_ID)
-    kdb_preprocessor.create_embeddings(force_enhance=force_enhance_kdb, force_regenerate = force_regenerate_embeddings, glob_expr = "**/*_EN.txt")
-    kdb_preprocessor.create_embeddings(force_enhance=force_enhance_kdb, force_regenerate= force_regenerate_embeddings, glob_expr = "**/*_ID.txt")
+    KDBPreProcessor(embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko@latest', task_type='RETRIEVAL_DOCUMENT'), bucket_name = config.BUCKET_NAME, project_id = config.PROJECT_ID).create_embeddings(force_enhance=force_enhance_kdb, force_regenerate = force_regenerate_embeddings, glob_expr = "**/*_EN.txt")
+    KDBPreProcessor(embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_DOCUMENT'), bucket_name = config.BUCKET_NAME, project_id = config.PROJECT_ID).create_embeddings(force_enhance=force_enhance_kdb, force_regenerate = force_regenerate_embeddings, glob_expr = "**/*_ID.txt")
 
 # Routing examples embeddings generation flow
 if routing_reprocessing:
-    ss_preprocessor = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko@latest'), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples.xlsx", routing_example_fileheader = ["Query", "Intent"], index_name = "nlp_router_examples")
-    ss_preprocessor_dynamic = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko-multilingual@latest'), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples-dynamic.xlsx", routing_example_fileheader = ["Query", "Response"], index_name = "nlp_router_examples_dynamic")
+    ss_preprocessor = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko@latest', task_type='SEMANTIC_SIMILARITY'), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples.xlsx", routing_example_fileheader = ["Query", "Intent"], index_name = "nlp_router_examples")
+    ss_preprocessor_dynamic = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko@latest', task_type='SEMANTIC_SIMILARITY'), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples-dynamic.xlsx", routing_example_fileheader = ["Query", "Response"], index_name = "nlp_router_examples_dynamic")

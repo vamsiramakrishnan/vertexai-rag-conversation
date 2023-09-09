@@ -12,11 +12,12 @@ from langchain.document_loaders import DirectoryLoader, UnstructuredFileLoader
 from langchain.vectorstores import FAISS
 from langchain.llms import VertexAI
 from helpers.vertexai import VertexAIEmbeddings
+from langchain.embeddings.base import Embeddings
 
 class KDBPreProcessor:
-    def __init__(self, requests_per_minute=600, bucket_name: str = 'your_bucket', project_id='your_project_id', local_path = "./"):
+    def __init__(self, embeddings: Embeddings, bucket_name: str = 'your_bucket', project_id='your_project_id', local_path = "./"):
         self.storage_client = storage.Client()
-        self.embedding_model = VertexAIEmbeddings(requests_per_minute=requests_per_minute, model_name='textembedding-gecko@latest')
+        self.embeddings = embeddings
         self.llm = VertexAI(temperature=0, max_output_tokens=1024)
         self.bucket_name = bucket_name[5:] if "gs://" in bucket_name else bucket_name
         self.bucket = self.storage_client.get_bucket(self.bucket_name)
@@ -107,7 +108,7 @@ class KDBPreProcessor:
         
         local_index_path = local_index_dir / index_name
         remote_index_path = vector_db_gcs_path / index_name
-        db = FAISS.from_documents(documents=docs, embedding=self.embedding_model)
+        db = FAISS.from_documents(documents=docs, embedding=self.embeddings)
         db.save_local(local_index_path.as_posix())
         
         # Sync the index directory to GCS

@@ -37,8 +37,8 @@ class StaticKnowledgebaseChain:
             "top_p": 0.5,
             "top_k": 20,
         },
-        similarity_threshold: Optional[float] = 0.5,
-        embeddings_model_name: Optional[str] = "textembedding-gecko@latest"
+        similarity_threshold: Optional[float] = 0.7,
+        embeddings_non_english: Optional[bool] = false
     ):
         self.logger = self._setup_logger()
         self.bucket_name = bucket_name
@@ -62,7 +62,12 @@ class StaticKnowledgebaseChain:
                 contextual_compression_enabled=contextual_compression_enabled
             )
         )
-        self.embeddings_model_name = embeddings_model_name        
+        self.embeddings_non_english = embeddings_non_english
+        self.embeddings = None
+        if(embeddings_non_english):
+            self.embeddings = VertexAIEmbeddings(model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_QUERY')
+        else:
+            self.embeddings = VertexAIEmbeddings(model_name='textembedding-gecko@latest', task_type='RETRIEVAL_QUERY')
 
     def _setup_logger(self):
         logger = logging.getLogger(__name__)
@@ -75,15 +80,14 @@ class StaticKnowledgebaseChain:
 
     def create_retriever(self):
         kdb_processor = KDBProcessor(
-            bucket_name=self.bucket_name, index_name=self.index_name
+            bucket_name=self.bucket_name, index_name=self.index_name, embeddings_non_english=self.embeddings_non_english
         )
         vector_db = kdb_processor.load_embeddings()
         return vector_db.as_retriever(search_type=self.search_type, k=self.k)
 
-    def create_compressor_retriever(self):
-        embeddings = LoggingVertexAIEmbeddings(model_name=self.embeddings_model_name)
+    def create_compressor_retriever(self):        
         embeddings_filter = EmbeddingsFilter(
-            embeddings=embeddings, similarity_threshold=self.similarity_threshold
+            embeddings=self.embeddings, similarity_threshold=self.similarity_threshold
         )
         text_splitter = CharacterTextSplitter(
             separator="\n\n", chunk_size=256, chunk_overlap=0, length_function=len

@@ -19,6 +19,7 @@ from langchain.schema.messages import (
     HumanMessage,
     SystemMessage,
 )
+from vertexai.language_models import TextEmbeddingInput
 
 
 class LoggingVertexAI(VertexAI):
@@ -117,10 +118,14 @@ class LoggingVertexAIChat(ChatVertexAI):
         return ChatResult(generations=[ChatGeneration(message=AIMessage(content=text))])
 
 class LoggingVertexAIEmbeddings(VertexAIEmbeddings):
+
+    # ["RETRIEVAL_QUERY", "RETRIEVAL_DOCUMENT", "SEMANTIC_SIMILARITY", "CLASSIFICATION"
+    task_type: str = "RETRIEVAL_QUERY" 
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
     def embed_query(self, text: str) -> List[float]:
-        embeddings = super().embed_query(text)
-        logger.debug(f"Text: {text}, Embedding: {embeddings}")
+        embeddings = super().embed_query(TextEmbeddingInput(task_type=self.task_type, text=text))
+        print(f"Embeddings Model Used {self.model_name} / {self.task_type}")
         return embeddings

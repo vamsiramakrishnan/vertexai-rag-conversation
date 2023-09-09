@@ -69,7 +69,7 @@ def main():
         current_q += 1
         start_time = time.time()
 
-        logging.info(f"\nSession ID {session}__{current_q} | Question :: {question}")
+        logging.info(f"Session ID {session}__{current_q} | Question :: {question}")
         timestamp = datetime.datetime.now().strftime("%d%m%y%H%M")
         data = {
             "llmRouterRequest": question,
@@ -113,8 +113,8 @@ def main():
         response_time = (time.time() - start_time) * 1000
         response_json = response.json()
 
-        logging.info(f"Response Time - {response_time}")
-        logging.info(f"RESPONSE ::: {fn_print_router_response(response_json)}\n")
+        logging.info(f"RESPONSE ::: {fn_print_router_response(response_json)}")
+        logging.info(f"Response Time - {response_time}\n")
 
         query_response = fn_get_router_response(response_json)
 

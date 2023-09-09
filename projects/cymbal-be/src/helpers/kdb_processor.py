@@ -13,6 +13,7 @@ class KDBProcessor:
         index_name: str = "cymbal_kb_index_EN",
         bucket_name: str = "gs://cymbal-kb-bucket",
         folder_name: str = "preprocessed_output",
+        embeddings_non_english: Optional[bool] = false
     ):
         self.storage_client = storage.Client()
         self.bucket_name = bucket_name.replace("gs://", "").split("/")[0]
@@ -23,6 +24,10 @@ class KDBProcessor:
         self.local_index_file = self.local_path / self.index_name
         self.gcs_index_file = self.folder_name / self.index_name
         self.embedding_model = LoggingVertexAIEmbeddings()
+        if(embeddings_non_english):
+            self.embedding_model = VertexAIEmbeddings(model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_DOCUMENT')
+        else:
+            self.embedding_model = VertexAIEmbeddings(model_name='textembedding-gecko@latest', task_type='RETRIEVAL_DOCUMENT')        
         self.logger = self._setup_logger()
         self.copy_from_gcs()
 
