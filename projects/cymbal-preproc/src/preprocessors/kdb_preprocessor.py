@@ -10,13 +10,14 @@ from langchain.chains import AnalyzeDocumentChain
 from langchain.chains.summarize import load_summarize_chain
 from langchain.document_loaders import DirectoryLoader, UnstructuredFileLoader
 from langchain.vectorstores import FAISS
-from helpers.vertex_llm import VertexEmbeddings, VertexLLM
+from langchain.llms import VertexAI
+from helpers.vertexai import VertexAIEmbeddings
 
 class KDBPreProcessor:
-    def __init__(self, requests_per_minute=200, bucket_name: str = 'your_bucket', project_id='your_project_id', local_path = "./"):
+    def __init__(self, requests_per_minute=600, bucket_name: str = 'your_bucket', project_id='your_project_id', local_path = "./"):
         self.storage_client = storage.Client()
-        self.embedding_model = VertexEmbeddings(requests_per_minute=requests_per_minute)
-        self.llm = VertexLLM(temperature=0, max_output_tokens=1024)
+        self.embedding_model = VertexAIEmbeddings(requests_per_minute=requests_per_minute, model_name='textembedding-gecko@latest')
+        self.llm = VertexAI(temperature=0, max_output_tokens=1024)
         self.bucket_name = bucket_name[5:] if "gs://" in bucket_name else bucket_name
         self.bucket = self.storage_client.get_bucket(self.bucket_name)
         self.logging_client = cloud_logging.Client()
