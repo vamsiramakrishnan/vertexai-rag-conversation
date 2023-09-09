@@ -27,13 +27,6 @@ current_q=0
 
 timestamp=$(date +"%d%m%y%H%M")
 
-user_1="Hi"
-bot_1="Hello"
-user_2="How are you"
-bot_2="I am great"
-user_3="Nice to meet you"
-bot_3="Likewise"
-
 while true; do
     read -p "Enter your question: " question
 
@@ -57,33 +50,7 @@ while true; do
                 "clientInfo": "Shanky",
                 "sessionInfo": "'$timestamp'__'$current_q'",
                 "userInfo": "0192787785"
-            },
-            "messages": [
-                {
-                    "author": "user",
-                    "content": "'"$user_1"'"
-                },
-                {
-                    "author": "bot",
-                    "content": "'"$bot_1"'"
-                },
-                {
-                    "author": "user",
-                    "content": "'"$user_2"'"
-                },
-                {
-                    "author": "bot",
-                    "content": "'"$bot_2"'"
-                },
-                {
-                    "author": "user",
-                    "content": "'"$user_3"'"
-                },
-                {
-                    "author": "bot",
-                    "content": "'"$bot_3"'"
-                }                                
-            ]                       
+            }                       
         }' \
         "$url")
 
@@ -94,6 +61,12 @@ while true; do
     response_time=$(( (end_time - start_time) / 1000000 ))         
 
     echo "Response Time - " $response_time
+    echo $response | \
+        python -c 'import json,sys; \
+                   from parse_router_response import fn_print_router_response; \
+                   obj=json.load(sys.stdin, strict=False);\
+                   print(obj);\
+                   print(f"\nRESPONSE ::: {fn_print_router_response(obj)}");'   
 
     parse_response=`echo $response | \
                     python -c 'import json,sys; \
@@ -101,14 +74,6 @@ while true; do
                             obj=json.load(sys.stdin, strict=False);\
                             print(obj);\
                             print(f"\nRESPONSE ::: {fn_get_router_response(obj)}");'`
-
-
-    echo $response | \
-        python -c 'import json,sys; \
-                   from parse_router_response import fn_print_router_response; \
-                   obj=json.load(sys.stdin, strict=False);\
-                   print(obj);\
-                   print(f"\nRESPONSE ::: {fn_print_router_response(obj)}");'   
     
     query_response=`echo $parse_response | awk -F"RESPONSE ::: " '/RESPONSE ::: /{print $2}'`
 
