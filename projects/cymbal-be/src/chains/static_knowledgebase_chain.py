@@ -9,7 +9,7 @@ from langchain.chains import RetrievalQA
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import DocumentCompressorPipeline
 from langchain.retrievers.document_compressors import EmbeddingsFilter
-from prompts.retrieval_prompt import RETRIEVAL_PROMPT
+from prompts.retrieval_prompt import GetRetrievalPrompt
 from helpers.logging_configurator import logger, request_origin
 from langchain.text_splitter import CharacterTextSplitter
 from config.config import configcontex
@@ -27,7 +27,6 @@ class StaticKnowledgebaseChain:
         search_type: str = "similarity",
         k: int = 3,
         retriever: Optional[VectorStoreRetriever] = None,
-        retrieval_prompt: Optional[str] = RETRIEVAL_PROMPT,
         qa_chain: Optional[RetrievalQA] = None,
         chain_type: Optional[str] = "stuff",
         contextual_compression_enabled: Optional[bool] = True,
@@ -50,7 +49,7 @@ class StaticKnowledgebaseChain:
         self.search_type = search_type
         self.k = k
         self.retriever = retriever
-        self.retrieval_prompt = retrieval_prompt
+        self.retrieval_prompt = GetRetrievalPrompt().get_retrieval_prompt(embeddings_non_english)
         self.chain_type = chain_type
         self.compression_retriever = None
         self.similarity_threshold = similarity_threshold

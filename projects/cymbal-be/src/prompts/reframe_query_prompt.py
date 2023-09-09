@@ -16,7 +16,9 @@ class ReframeQueryPrompt:
         match langcode:
             case "en":
                 self.PROMPT_PREFIX = """
-                Given the following chat history and a follow up phrase, convert the follow up phrase if it is incomplete into a standalone phrase in same language as in follow up phrase and preserving all the original information in it.
+                SYSTEM: Always provide an answer in ENGLISH
+                
+                Given the following chat history and a follow up phrase, convert the follow up phrase if it is incomplete into a standalone phrase in same language as in follow up phrase while preserving all the original information in it.
                 
                 Do NOT ATTEMPT to provide an answer to the standalone phrase
 
@@ -36,7 +38,9 @@ class ReframeQueryPrompt:
                 
             case "id":
                 self.PROMPT_PREFIX = """
-                Mengingat riwayat obrolan berikut dan frasa tindak lanjut, ulangi frasa tindak lanjut menjadi frasa mandiri, pertahankan semua informasi dalam frasa tindak lanjut.
+                SYSTEM: Selalu jawab dalam BAHASA INDONESIA
+                
+                Mengingat riwayat obrolan berikut dan frasa tindak lanjut, ubah frasa tindak lanjut jika tidak lengkap menjadi frasa mandiri dalam bahasa yang sama seperti frasa tindak lanjut sambil mempertahankan semua informasi asli di dalamnya.
 
                 JANGAN MENCOBA untuk memberikan jawaban atas frasa yang berdiri sendiri
 
