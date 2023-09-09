@@ -5,7 +5,7 @@ steps:
       - '-t'
       - 'us-central1-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-llm-dev:v1'
       - .      
-    dir: src/crbe_llm
+    dir: projects/cymbal-be/src
   - name: gcr.io/cloud-builders/docker
     args:
       - push
@@ -27,15 +27,13 @@ steps:
       - gen2
       - '--cpu-boost'
       - '--cpu'
-      - '2'
+      - '1'
       - '--memory'
-      - 8192Mi
+      - 2048Mi
       - '--min-instances'
       - '1'
       - '--max-instances'
-      - '2'
-      - '--no-allow-unauthenticated'   
+      - '1'
+      - '--allow-unauthenticated'   
       - '--use-http2'             
     entrypoint: gcloud
-options:
-  machineType: 'E2_HIGHCPU_32'
