@@ -38,6 +38,7 @@ class StaticKnowledgebaseChain:
             "top_k": 20,
         },
         similarity_threshold: Optional[float] = 0.5,
+        embeddings_model_name: Optional[str] = "textembedding-gecko@latest"
     ):
         self.logger = self._setup_logger()
         self.bucket_name = bucket_name
@@ -61,6 +62,7 @@ class StaticKnowledgebaseChain:
                 contextual_compression_enabled=contextual_compression_enabled
             )
         )
+        self.embeddings_model_name = embeddings_model_name        
 
     def _setup_logger(self):
         logger = logging.getLogger(__name__)
@@ -79,7 +81,7 @@ class StaticKnowledgebaseChain:
         return vector_db.as_retriever(search_type=self.search_type, k=self.k)
 
     def create_compressor_retriever(self):
-        embeddings = LoggingVertexAIEmbeddings()
+        embeddings = LoggingVertexAIEmbeddings(model_name=self.embeddings_model_name)
         embeddings_filter = EmbeddingsFilter(
             embeddings=embeddings, similarity_threshold=self.similarity_threshold
         )

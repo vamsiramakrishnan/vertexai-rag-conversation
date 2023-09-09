@@ -40,10 +40,10 @@ class RouterAgent:
             project_id=project_id, region=region
         )
         self.staticknowledgebase_chain = StaticKnowledgebaseChain(
-            bucket_name=self.bucket_name, index_name=index_name
+            bucket_name=self.bucket_name, index_name=index_name, embeddings_model_name='textembedding-gecko@latest'
         )
         self.staticknowledgebase_chain_id = StaticKnowledgebaseChain(
-            bucket_name=self.bucket_name, index_name=index_name_id
+            bucket_name=self.bucket_name, index_name=index_name_id, embeddings_model_name='textembedding-gecko-multilingual@latest'
         )        
         self.split_chain = SplitChain()
         self.combine_chain = CombineChain()
