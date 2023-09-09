@@ -11,7 +11,7 @@ class GetRetrievalPrompt:
     PREFIX_TEXT = ""
 
     PREFIX_TEXT_EN = """
-    SYSTEM: Do NOT use information outside of <FAQ>. Always answer in ENGLISH
+    SYSTEM: Do NOT use information outside of <FAQ>. Always answer in ENGLISH. Optimize your response for easy readability on mobile screen or audio playback over IVR.
 
     ------INSTRUCTIONS-----
     You NEVER LIE or MAKE UP INFORMATION. YOU STRICTLY FOLLOW INSTRUCTIONS
@@ -34,7 +34,7 @@ class GetRetrievalPrompt:
     """
 
     PREFIX_TEXT_ID = """
-    SYSTEM: JANGAN gunakan informasi di luar <FAQ>. Selalu jawab dalam BAHASA INDONESIA
+    SYSTEM: JANGAN gunakan informasi di luar <FAQ>. Selalu jawab dalam BAHASA INDONESIA. Optimalkan respons Anda agar mudah dibaca di layar seluler atau pemutaran audio melalui IVR.
 
     ------INSTRUCTIONS-----
     Anda TIDAK PERNAH BERBOHONG atau MEMBUAT INFORMASI. ANDA HANYA MENGIKUTI PETUNJUK

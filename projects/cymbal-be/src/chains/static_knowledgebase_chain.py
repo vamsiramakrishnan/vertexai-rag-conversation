@@ -46,6 +46,12 @@ class StaticKnowledgebaseChain:
             self.llm = llm if llm else LoggingVertexAIChat(**vertexai_params)
         else:
             self.llm = llm if llm else LoggingVertexAI(**vertexai_params)
+        self.embeddings_non_english = embeddings_non_english
+        self.embeddings = None
+        if(self.embeddings_non_english):
+            self.embeddings = LoggingVertexAIEmbeddings(model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_QUERY')
+        else:
+            self.embeddings = LoggingVertexAIEmbeddings(model_name='textembedding-gecko@latest', task_type='RETRIEVAL_QUERY')            
         self.search_type = search_type
         self.k = k
         self.retriever = retriever
@@ -61,12 +67,6 @@ class StaticKnowledgebaseChain:
                 contextual_compression_enabled=contextual_compression_enabled
             )
         )
-        self.embeddings_non_english = embeddings_non_english
-        self.embeddings = None
-        if(embeddings_non_english):
-            self.embeddings = LoggingVertexAIEmbeddings(model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_QUERY')
-        else:
-            self.embeddings = LoggingVertexAIEmbeddings(model_name='textembedding-gecko@latest', task_type='RETRIEVAL_QUERY')
 
     def _setup_logger(self):
         logger = logging.getLogger(__name__)
