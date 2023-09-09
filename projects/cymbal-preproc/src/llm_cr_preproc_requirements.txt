@@ -10,3 +10,4 @@ google-auth
 google-cloud-logging
 tabulate
 pdf2image
+openpyxl

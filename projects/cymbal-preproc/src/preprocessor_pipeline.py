@@ -2,7 +2,7 @@ from preprocessors.kdb_preprocessor import KDBPreProcessor
 from preprocessors.config_preprocessor import ConfigPreProcessor
 from preprocessors.routing_example_preprocessor import SemanticSimilarityExamplePreprocessor
 from langchain.vectorstores import FAISS
-from helpers.vertex_llm import VertexEmbeddings
+from helpers.vertexai import VertexAIEmbeddings
 import google.auth
 import vertexai
 import configparser
@@ -42,5 +42,5 @@ if kdb_reprocessing:
 
 # Routing examples embeddings generation flow
 if routing_reprocessing:
-    ss_preprocessor = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexEmbeddings(requests_per_minute=300), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples.xlsx", routing_example_fileheader = ["Query", "Intent"], index_name = "nlp_router_examples")
-    ss_preprocessor_dynamic = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexEmbeddings(requests_per_minute=300), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples-dynamic.xlsx", routing_example_fileheader = ["Query", "Response"], index_name = "nlp_router_examples_dynamic")
+    ss_preprocessor = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko@latest'), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples.xlsx", routing_example_fileheader = ["Query", "Intent"], index_name = "nlp_router_examples")
+    ss_preprocessor_dynamic = SemanticSimilarityExamplePreprocessor.load_and_process_data(bucket_name = config.BUCKET_NAME, embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko-multilingual@latest'), vectorstore_cls = FAISS, routing_example_filename = "nlu-router-examples-dynamic.xlsx", routing_example_fileheader = ["Query", "Response"], index_name = "nlp_router_examples_dynamic")
