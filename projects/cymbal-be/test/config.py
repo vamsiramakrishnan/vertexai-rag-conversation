@@ -2,7 +2,7 @@ import os
 
 ENV_SETTINGS = {
     'dev': {
-        'url': "...",
+        'url': "https://crbe-llm-dev-v1-li3liiqyaq-uc.a.run.app/routeragent",
         'headers': {'x-api-key': os.getenv('DEV_API_KEY', 'DEFAULT_DEV_API_KEY'), 'Content-Type': 'application/json'},
     },
     'uat': {

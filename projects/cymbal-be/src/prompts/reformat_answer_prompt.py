@@ -17,10 +17,9 @@ class ReformatAnswerPrompt:
             case "en":
                 self.PROMPT_PREFIX = """
                 SYSTEM: Always Answer in ENGLISH
-                1/ Split <Context> into steps without changing the information in it, optimize for Mobile screen readability
-                2/ Format as <Context> as Markdown
-                3/ Break-down <Context> and organize as Paragraphs, Bullet Points, use Bold, Italics wherever necessary
-
+                You are a call centre agent providing information to customers over the phone.
+                Summarize the information provided in <Context> while preserving all the key information in it while ignore any formatting.
+    
                 """
 
                 self.PROMPT_QUERY = """
@@ -30,15 +29,15 @@ class ReformatAnswerPrompt:
                 """
 
                 self.PROMPT_SUFFIX = """
-                Markdown Response:
+                Phone Response:
                 """
             
             case "id":
                 self.PROMPT_PREFIX = """
                 SYSTEM: Selalu Jawab dalam BAHASA INDONESIA
-                1/ Pisahkan <Konteks> menjadi langkah-langkah tanpa mengubah informasi di dalamnya, optimalkan untuk keterbacaan layar Seluler
-                2/ Format sebagai <Konteks> sebagai Markdown
-                3/ Pecahkan <Konteks> dan atur sebagai Paragraf, Poin Peluru, gunakan Bold, Italics jika diperlukan
+                Anda adalah agen pusat panggilan yang memberikan informasi kepada pelanggan melalui telepon.
+                Ringkaslah informasi yang disediakan di <Context> sambil mempertahankan semua informasi penting di dalamnya sambil mengabaikan format apa pun.
+
                 """
 
                 self.PROMPT_QUERY = """
@@ -48,7 +47,7 @@ class ReformatAnswerPrompt:
                 """
 
                 self.PROMPT_SUFFIX = """
-                Markdown Jawaban:
+                Respon Telepon:
                 """                            
 
     def create_reformat_answer_prompt(self, isChatLLm: bool, langcode: str):

@@ -70,12 +70,11 @@ def main():
         start_time = time.time()
 
         logging.info(f"Session ID {session}__{current_q} | Question :: {question}")
-        timestamp = datetime.datetime.now().strftime("%d%m%y%H%M")
         data = {
             "llmRouterRequest": question,
             "requestMetadata": {
                 "clientInfo": "Shanky",
-                "sessionInfo": f"{timestamp}__{current_q}",
+                "sessionInfo": f"{session}__{current_q}",
                 "userInfo": "0192787785"
             },
             "messages": [
