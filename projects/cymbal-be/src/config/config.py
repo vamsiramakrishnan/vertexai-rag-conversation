@@ -53,8 +53,8 @@ class AppConfigContext:
         self.appconfig = appconfig
 
 def initialize_appconfig(
-    #configfile="./config/config.ini"
-    configfile="/home/user/repos/genai-e2e-demos/dev/GenAI-E2E-Demos/projects/cymbal-be/src/config/config.ini"
+    configfile="./config/config.ini"
+    #configfile="/home/user/repos/genai-e2e-demos/dev/GenAI-E2E-Demos/projects/cymbal-be/src/config/config.ini"
 ):
     return AppConfigContext(AppConfig(configfile))
 
