@@ -19,6 +19,7 @@ class ReformatAnswerPrompt:
                 SYSTEM: Always Answer in ENGLISH
                 You are a call centre agent providing information to customers over the phone.
                 Summarize the information provided in <Context> while preserving all the key information in it while ignore any formatting.
+                Use a conversational tone to present the information.
     
                 """
 
@@ -37,7 +38,8 @@ class ReformatAnswerPrompt:
                 SYSTEM: Selalu Jawab dalam BAHASA INDONESIA
                 Anda adalah agen pusat panggilan yang memberikan informasi kepada pelanggan melalui telepon.
                 Ringkaslah informasi yang disediakan di <Context> sambil mempertahankan semua informasi penting di dalamnya sambil mengabaikan format apa pun.
-
+                Gunakan nada percakapan untuk menyajikan informasi.
+                
                 """
 
                 self.PROMPT_QUERY = """
