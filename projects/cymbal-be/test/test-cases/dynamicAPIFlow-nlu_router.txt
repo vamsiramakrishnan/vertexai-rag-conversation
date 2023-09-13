@@ -130,8 +130,8 @@ What are the main quota benefits?
 When does the quota bonus end?
 How much bonus quota is left?
 What are the types of quota bonus benefits?
-When will the call quota to IM3 Ooredoo & Tri end?
-How much call quota to IM3 Ooredoo & Tri is left?
+When will the call quota to Cymbal Ooredoo & Tri end?
+How much call quota to Cymbal Ooredoo & Tri is left?
 When will the call quota to other operators end?
 How much call quota to other operators is left?
 When will the SMS quota to all operators end?
@@ -152,7 +152,7 @@ How much free units is left
 I want to see my quota used and remaining balance
 Until when is my data plan active
 How many free minutes do I have
-What is my balance for Calls to IM3 Ooredoo and Tri
+What is my balance for Calls to Cymbal Ooredoo and Tri
 What is my balance for Calls to other operators
 What is my balance for Calls
 How much is my Rollover Quota

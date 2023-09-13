@@ -88,19 +88,19 @@ Tolong informasikan jumlah poin loyalty yang masih tersedia.
 Tolong informasikan jumlah poin loyalty yang tersedia.
 Tolong sebutkan berapa poin loyalty yang tersisa saat ini.
 Tolong sebutkan jumlah poin loyalty yang tersisa di akun saya.
-Apa itu Indosat HiFi?
-Di mana saya dapat mengetahui lebih banyak tentang internet broadband HiFi Indosat?
-Apa kelebihan layanan Indosat HiFi?
-Bagaimana Anda berencana untuk memperluas jangkauan Indosat HiFi?
-Rekomendasi paket internet Q HiFi Broadband untuk pelanggan perumahan
-Bagaimana cara membayar layanan HiFi
-Bagaimana cara berlangganan layanan Indosat HiFi ?
+Apa itu Cymbal FastFi?
+Di mana saya dapat mengetahui lebih banyak tentang internet broadband FastFi Cymbal?
+Apa kelebihan layanan Cymbal FastFi?
+Bagaimana Anda berencana untuk memperluas jangkauan Cymbal FastFi?
+Rekomendasi paket internet Q FastFi Broadband untuk pelanggan perumahan
+Bagaimana cara membayar layanan FastFi
+Bagaimana cara berlangganan layanan Cymbal FastFi ?
 Apa itu eSIM
 Apa saja kelebihan eSIM?
 Bagaimana cara membeli dan mengaktifkan eSIM?
-Apakah saat ini ada bundling khusus perangkat dengan IM3 eSIM?
+Apakah saat ini ada bundling khusus perangkat dengan Cymbal eSIM?
 Apakah saya dapat dapat menukar/ mengganti kartu SIM fisik lama nya dengan eSIM?
-Apakah nomor eSIM IM3 tersedia di seluruh Indonesia?
+Apakah nomor eSIM Cymbal tersedia di seluruh Indonesia?
 Apa yang harus dilakukan jika secara tidak sengaja menghapus profile eSIM dari perangkat Pelanggan?
 Berapa lama waktu yang diperlukan untuk mengunduh eSIM profil?
 Apakah eSIM dapat digunakan lebih dari 1 perangkat?
@@ -110,55 +110,55 @@ Bagaimana jika kode QR Pelanggan hilang? Bagaimana Pelanggan dapat menggunakanny
 Saya masih menggunakan perangkat lama, namun kode QR hilang/ terhapus, apakah saya dapat menggunakan kode QR nya kembali?
 Bagaimana jika terjadi kegagalan pada saat memindai kode QR?
 Ketika akan melakukan perbaikan perangkat, apakah Pelanggan harus menghapus eSIM dari perangkat?
-Apakah IM3 akan mengubah pengaturan pada perangkat yang menggunakan eSIM?
+Apakah Cymbal akan mengubah pengaturan pada perangkat yang menggunakan eSIM?
 Apakah saya dapat memindahkan eSIM profile yang sudah digunakan di perangkat lain?
 Perangkat apa saja yang bisa menggunakan eSIM?
 Apakah terdapat perbedaan jenis device yang support eSIM dalam masing-masing operator seluler?
 Bagaimanakah saya melakukan verifikasi untuk mendapatkan email kode QR?
 Apakah yang harus dilakukan jika aktivasi eSIM sudah berhasil, namun masih belum dapat digunakan untuk SMS, telepon, maupun internet?
-Apabila saya kehilangan perangkat dengan eSIM IM3 nya, apa yang harus dilakukan agar nomor IM3 tidak disalahgunakan?
-Promo apa saja yang bisa kamu dapatkan di myIM3?
+Apabila saya kehilangan perangkat dengan eSIM Cymbal nya, apa yang harus dilakukan agar nomor Cymbal tidak disalahgunakan?
+Promo apa saja yang bisa kamu dapatkan di LifeApp?
 Bagaimana cara mendapatkan promo cashback?
-Jenis promo cashback apa yang sedang ada di myIM3?
+Jenis promo cashback apa yang sedang ada di LifeApp?
 Bagaimana cara mendapatkan promo ekstra kuota?
 Bagaimana cara mendapatkan promo reward voucher?
-Reward voucher apa yang tersedia di myIM3?
-Ada berita apa saja di myIM3 ?
-Apakah saya bisa membeli paket games di myIM3 ?
+Reward voucher apa yang tersedia di LifeApp?
+Ada berita apa saja di LifeApp ?
+Apakah saya bisa membeli paket games di LifeApp ?
 Bagaimana cara membeli paket Mobile Legend/ Free Fire atau games?
-Apakah ada paket kuota dan bonus bila membeli paket games di myIM3 ?
-Misi berhadiah apa saja yang ada di myIM3 ?
+Apakah ada paket kuota dan bonus bila membeli paket games di LifeApp ?
+Misi berhadiah apa saja yang ada di LifeApp ?
 Bagaimana mendapatkan hadiahnya  di Lifestyle?
-Apakah ada hadiah kuota myIM3 ?
-Cara mendapatkan hadiah myIM3 World
-Dimana pengumuman hadiah di myIM3 ?
-Bagaimana cara chatting sesama pelanggan myIM3 ?
-Bagaimana Cara bermain myIM3 World
-Apa Hadiah myIM3 World ?
+Apakah ada hadiah kuota LifeApp ?
+Cara mendapatkan hadiah LifeApp World
+Dimana pengumuman hadiah di LifeApp ?
+Bagaimana cara chatting sesama pelanggan LifeApp ?
+Bagaimana Cara bermain LifeApp World
+Apa Hadiah LifeApp World ?
 apa itu fitur Lifestyle ?
-Apakah bisa menonton TV di myIM3 ?
-Apakah di myIM3 bisa nonton TV ?
-Apakah bisa nonton Berita di myIM3 ?
-Apakah ada permainan berhadiah di myIM3 ?
+Apakah bisa menonton TV di LifeApp ?
+Apakah di LifeApp bisa nonton TV ?
+Apakah bisa nonton Berita di LifeApp ?
+Apakah ada permainan berhadiah di LifeApp ?
 Bagaimana cara bermain Games Club ?
 Apakah gamesclub ada hadiahnya ?
-Ada promo apa saja di myIM3 ?
+Ada promo apa saja di LifeApp ?
 Apakah ada Promo Voucher Gratis ?
 Bagaimana menggunakan Voucher Promo ?
-Apakah bisa nonton film di myIM3 ?
-Ada Film seru apa saja di myIM3 ?
-Bagaimana cara melihat berita terbaru di myIM3 ?
-Apa itu myIM3?
-Bagaimana cara menginstal aplikasi myIM3?
-Apa saja manfaat yang bisa kamu dapatkan dari menginstal aplikasi myIM3?
-Apa saja keuntungan lain yang bisa saya dapatkan sebagai pengguna baru aplikasi myIM3
-Bagaimana cara klaim ekstra kuota 1GB untuk pelanggan baru myIM3?
-Bagaimanakah mekanisme ekstra kuota 1GB myIM3?
-Berapa lama masa berlaku ekstra kuota 1GB myIM3?
-Selain kuota 1GB, program promo ekstra kuota apakah yang pengguna bisa dapatkan di aplikasi myIM3?
-Apa itu Member Get Member (MGM) myIM3?
-Dimana kode referral myIM3 dapat ditemukan?
-Bagaimana cara memasukkan kode referral di myIM3?
+Apakah bisa nonton film di LifeApp ?
+Ada Film seru apa saja di LifeApp ?
+Bagaimana cara melihat berita terbaru di LifeApp ?
+Apa itu LifeApp?
+Bagaimana cara menginstal aplikasi LifeApp?
+Apa saja manfaat yang bisa kamu dapatkan dari menginstal aplikasi LifeApp?
+Apa saja keuntungan lain yang bisa saya dapatkan sebagai pengguna baru aplikasi LifeApp
+Bagaimana cara klaim ekstra kuota 1GB untuk pelanggan baru LifeApp?
+Bagaimanakah mekanisme ekstra kuota 1GB LifeApp?
+Berapa lama masa berlaku ekstra kuota 1GB LifeApp?
+Selain kuota 1GB, program promo ekstra kuota apakah yang pengguna bisa dapatkan di aplikasi LifeApp?
+Apa itu Member Get Member (MGM) LifeApp?
+Dimana kode referral LifeApp dapat ditemukan?
+Bagaimana cara memasukkan kode referral di LifeApp?
 Apakah ada batas maksimum pengguna baru yang bisa diajak berpartisipasi MGM?
 Berapa banyak pengguna baru dapat menerima ajakan dari pengguna lama?
 Apa itu permainan Tendangan Bonus (TEBUS)?
@@ -166,12 +166,12 @@ Apa saja syarat dan cara agar pengguna dapat bermain Tendangan Bonus (TEBUS)?
 Apakah ada batas durasi saat memainkan Tendangan Bonus (TEBUS)?
 Apakah ekstra kuota akan langsung didapatkan oleh pengguna setelah mengikuti permainan Tendangan Bonus (TEBUS)?
 Apakah ada batas maksimum untuk mengikuti permainan Tendangan Bonus (TEBUS)?
-Sampai kapankah periode program/promo ekstra kuota di myIM3 berlangsung?
-Bagaimana cara mendapatkan uang/penghasilan tambahan di myIM3
-Apa itu Kios myIM3?
-Bagaimana cara join Kios myIM3?
-Apakah saldo Kios myIM3 dapat diuangkan?
-Apa saja keuntungan yang saya dapatkan pada saat menjual pulsa dan paket data internet lewat Kios myIM3?
+Sampai kapankah periode program/promo ekstra kuota di LifeApp berlangsung?
+Bagaimana cara mendapatkan uang/penghasilan tambahan di LifeApp
+Apa itu Kios LifeApp?
+Bagaimana cara join Kios LifeApp?
+Apakah saldo Kios LifeApp dapat diuangkan?
+Apa saja keuntungan yang saya dapatkan pada saat menjual pulsa dan paket data internet lewat Kios LifeApp?
 Saya ingin  Informasi tentang Layanan 5G?
 Saya ingin Informasi tentang Perubahan Kartu?
 Saya ingin Informasi Masa Aktif
@@ -186,101 +186,101 @@ Informasi SLI/international call dan SMS
 Informasi tentang VoLTE (Voice over LTE)
 Informasi isi ulang pulsa
 Bagaimana cara memesan paket perdana atau kartu SIM secara online
-Ada produk apa saja yang ditawarkan oleh IM3?
-Apa biaya yang harus dibayarkan untuk layanan IM3?
-Apa dampak positif menggunakan IM3?
-Apa definisi atau pengertian dari IM3?
-Apa itu IM3 secara spesifik?
-Apa jenis produk yang tersedia dari IM3?
-Apa jenis-jenis paket yang dapat dibeli dari IM3?
-Apa kegunaan IM3?
-Apa keistimewaan fitur-fitur IM3?
-Apa keistimewaan IM3 yang tidak dimiliki oleh yang lain?
-Apa kelebihan dan kekurangan menggunakan IM3?
-Apa kelebihan IM3 dibandingkan dengan yang lain?
-Apa kepraktisan penggunaan IM3?
-Apa keunggulan IM3?
-Apa keunggulan yang dimiliki IM3 dalam industri tersebut?
-Apa kisaran harga produk di IM3?
-Apa langkah-langkah untuk memulai menggunakan IM3?
-Apa manfaat penggunaan IM3?
-Apa paket-paket yang dapat saya pilih dari IM3?
-Apa pendapat Anda tentang penggunaan IM3?
-Apa pilihan paket yang tersedia di IM3?
-Apa pilihan pembayaran yang tersedia untuk tagihan IM3?
-Apa pilihan produk yang ada di IM3?
-Apa produk-produk yang dapat dibeli dari IM3?
-Apa prosedur penggunaan IM3?
-Apa saja barang atau layanan yang bisa saya dapatkan dari IM3?
-Apa saja fitur IM3?
-Apa saja kegunaan dari fitur-fitur yang tersedia di IM3?
-Apa saja kelebihan fitur-fitur yang ditawarkan oleh IM3?
-Apa saja kemampuan fitur-fitur IM3?
-Apa saja opsi pembayaran yang ditawarkan untuk tagihan IM3?
-Apa saja paket yang ditawarkan oleh IM3?
-Apa saja persyaratan untuk menggunakan IM3?
-Apa saja pilihan paket yang bisa saya ambil dari IM3?
-Apa saja variasi paket yang tersedia di IM3?
-Apa saja yang perlu dilakukan untuk memanfaatkan IM3?
-Apa tarif yang dikenakan untuk menggunakan IM3?
-Apa yang bisa Anda katakan tentang IM3?
-Apa yang bisa dilakukan dengan IM3?
-Apa yang dimaksud dengan IM3?
-Apa yang harus saya lakukan agar bisa menggunakan IM3?
-Apa yang membedakan fitur-fitur IM3 dengan yang lain?
-Apa yang membedakan IM3 dengan produk serupa?
-Apa yang membuat fitur-fitur IM3 menonjol?
-Apa yang membuat IM3 istimewa?
-Apa yang membuat IM3 menjadi pilihan yang baik?
-Apa yang membuat IM3 menonjol di pasar?
-Apa yang perlu saya bayar untuk memanfaatkan IM3?
-Apa yang perlu saya ketahui tentang IM3?
-Apa yang termasuk dalam rangkaian produk IM3?
-Apakah IM3 memberikan nilai tambah yang signifikan?
-Apakah IM3 merupakan merek, perusahaan, atau layanan?
-Apakah IM3 merupakan pilihan yang bagus?
-Apakah menggunakan IM3 memberikan manfaat yang baik?
-Apakah penggunaan IM3 itu bagus?
-Bagaimana cara mendaftar di IM3?
-Bagaimana cara mendapatkan akses ke IM3?
-Bagaimana cara mengaktifkan layanan IM3?
-Bagaimana cara menggunakan IM3?
-Bagaimana fitur IM3 dapat membantu pengguna?
-Bagaimana fitur-fitur IM3 dapat mempermudah pengguna?
-Bagaimana fitur-fitur IM3 memberikan nilai tambah?
-Bagaimana harga-harga di IM3?
-Bagaimana IM3 bisa dijelaskan?
-Bagaimana IM3 bisa dimanfaatkan?
-Bagaimana IM3 dapat berguna dalam kehidupan sehari-hari?
-Bagaimana IM3 dapat membantu saya?
-Bagaimana IM3 dapat memenuhi kebutuhan pengguna?
-Bagaimana IM3 unggul dibandingkan dengan pesaingnya?
-Bagaimana performa IM3 dalam penggunaannya?
-Bagaimana tarif penggunaan IM3 dibandingkan dengan yang lain?
-Bagaimana tingkat keandalan IM3 dalam penggunaannya?
-Berapa biaya yang harus saya keluarkan untuk menggunakan IM3?
-Berapa harga produk-produk IM3?
-Berapa tarif penggunaan IM3?
-Bisakah Anda memberi saya gambaran tentang IM3?
-Saya ingin mengetahui pilihan paket yang tersedia di IM3.
-Saya ingin mengetahui produk apa yang tersedia di IM3.
-Seberapa baik pengalaman menggunakan IM3?
-Sejauh mana kepuasan pengguna IM3?
-Tolong beri tahu saya daftar produk dari IM3.
-Tolong beri tahu saya tentang asal-usul IM3.
-Tolong beri tahu saya tentang semua opsi paket di IM3.
-Tolong jelaskan tentang berbagai paket di IM3.
-Tolong jelaskan tentang IM3.
-Tolong sebutkan produk-produk dari IM3.
+Ada produk apa saja yang ditawarkan oleh Cymbal?
+Apa biaya yang harus dibayarkan untuk layanan Cymbal?
+Apa dampak positif menggunakan Cymbal?
+Apa definisi atau pengertian dari Cymbal?
+Apa itu Cymbal secara spesifik?
+Apa jenis produk yang tersedia dari Cymbal?
+Apa jenis-jenis paket yang dapat dibeli dari Cymbal?
+Apa kegunaan Cymbal?
+Apa keistimewaan fitur-fitur Cymbal?
+Apa keistimewaan Cymbal yang tidak dimiliki oleh yang lain?
+Apa kelebihan dan kekurangan menggunakan Cymbal?
+Apa kelebihan Cymbal dibandingkan dengan yang lain?
+Apa kepraktisan penggunaan Cymbal?
+Apa keunggulan Cymbal?
+Apa keunggulan yang dimiliki Cymbal dalam industri tersebut?
+Apa kisaran harga produk di Cymbal?
+Apa langkah-langkah untuk memulai menggunakan Cymbal?
+Apa manfaat penggunaan Cymbal?
+Apa paket-paket yang dapat saya pilih dari Cymbal?
+Apa pendapat Anda tentang penggunaan Cymbal?
+Apa pilihan paket yang tersedia di Cymbal?
+Apa pilihan pembayaran yang tersedia untuk tagihan Cymbal?
+Apa pilihan produk yang ada di Cymbal?
+Apa produk-produk yang dapat dibeli dari Cymbal?
+Apa prosedur penggunaan Cymbal?
+Apa saja barang atau layanan yang bisa saya dapatkan dari Cymbal?
+Apa saja fitur Cymbal?
+Apa saja kegunaan dari fitur-fitur yang tersedia di Cymbal?
+Apa saja kelebihan fitur-fitur yang ditawarkan oleh Cymbal?
+Apa saja kemampuan fitur-fitur Cymbal?
+Apa saja opsi pembayaran yang ditawarkan untuk tagihan Cymbal?
+Apa saja paket yang ditawarkan oleh Cymbal?
+Apa saja persyaratan untuk menggunakan Cymbal?
+Apa saja pilihan paket yang bisa saya ambil dari Cymbal?
+Apa saja variasi paket yang tersedia di Cymbal?
+Apa saja yang perlu dilakukan untuk memanfaatkan Cymbal?
+Apa tarif yang dikenakan untuk menggunakan Cymbal?
+Apa yang bisa Anda katakan tentang Cymbal?
+Apa yang bisa dilakukan dengan Cymbal?
+Apa yang dimaksud dengan Cymbal?
+Apa yang harus saya lakukan agar bisa menggunakan Cymbal?
+Apa yang membedakan fitur-fitur Cymbal dengan yang lain?
+Apa yang membedakan Cymbal dengan produk serupa?
+Apa yang membuat fitur-fitur Cymbal menonjol?
+Apa yang membuat Cymbal istimewa?
+Apa yang membuat Cymbal menjadi pilihan yang baik?
+Apa yang membuat Cymbal menonjol di pasar?
+Apa yang perlu saya bayar untuk memanfaatkan Cymbal?
+Apa yang perlu saya ketahui tentang Cymbal?
+Apa yang termasuk dalam rangkaian produk Cymbal?
+Apakah Cymbal memberikan nilai tambah yang signifikan?
+Apakah Cymbal merupakan merek, perusahaan, atau layanan?
+Apakah Cymbal merupakan pilihan yang bagus?
+Apakah menggunakan Cymbal memberikan manfaat yang baik?
+Apakah penggunaan Cymbal itu bagus?
+Bagaimana cara mendaftar di Cymbal?
+Bagaimana cara mendapatkan akses ke Cymbal?
+Bagaimana cara mengaktifkan layanan Cymbal?
+Bagaimana cara menggunakan Cymbal?
+Bagaimana fitur Cymbal dapat membantu pengguna?
+Bagaimana fitur-fitur Cymbal dapat mempermudah pengguna?
+Bagaimana fitur-fitur Cymbal memberikan nilai tambah?
+Bagaimana harga-harga di Cymbal?
+Bagaimana Cymbal bisa dijelaskan?
+Bagaimana Cymbal bisa dimanfaatkan?
+Bagaimana Cymbal dapat berguna dalam kehidupan sehari-hari?
+Bagaimana Cymbal dapat membantu saya?
+Bagaimana Cymbal dapat memenuhi kebutuhan pengguna?
+Bagaimana Cymbal unggul dibandingkan dengan pesaingnya?
+Bagaimana performa Cymbal dalam penggunaannya?
+Bagaimana tarif penggunaan Cymbal dibandingkan dengan yang lain?
+Bagaimana tingkat keandalan Cymbal dalam penggunaannya?
+Berapa biaya yang harus saya keluarkan untuk menggunakan Cymbal?
+Berapa harga produk-produk Cymbal?
+Berapa tarif penggunaan Cymbal?
+Bisakah Anda memberi saya gambaran tentang Cymbal?
+Saya ingin mengetahui pilihan paket yang tersedia di Cymbal.
+Saya ingin mengetahui produk apa yang tersedia di Cymbal.
+Seberapa baik pengalaman menggunakan Cymbal?
+Sejauh mana kepuasan pengguna Cymbal?
+Tolong beri tahu saya daftar produk dari Cymbal.
+Tolong beri tahu saya tentang asal-usul Cymbal.
+Tolong beri tahu saya tentang semua opsi paket di Cymbal.
+Tolong jelaskan tentang berbagai paket di Cymbal.
+Tolong jelaskan tentang Cymbal.
+Tolong sebutkan produk-produk dari Cymbal.
 Ada produk apa saja yang ditawarkan oleh Telkomsel?
-Apa dampak positif menggunakan Telkomsel daripada IM3?
-Apa fitur unik yang dimiliki oleh Telkomsel yang tidak dimiliki oleh IM3?
+Apa dampak positif menggunakan Telkomsel daripada Cymbal?
+Apa fitur unik yang dimiliki oleh Telkomsel yang tidak dimiliki oleh Cymbal?
 Apa jenis produk yang tersedia dari Telkomsel?
 Apa jenis-jenis paket yang dapat dibeli dari Telkomsel?
-Apa kelebihan dan kekurangan menggunakan Telkomsel dibandingkan dengan IM3?
+Apa kelebihan dan kekurangan menggunakan Telkomsel dibandingkan dengan Cymbal?
 Apa kepraktisan penggunaan Telkomsel?
 Apa paket-paket yang dapat saya pilih dari Telkomsel?
-Apa pendapat Anda tentang perbandingan Telkomsel dan IM3?
+Apa pendapat Anda tentang perbandingan Telkomsel dan Cymbal?
 Apa pilihan paket yang tersedia di Telkomsel?
 Apa pilihan produk yang ada di Telkomsel?
 Apa produk-produk yang dapat dibeli dari Telkomsel?
@@ -295,23 +295,23 @@ Apa saja variasi paket yang tersedia di Telkomsel?
 Apa tarif yang dikenakan untuk menggunakan Telkomsel?
 Apa yang bisa Anda katakan tentang Telkomsel?
 Apa yang bisa dilakukan dengan Telkomsel?
-Apa yang membuat fitur-fitur Telkomsel menonjol dibandinkan IM3?
+Apa yang membuat fitur-fitur Telkomsel menonjol dibandinkan Cymbal?
 Apa yang membuat Telkomsel menjadi pilihan yang baik?
 Apa yang membuat Telkomsel menonjol di pasaran?
-Apakah Telkomsel lebih baik daripada IM3?
-Apakah Telkomsel memberikan nilai tambah yang lebih signifikan daripada IM3?
-Apakah Telkomsel merupakan pilihan yang lebih baik dibandingkan dengan IM3?
+Apakah Telkomsel lebih baik daripada Cymbal?
+Apakah Telkomsel memberikan nilai tambah yang lebih signifikan daripada Cymbal?
+Apakah Telkomsel merupakan pilihan yang lebih baik dibandingkan dengan Cymbal?
 Bagaimana cara mendaftar di Telkomsel?
 Bagaimana cara mendapatkan akses ke Telkomsel?
 Bagaimana cara mengaktifkan layanan Telkomsel?
 Bagaimana cara menggunakan Telkomsel?
 Bagaimana daftar paket yang ditawarkan oleh Telkomsel?
-Bagaimana fitur-fitur Telkomsel berbeda dengan IM3?
+Bagaimana fitur-fitur Telkomsel berbeda dengan Cymbal?
 Bagaimana harga-harga di Telkomsel?
-Bagaimana perbandingan Telkomsel dengan IM3 dalam kualitasnya?
-Bagaimana Telkomsel membedakan diri dari IM3?
-Bagaimana tingkat keandalan Telkomsel dibandingkan dengan IM3?
+Bagaimana perbandingan Telkomsel dengan Cymbal dalam kualitasnya?
+Bagaimana Telkomsel membedakan diri dari Cymbal?
+Bagaimana tingkat keandalan Telkomsel dibandingkan dengan Cymbal?
 Berapa harga produk-produk Telkomsel?
-Mana yang lebih bagus, Telkomsel atau IM3?
-Sejauh mana Telkomsel unggul dibandingkan dengan IM3?
+Mana yang lebih bagus, Telkomsel atau Cymbal?
+Sejauh mana Telkomsel unggul dibandingkan dengan Cymbal?
 Tolong beri tahu saya daftar produk dari Telkomsel.
