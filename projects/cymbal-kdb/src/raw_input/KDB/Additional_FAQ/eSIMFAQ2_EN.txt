@@ -1,46 +1,46 @@
 
 
 
-A eSIM cannot be used by more than 1 device. The QR code from 1 number that has been scanned and installed on 1 device cannot be scanned again on another device.
+eSIM cannot be used by more than 1 device. The QR code from 1 number that has been scanned and installed on 1 device cannot be scanned again on another device.
 
 
-A There are some restrictions on eSIM use on multiple devices. The QR Code from 1 MSISDN number that has been downloaded and installed on 1 customer device, cannot be downloaded on another device
+There are some restrictions on eSIM use on multiple devices. The QR Code from 1 MSISDN number that has been downloaded and installed on 1 customer device, cannot be downloaded on another device
 
 
-A Customers can re-scan the eSIM QR code up to 10 times on the same device.
+Customers can re-scan the eSIM QR code up to 10 times on the same device.
 
 
-A If the eSIM QR code is lost or deleted, the customer can contact Call Center IM3 185 to get the QR code back.
+If the eSIM QR code is lost or deleted, the customer can contact Call Center Cymbal 185 to get the QR code back.
 
 
-A If the eSIM QR code is deleted on the old device, the customer can contact Call Center IM3 185 to get the QR code back.
+If the eSIM QR code is deleted on the old device, the customer can contact Call Center Cymbal 185 to get the QR code back.
 
 
-A If there is a failure while scanning the eSIM QR code, make sure you are connected to the Internet, then:
+If there is a failure while scanning the eSIM QR code, make sure you are connected to the Internet, then:
 - Check the lighting conditions that may affect the camera during scanning process
 - Check whether the QR code is damaged or not.
-- If the device is still having problems scanning, customers can contact the IM3 Call Center to get the QR code again
+- If the device is still having problems scanning, customers can contact the Cymbal Call Center to get the QR code again
 
 
-A If the device is going to be repaired, we recommend to delete eSIM profile from the device first so that your phone number is not misused by other parties
+If the device is going to be repaired, we recommend to delete eSIM profile from the device first so that your phone number is not misused by other parties
 
 
-A IM3 will not change settings on devices that use eSIM.
+Cymbal will not change settings on devices that use eSIM.
 
 
-A eSIM provide that is already used on another device cannot be moved to a new device
+eSIM provide that is already used on another device cannot be moved to a new device
 
 
-A The list of devices supporting eSIM can be checked on the website im3.id/esim. While selecting a device, make sure the device supports eSIM feature.  The device should be officially on sale in Indonesia and IMEI has been registered in Ministry of Industry. You can check IMEI status at https://imei.kemenperin.go.id/ or call KOMINFO Contact Center 159. Indosat Ooredoo Hutchison is not responsible if the eSIM activation process fails because the device does not support eSIM services and IMEI is not registered in Ministry of Industry
+The list of devices supporting eSIM can be checked on the website cymbal.com/esim. While selecting a device, make sure the device supports eSIM feature.  The device should be officially on sale in Indonesia and IMEI has been registered in Ministry of Industry. You can check IMEI status at https://imei.kemenperin.go.id/ or call KOMINFO Contact Center 159. Cymbal is not responsible if the eSIM activation process fails because the device does not support eSIM services and IMEI is not registered in Ministry of Industry
 
 
-A There is no difference for the type of eSIM device, for example: iPhone, Samsung, Huawei, etc.
+There is no difference for the type of eSIM device, for example: iPhone, Samsung, Huawei, etc.
 
 
-A The email sender for eSIM QR code can is esim@ioh.co.id
+The email sender for eSIM QR code can is esim@cymbal.com
 
 
-A If eSIM activation has been successful, but customer can't use for SMS, calls, or internet the customer should contact IM3 Call Center 185 to resolve the issue.
+If eSIM activation has been successful, but customer can't use for SMS, calls, or internet the customer should contact Cymbal Call Center 185 to resolve the issue.
 
 
-A If the device with IM3 eSIM is lost, customer can contact the IM3 Call Center 185 to block the eSIM profile and it is recommended to visit the nearest IM3 Gerai to reactivate the IM3 number in a physical SIM card or eSIM.
+If the device with Cymbal eSIM is lost, customer can contact the Cymbal Call Center 185 to block the eSIM profile and it is recommended to visit the nearest Cymbal Stores to reactivate the Cymbal number in a physical SIM card or eSIM.
