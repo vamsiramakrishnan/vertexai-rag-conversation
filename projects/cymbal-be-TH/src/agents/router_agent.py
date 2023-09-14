@@ -104,7 +104,7 @@ class RouterAgent:
         try:
             if(history_messages and configcontex.FEATURE_REFRAME_QUERY == 'True'):
                 if (len(history_messages) >= 1):
-                    if(detected_language == 'id'):
+                    if(detected_language == 'th'):
                         return self.reframe_query_chain_id.process_query(query, history_messages)
                     else:
                         return self.reframe_query_chain.process_query(query, history_messages)
@@ -122,7 +122,7 @@ class RouterAgent:
     def reformat_answer(self, answer: str, detected_language: str) -> str:
         try:
             if(answer and configcontex.FEATURE_REFORMAT_ANSWER == 'True'):
-                if(detected_language == 'id'):
+                if(detected_language == 'th'):
                     return self.reformat_answer_chain_id.process_query(answer)
                 else:
                     return self.reformat_answer_chain.process_query(answer)                                       
@@ -154,7 +154,7 @@ class RouterAgent:
         
         intent_type = intent_type.casefold()
         
-        if(intent_type == 'staticknowledgebase' and configcontex.FEATURE_KDB_ID == 'True' and detected_language == 'id'):
+        if(intent_type == 'staticknowledgebase' and configcontex.FEATURE_KDB_ID == 'True' and detected_language == 'th'):
             query = original_query
             chain_map = {
                 "staticknowledgebase": (
@@ -163,7 +163,7 @@ class RouterAgent:
                 )
             }
             self.log(logging.INFO, f"Using chain staticknowledgebase_chain_id for intent_type {intent_type}")
-        if(intent_type == 'productflow' and detected_language == 'id'):
+        if(intent_type == 'productflow' and detected_language == 'th'):
             query = original_query
             chain_map = {
                 "productflow": (
@@ -254,7 +254,7 @@ class RouterAgent:
                 qa_response_type == 'StaticKnowledgebaseQnA' 
                 and configcontex.FEATURE_KDB_ID == 'True'
             ):
-                if(detected_language not in ['id', 'en']):
+                if(detected_language not in ['th', 'en']):
                     bool_translate = True
             else:
                 bool_translate = True
