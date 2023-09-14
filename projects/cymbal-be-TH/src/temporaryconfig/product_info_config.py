@@ -161,19 +161,19 @@ Context:
 # FastFi Broadband Fibre FTTH Plans
 ## FastFi Unlimited Broadband FTTH Packages
 
-### FastFi 30 Mbps @ THB 245/month
+### FastFi 30 Mbps @ THB 645/month
 #### Ideal for 5 - 7 Devices, Social media with video + streaming on HD + video conference (zoom, Gmeet)
 
-### FastFi 50 Mbps @ THB 275/month
+### FastFi 50 Mbps @ THB 775/month
 #### Ideal for 8 - 12 Devices, Social media with video + streaming on laptop in HD quality + Video conference + faster download of film/game of 7GB + 2 internet CCTV Home
 
-### FastFi 100 Mbps @ THB 345/month
+### FastFi 100 Mbps @ THB 945/month
 #### Ideal for 16 - 20 Devices, Social media with video + streaming on laptop/smart TV in 4K quality + Video conference + faster download of film/game of max 20GB + 3 internet CCTV home + online gaming in HD
 
-### FastFi 300 Mbps @ THB 555/month
+### FastFi 300 Mbps @ THB 1355/month
 #### Ideal for 20 devices with Smart Home Device, Social media with video + streaming on laptop/smart TV 4K quality+Video conference + Screen Sharing+ Audio+Online Gaming Experience (Sony, PS4, Xbox One, Nintendo Switch, PC/Mac/Mobile)+Smart Home
 
-### FastFi 500 Mbps @ THB 655/month
+### FastFi 500 Mbps @ THB 1655/month
 #### Ideal for 24 devices with Smart Home Device, Social media with video + streaming on laptop/Smart TV 4K quality+ Online Gaming + Vidoe Conference + 4K video streaming + Multiple Smart Home Device
 
 ## Includes FREE installation and WiFi Router device! T&C apply more info. Price exclude tax 11%. Installation and ONT (Wi-Fi) is included in the price up to 200m
@@ -369,23 +369,23 @@ PRODUCT_CONFIG_TH="""
 ## แพ็คเกจ FTTH บรอดแบนด์ FastFi ไม่ จำกัด
 
 
-### FastFi 30 Mbps @ 245 บาท/เดือน
+### FastFi 30 Mbps @ 645 บาท/เดือน
 #### เหมาะสำหรับอุปกรณ์ 5 - 7 เครื่อง โซเชียลมีเดียพร้อมวิดีโอ + สตรีมมิ่งบนการประชุมทางวิดีโอ HD + (ซูม, Gmeet)
 
 
-### FastFi 50 Mbps @ 275 บาท/เดือน
+### FastFi 50 Mbps @ 775 บาท/เดือน
 #### เหมาะสำหรับอุปกรณ์ 8 - 12 เครื่อง โซเชียลมีเดียพร้อมวิดีโอ + สตรีมมิ่งบนแล็ปท็อปในคุณภาพระดับ HD + การประชุมทางวิดีโอ + ดาวน์โหลดภาพยนตร์/เกม 7GB ที่เร็วขึ้น + อินเทอร์เน็ต 2 ตัว CCTV Home
 
 
-### FastFi 100 Mbps @ 345 บาท/เดือน
+### FastFi 100 Mbps @ 945 บาท/เดือน
 #### เหมาะสำหรับอุปกรณ์ 16 - 20 เครื่อง โซเชียลมีเดียพร้อมวิดีโอ + สตรีมมิ่งบนแล็ปท็อป/สมาร์ททีวีในคุณภาพ 4K + การประชุมทางวิดีโอ + ดาวน์โหลดภาพยนตร์/เกมที่เร็วขึ้นสูงสุด 20GB + กล้องวงจรปิดอินเทอร์เน็ต 3 ตัวที่บ้าน + เกมออนไลน์ในรูปแบบ HD
 
 
-### FastFi 300 Mbps @ 555 บาท/เดือน
+### FastFi 300 Mbps @ 1355 บาท/เดือน
 #### เหมาะสำหรับอุปกรณ์ 20 เครื่องที่มีอุปกรณ์สมาร์ทโฮม โซเชียลมีเดียพร้อมวิดีโอ + สตรีมมิ่งบนแล็ปท็อป/สมาร์ททีวี คุณภาพ 4K+การประชุมทางวิดีโอ + การแชร์หน้าจอ+ เสียง+ประสบการณ์การเล่นเกมออนไลน์ (Sony, PS4, Xbox One, Nintendo Switch, PC/ Mac/มือถือ)+สมาร์ทโฮม
 
 
-### FastFi 500 Mbps @ 655 บาท/เดือน
+### FastFi 500 Mbps @ 1655 บาท/เดือน
 #### เหมาะสำหรับอุปกรณ์ 24 เครื่องที่มีอุปกรณ์สมาร์ทโฮม โซเชียลมีเดียพร้อมวิดีโอ + สตรีมมิ่งบนแล็ปท็อป/สมาร์ททีวีคุณภาพ 4K+ การเล่นเกมออนไลน์ + การประชุม Vidoe + สตรีมมิ่งวิดีโอ 4K + อุปกรณ์สมาร์ทโฮมหลายรายการ
 
 

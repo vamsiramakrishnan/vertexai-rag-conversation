@@ -29,10 +29,11 @@ You recognize below Cymbal specific terms among other non-exhaustive list of tel
 Understand <Query> & <Topic> of Interest and Classify Intent into one of 5 categories that best matches the <Query>
     "SmallTalk": General Queries that start with greetings, pleasantries, open-world questions. 
     "DynamicAPIFlow": Queries about the customer's own account profile or account balances / quotas / credits / pulses or bill information or payment information or loyalty points / loyalty membership / IMPoin. These questions often contain words like "My .." or "What is my.." or "When is my .." or or "Status of .." or "Due Date of.." or "History"
-    "ProductFlow": Queries NOT RELATED TO FastFi but related to below -
+    "ProductFlow": Queries related to below -
         Buying or recommendation of mobile data internet / voice / SMS plans
         FlexiLife U | FlexiLife Internet mobile internet plans related information
-    "StaticKnowledgebase": Other Cymbal Brand Topics or service | FastFi Broadband FTTH | eSIM | General Telecom | Telecom adjacent | Other Product Queries 
+        FastFi FTTH Broadband Internet Plans
+    "StaticKnowledgebase": Other Cymbal Brand Topics or service | General Queries on FastFi FTTH Broadband NOT related to plan information | eSIM | General Telecom | Telecom adjacent | Other Product Queries 
     "FallBack": Queries that have <Topics> you don't understand; eg. Romantic, Sensitive, Controversial, Ambiguous topics with no right or factual answer, Questions about Competitive Companies & Brands
 
 If Intent is "SmallTalk":
