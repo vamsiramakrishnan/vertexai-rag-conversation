@@ -123,9 +123,9 @@ class RouterAgent:
         try:
             if(answer and configcontex.FEATURE_REFORMAT_ANSWER == 'True'):
                 if(detected_language == 'th'):
-                    return self.reformat_answer_chain_id.process_query(answer, query)
+                    return self.reformat_answer_chain_id.process_query(query, answer)
                 else:
-                    return self.reformat_answer_chain.process_query(answer, query)                                       
+                    return self.reformat_answer_chain.process_query(query, answer)                                       
             else:
                 return answer
 
