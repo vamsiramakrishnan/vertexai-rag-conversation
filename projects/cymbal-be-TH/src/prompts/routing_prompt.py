@@ -33,7 +33,7 @@ Understand <Query> & <Topic> of Interest and Classify Intent into one of 5 categ
         Buying or recommendation of mobile data internet / voice / SMS plans
         FlexiLife U | FlexiLife Internet mobile internet plans related information
         FastFi FTTH Broadband Internet Plans
-    "StaticKnowledgebase": Other Cymbal Brand Topics or service | General Queries on FastFi FTTH Broadband NOT related to plan information | eSIM | General Telecom | Telecom adjacent | Other Product Queries 
+    "StaticKnowledgebase": Other Cymbal Brand Topics or service | General Queries on FastFi FTTH Broadband NOT related to FastFi plan information | eSIM | General Telecom | Telecom adjacent | Other Product Queries 
     "FallBack": Queries that have <Topics> you don't understand; eg. Romantic, Sensitive, Controversial, Ambiguous topics with no right or factual answer, Questions about Competitive Companies & Brands
 
 If Intent is "SmallTalk":
