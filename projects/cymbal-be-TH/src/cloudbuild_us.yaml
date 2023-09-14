@@ -1,0 +1,39 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - '-t'
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-llm-dev:v1'
+      - .      
+    dir: projects/cymbal-be/src
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-llm-dev:v1'
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    args:
+      - run
+      - deploy
+      - crbe-llm-dev-v1
+      - '--image'
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/genai-src-repo/crbe-llm-dev:v1'
+      - '--region'
+      - us-central1
+      - '--platform'
+      - managed
+      - '--service-account'
+      - sa-crbe-llm
+      - '--execution-environment'
+      - gen2
+      - '--cpu-boost'
+      - '--cpu'
+      - '1'
+      - '--memory'
+      - 2048Mi
+      - '--min-instances'
+      - '1'
+      - '--max-instances'
+      - '1'
+      - '--allow-unauthenticated'   
+      - '--use-http2'             
+    entrypoint: gcloud
