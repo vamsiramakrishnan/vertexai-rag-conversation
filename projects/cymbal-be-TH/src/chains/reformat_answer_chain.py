@@ -68,14 +68,14 @@ class ReformatAnswerChain:
             self.log(logging.ERROR, f"An error occurred: {str(e)}")
             raise
 
-    def process_query(self, answer: str) -> Union[Dict[str, str], str]:
+    def process_query(self, query: str, answer: str) -> Union[Dict[str, str], str]:
         """
         Processes the answer, logging the necessary information and reformat for response.
         """
         if not answer:
-            raise ValueError("Query cannot be None or empty")
+            raise ValueError("Answer cannot be None or empty")
 
-        llm_response = self.llm_chain({"RawResponse": answer}, return_only_outputs=True)
+        llm_response = self.llm_chain({"RawResponse": answer, "Query": query}, return_only_outputs=True)
 
         if not llm_response:
             self.log(

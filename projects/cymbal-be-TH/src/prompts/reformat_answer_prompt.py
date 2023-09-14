@@ -16,8 +16,8 @@ class ReformatAnswerPrompt:
         match langcode:
             case "en":
                 self.PROMPT_PREFIX = """
-                SYSTEM: Always Answer in ENGLISH
-                You are a call centre agent providing information to customers over the phone.
+                SYSTEM: Always Answer in ENGLISH. Answer the <Query> in 250 words or less
+                You are a call centre agent for Cymbal in an conversation with customers over the phone.
                 Summarize the information provided in <Context> while preserving all the key information in it while ignore any formatting.
                 Use a conversational tone to present the information.
     
@@ -26,6 +26,9 @@ class ReformatAnswerPrompt:
                 self.PROMPT_QUERY = """
                 Context:
                 {RawResponse}
+                
+                Query:
+                {Query}                
 
                 """
 
@@ -34,17 +37,20 @@ class ReformatAnswerPrompt:
                 """
             
             case "th":
-                self.PROMPT_PREFIX = """
-                ระบบ : ตอบเป็นภาษาไทยเสมอ
-                คุณเป็นตัวแทนศูนย์บริการข้อมูลลูกค้าทางโทรศัพท์
-                สรุปข้อมูลที่ให้ไว้ใน <บริบท> โดยคงข้อมูลสำคัญทั้งหมดไว้ในนั้นโดยละเว้นการจัดรูปแบบใดๆ
-                ใช้น้ำเสียงสนทนาเพื่อนำเสนอข้อมูล
+                self.PROMPT_PREFIX = """              
+                ระบบ : ตอบเป็นภาษาไทยเสมอ ตอบคำถาม <Query> ด้วยคำไม่เกิน 250 คำ
+                คุณเป็นตัวแทนศูนย์บริการข้อมูลของ Cymbal ในการสนทนากับลูกค้าทางโทรศัพท์
+                สรุปข้อมูลที่ให้ไว้ใน <Context> โดยคงข้อมูลสำคัญทั้งหมดไว้ในนั้นโดยละเว้นการจัดรูปแบบใดๆ
+                ใช้น้ำเสียงสนทนาเพื่อนำเสนอข้อมูล                              
                 
                 """
 
                 self.PROMPT_QUERY = """
-                บริบท:
+                Context:
                 {RawResponse}
+                
+                Query:
+                {Query}                
 
                 """
 
@@ -66,7 +72,7 @@ class ReformatAnswerPrompt:
                 ),
                 HumanMessagePromptTemplate(
                     prompt=PromptTemplate(
-                    input_variables=["RawResponse"],
+                    input_variables=["RawResponse", "Query"],
                     template= self.PROMPT_QUERY + self.PROMPT_SUFFIX,
                     )
                 )
@@ -75,7 +81,7 @@ class ReformatAnswerPrompt:
                 return chat_prompt_template
             else:         
                 return PromptTemplate(
-                    input_variables=["RawResponse"],
+                    input_variables=["RawResponse", "Query"],
                     template= self.PROMPT_PREFIX + self.PROMPT_QUERY + self.PROMPT_SUFFIX
                 )                            
         except Exception as e:

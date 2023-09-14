@@ -2,3 +2,4 @@
 *preprocessed_output/
 *.log
 *cymbal-be*raw_input*
+*.venv*

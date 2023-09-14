@@ -119,13 +119,13 @@ class RouterAgent:
             )
             return ""
 
-    def reformat_answer(self, answer: str, detected_language: str) -> str:
+    def reformat_answer(self, query: str, answer: str, detected_language: str) -> str:
         try:
             if(answer and configcontex.FEATURE_REFORMAT_ANSWER == 'True'):
                 if(detected_language == 'th'):
-                    return self.reformat_answer_chain_id.process_query(answer)
+                    return self.reformat_answer_chain_id.process_query(answer, query)
                 else:
-                    return self.reformat_answer_chain.process_query(answer)                                       
+                    return self.reformat_answer_chain.process_query(answer, query)                                       
             else:
                 return answer
 
@@ -194,7 +194,7 @@ class RouterAgent:
             self.log(logging.INFO, f"responseType {response_type} answer: {response}")
 
             if(response_type in ["StaticKnowledgebaseQnA", "ProductFlow"] and configcontex.FEATURE_REFORMAT_ANSWER == 'True'):
-                return {"responseType": response_type, "answer": self.reformat_answer(response, detected_language)}
+                return {"responseType": response_type, "answer": self.reformat_answer(query, response, detected_language)}
             else:                                                        
                 return {"responseType": response_type, "answer": response}
         else:
