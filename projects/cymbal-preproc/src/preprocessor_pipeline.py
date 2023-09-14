@@ -39,6 +39,7 @@ print(f"Configuration Settings reprocess_kdb - {kdb_reprocessing}, reprocess_rou
 if kdb_reprocessing:
     KDBPreProcessor(embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko@latest', task_type='RETRIEVAL_DOCUMENT'), bucket_name = config.BUCKET_NAME, project_id = config.PROJECT_ID).create_embeddings(force_enhance=force_enhance_kdb, force_regenerate = force_regenerate_embeddings, glob_expr = "**/*_EN.txt")
     KDBPreProcessor(embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_DOCUMENT'), bucket_name = config.BUCKET_NAME, project_id = config.PROJECT_ID).create_embeddings(force_enhance=force_enhance_kdb, force_regenerate = force_regenerate_embeddings, glob_expr = "**/*_ID.txt")
+    KDBPreProcessor(embeddings = VertexAIEmbeddings(requests_per_minute=600, model_name='textembedding-gecko-multilingual@latest', task_type='RETRIEVAL_DOCUMENT'), bucket_name = config.BUCKET_NAME, project_id = config.PROJECT_ID).create_embeddings(force_enhance=force_enhance_kdb, force_regenerate = force_regenerate_embeddings, glob_expr = "**/*_TH.txt")    
 
 # Routing examples embeddings generation flow
 if routing_reprocessing:
