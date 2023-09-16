@@ -18,10 +18,10 @@ Apakah pengguna langsung mendapatkan ekstra kuota setelah mengikuti permainan Bo
 Apakah ada batasan maksimal untuk masuk ke dalam permainan Bonus Kick (DEBUS)?
 Berapa lama masa berlaku program/promo kuota tambahan di LifeApp?
 Cara mendapatkan uang/penghasilan tambahan di LifeApp
-Apa itu Kios LifeApp?
-Bagaimana cara bergabung dengan Kios LifeApp?
-Apakah saldo Kios LifeApp dapat diuangkan?
-Apa keuntungan yang saya dapatkan saat menjual pulsa dan paket data internet melalui Kios LifeApp?
+Apa itu Partner SuccessApp?
+Bagaimana cara bergabung dengan Partner SuccessApp?
+Apakah saldo Partner SuccessApp dapat diuangkan?
+Apa keuntungan yang saya dapatkan saat menjual pulsa dan paket data internet melalui Partner SuccessApp?
 Bagaimana cara melihat berita terbaru di LifeApp?
 Ada berita di LifeApp?
 Apakah saya bisa membeli paket game di LifeApp?
@@ -58,7 +58,7 @@ Saya ingin informasi tentang Layanan 5G?
 Saya ingin informasi tentang Ganti SIM Card ?
 Saya ingin mengecek Informasi Masa Aktif Kartu SIM
 Saya ingin informasi / Tip Jaringan untuk mengakses layanan tanpa masalah?
-Saya ingin informasi tentang PRIME
+Saya ingin informasi tentang LIVESMART
 Saya ingin informasi tentang Bill Payment
 Saya ingin informasi tentang perubahan LIMIT
 Apa itu internet broadband FastFi Cymbal ?
@@ -150,18 +150,18 @@ Berapa lama promo ekstra kuota di LifeApp berjalan?
 Bagaimana cara mendapatkan uang/penghasilan tambahan di LifeApp?
 Apa saja cara untuk menghasilkan uang/penghasilan tambahan di LifeApp?
 Bagaimana cara meningkatkan penghasilan saya di LifeApp?
-Apa yang dimaksud dengan Kios LifeApp?
-Bisakah Anda menjelaskan konsep Kios LifeApp?
-Apa kegunaan Kios LifeApp?
-Bagaimana cara menjadi member Kios LifeApp?
-Bagaimana langkah-langkah untuk bergabung dengan Kios LifeApp?
-Bagaimana cara mendaftar Kios LifeApp?
-Apakah saldo di Kios LifeApp bisa dicairkan?
-Apakah saldo di Kios LifeApp dapat ditarik tunai?
-Apakah saldo Kios LifeApp dapat dikonversi menjadi uang tunai?
-Apa keuntungan menjual pulsa dan paket data internet melalui Kios LifeApp?
-Keuntungan apa yang saya dapatkan dari penjualan pulsa dan paket data melalui Kios LifeApp?
-Keuntungan apa saja yang didapatkan dari penjualan pulsa dan paket data melalui Kios LifeApp?
+Apa yang dimaksud dengan Partner SuccessApp?
+Bisakah Anda menjelaskan konsep Partner SuccessApp?
+Apa kegunaan Partner SuccessApp?
+Bagaimana cara menjadi member Partner SuccessApp?
+Bagaimana langkah-langkah untuk bergabung dengan Partner SuccessApp?
+Bagaimana cara mendaftar Partner SuccessApp?
+Apakah saldo di Partner SuccessApp bisa dicairkan?
+Apakah saldo di Partner SuccessApp dapat ditarik tunai?
+Apakah saldo Partner SuccessApp dapat dikonversi menjadi uang tunai?
+Apa keuntungan menjual pulsa dan paket data internet melalui Partner SuccessApp?
+Keuntungan apa yang saya dapatkan dari penjualan pulsa dan paket data melalui Partner SuccessApp?
+Keuntungan apa saja yang didapatkan dari penjualan pulsa dan paket data melalui Partner SuccessApp?
 Bagaimana cara mengakses berita terbaru di LifeApp?
 Bagaimana proses melihat berita terbaru di LifeApp?
 Bagaimana saya bisa tetap mendapatkan berita terbaru di LifeApp?
@@ -270,9 +270,9 @@ Bagaimana cara mengetahui masa aktif kartu SIM saya?
 Saya ingin informasi atau tip jaringan untuk mengakses layanan tanpa masalah.
 Bisakah Anda memberi saya tip atau informasi tentang cara mengakses layanan dengan lancar tanpa masalah?
 Panduan atau tip jaringan apa yang tersedia untuk mengakses layanan tanpa menemui masalah?
-Saya perlu detail tentang PRIME.
-Bisakah Anda memberikan informasi tentang PRIME?
-Saya mencari informasi tentang PRIME.
+Saya perlu detail tentang LIVESMART.
+Bisakah Anda memberikan informasi tentang LIVESMART?
+Saya mencari informasi tentang LIVESMART.
 Saya ingin tahu tentang Bill Payment.
 Bisakah Anda memberi saya informasi tentang Pembayaran Tagihan?
 Saya tertarik mempelajari Bill Payment.

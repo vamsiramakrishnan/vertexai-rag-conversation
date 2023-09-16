@@ -18,10 +18,10 @@ Will the user immediately get the extra quota after participating in the Bonus K
 Is there a maximum limit to enter the Bonus Kick (DEBUS) game?
 How long will the extra quota program/promo period on LifeApp last?
 How to get extra money/income on LifeApp
-What is Kios LifeApp?
-How to join Kios LifeApp?
-Can Kios LifeApp balance be cashed out?
-What are the benefits that I get when selling pulses and internet data packages through Kios LifeApp?
+What is Partner SuccessApp?
+How to join Partner SuccessApp?
+Can Partner SuccessApp balance be cashed out?
+What are the benefits that I get when selling pulses and internet data packages through Partner SuccessApp?
 How do I see the latest news on LifeApp?
 Any news on LifeApp?
 Can I buy games packages on LifeApp?
@@ -58,7 +58,7 @@ I want information about 5G Service?
 I want information about SIM Card Change ?
 I want to check SIM Card Active Period Information
 I want information / Network Tips to access services without issues ?
-I want information about PRIME
+I want information about LIVESMART
 I want information about Bill Payment
 I want information about LIMIT change
 What is Cymbal FastFi broadband internet ?
@@ -150,18 +150,18 @@ How long does the extra quota promo on LifeApp run?
 How can I earn extra money/income on LifeApp?
 What are the ways to generate extra money/income on LifeApp?
 How can I increase my earnings on LifeApp?
-What does Kios LifeApp entail?
-Can you explain the concept of Kios LifeApp?
-What is the purpose of Kios LifeApp?
-How can I become a member of Kios LifeApp?
-What are the steps to join Kios LifeApp?
-How do I enroll in Kios LifeApp?
-Is it possible to cash out the balance in Kios LifeApp?
-Can the balance in Kios LifeApp be withdrawn as cash?
-Is it allowed to convert Kios LifeApp balance into cash?
-What are the advantages of selling pulses and internet data packages through Kios LifeApp?
-What benefits do I receive from selling pulses and data packages via Kios LifeApp?
-What perks are associated with selling pulses and data packages through Kios LifeApp?
+What does Partner SuccessApp entail?
+Can you explain the concept of Partner SuccessApp?
+What is the purpose of Partner SuccessApp?
+How can I become a member of Partner SuccessApp?
+What are the steps to join Partner SuccessApp?
+How do I enroll in Partner SuccessApp?
+Is it possible to cash out the balance in Partner SuccessApp?
+Can the balance in Partner SuccessApp be withdrawn as cash?
+Is it allowed to convert Partner SuccessApp balance into cash?
+What are the advantages of selling pulses and internet data packages through Partner SuccessApp?
+What benefits do I receive from selling pulses and data packages via Partner SuccessApp?
+What perks are associated with selling pulses and data packages through Partner SuccessApp?
 How do I access the latest news on LifeApp?
 What is the process for viewing the most recent news on LifeApp?
 How can I stay updated with the latest news on LifeApp?
@@ -270,9 +270,9 @@ How do I find out the active duration of my SIM card?
 I want information or network tips to access services without any issues.
 Can you provide me with tips or information on accessing services smoothly without any problems?
 What guidance or network tips are available for accessing services without encountering issues?
-I need details about PRIME.
-Can you provide information about PRIME?
-I'm seeking information regarding PRIME.
+I need details about LIVESMART.
+Can you provide information about LIVESMART?
+I'm seeking information regarding LIVESMART.
 I would like to know about Bill Payment.
 Can you provide me with information about Bill Payment?
 I'm interested in learning about Bill Payment.

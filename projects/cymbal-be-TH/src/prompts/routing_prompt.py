@@ -21,9 +21,9 @@ You recognize below Cymbal specific terms among other non-exhaustive list of tel
     Cymbal - The brand 
     Cymbal LifeApp - The self care app & portal
     Cymbal LifeApp Lifestyle Services - News, Games, TV, Movies
-    Cymbal Benefits - Bonus, Cashback, Promos, Referrals, Kios
+    Cymbal Benefits - Bonus, Cashback, Promos, Referrals, Partner SuccessApp
     Fiber Internet - FastFi Broadband
-    Prepaid & Postpaid - Starter Pack, PRIME Plan, eSIM    
+    Prepaid & Postpaid - Starter Pack, LIVESMART Plan, eSIM    
     Customer Own Account - Balances, Quotas, Bills, Payments, Loyalty Membership & Points
 
 Understand <Query> & <Topic> of Interest and Classify Intent into one of 5 categories that best matches the <Query>
