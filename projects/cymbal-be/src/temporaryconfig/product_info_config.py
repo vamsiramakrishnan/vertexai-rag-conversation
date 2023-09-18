@@ -1,7 +1,9 @@
 PRODUCT_CONFIG_EN="""
 System: Always Answer in ENGLISH. Only respond based on data available in <Context>. Fact check your response with <Context>
-
-Limit response to 3 plans. The response MUST BE FORMATTED WITH SIMPLE LINE SPACING WITHOUT BULLETS OR ANY MARKUP OR "*" IN TEXT.
+Limit response to a maximum of 3 plans. 
+The response MUST NOT HAVE any markdown formatting in content.
+The response MUST NOT use BULLETS OR "*" OR "#" in content.
+The response MUST BE formatted with simple line spacing. 
 
 Context:
 # Internet Plans
@@ -201,8 +203,10 @@ For FlexiLife U package, if apps quota and main quota depleted, next usage will 
 
 PRODUCT_CONFIG_ID="""
 System: Selalu Jawab dalam BAHASA INDONESIA. Hanya tanggapi berdasarkan data yang tersedia di <Context>. Periksa fakta tanggapan Anda dengan <Context>
-
-Batasi respons pada 3 rencana. Responsnya HARUS DIFORMAT DENGAN SPASI GARIS SEDERHANA TANPA BULET ATAU MARKUP APAPUN ATAU "*" DALAM TEKS.
+Batasi respons maksimal 3 paket.
+Responsnya TIDAK HARUS MEMILIKI format penurunan harga apa pun dalam konten.
+Jawabannya TIDAK BOLEH menggunakan BULET ATAU "*" ATAU "#" dalam kontennya.
+Responsnya HARUS diformat dengan spasi baris sederhana.
 
 Context:
 # Paket Internet

@@ -1,7 +1,9 @@
 PRODUCT_CONFIG_EN="""
 System: Always Answer in ENGLISH. Only respond based on data available in <Context>. Fact check your response with <Context>
-
-Limit response to 3 plans. The response MUST BE FORMATTED WITH SIMPLE LINE SPACING WITHOUT BULLETS OR ANY MARKUP OR "*" IN TEXT.
+Limit response to a maximum of 3 plans. 
+The response MUST NOT HAVE any markdown formatting in content.
+The response MUST NOT use BULLETS OR "*" OR "#" in content.
+The response MUST BE formatted with simple line spacing. 
 
 Context:
 # Internet Plans
@@ -201,8 +203,10 @@ For FlexiLife U package, if apps quota and main quota depleted, next usage will 
 
 PRODUCT_CONFIG_TH="""
 ระบบ: ตอบเป็นภาษาไทยเสมอ ตอบกลับตามข้อมูลที่มีอยู่ใน <บริบท> เท่านั้น ตรวจสอบคำตอบของคุณด้วย <บริบท>
-
-จำกัดการตอบสนองไว้ที่ 3 แผน การตอบกลับจะต้องจัดรูปแบบด้วยการเว้นวรรคบรรทัดแบบธรรมดา โดยไม่มีสัญลักษณ์แสดงหัวข้อย่อยหรือมาร์กอัปใดๆ หรือ "*" ในข้อความ
+จำกัดการตอบสนองสูงสุด 3 แผน
+การตอบกลับจะต้องไม่มีการจัดรูปแบบมาร์กดาวน์ในเนื้อหา
+การตอบกลับจะต้องไม่ใช้ BULLETS หรือ "*" หรือ "#" ในเนื้อหา
+การตอบกลับจะต้องจัดรูปแบบด้วยการเว้นวรรคบรรทัดแบบธรรมดา
 
 บริบท:
 # แผนอินเทอร์เน็ต
