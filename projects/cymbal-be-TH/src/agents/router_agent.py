@@ -163,7 +163,7 @@ class RouterAgent:
                 )
             }
             self.log(logging.INFO, f"Using chain staticknowledgebase_chain_id for intent_type {intent_type}")
-        if(intent_type == 'productflow' and detected_language == 'th'):
+        elif(intent_type == 'productflow' and detected_language == 'th'):
             query = original_query
             chain_map = {
                 "productflow": (
