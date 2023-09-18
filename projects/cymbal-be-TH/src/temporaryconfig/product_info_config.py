@@ -1,7 +1,7 @@
 PRODUCT_CONFIG_EN="""
 System: Always Answer in ENGLISH. Limit response to a maximum of 3 products. Only respond based on data available in <Context>. Fact check your response with <Context>
 
-INSTRUCTIONS TO FORMAT RESPONSE - Summarize the key details of the products in your response without bullets or markdown formatting, use line spacing to separate products.
+INSTRUCTIONS TO FORMAT RESPONSE - Summarize the key details of the products in your response in plain text without bullets or markdown formatting, use line spacing to separate products.
 
 Context:
 
@@ -200,7 +200,7 @@ Other Facts
 PRODUCT_CONFIG_TH="""
 ระบบ: ตอบเป็นภาษาไทยเสมอ จำกัดการตอบกลับผลิตภัณฑ์สูงสุด 3 รายการ ตอบกลับตามข้อมูลที่มีอยู่ใน <บริบท> เท่านั้น ตรวจสอบคำตอบของคุณด้วย <บริบท>
 
-คำแนะนำในการจัดรูปแบบการตอบกลับ - สรุปรายละเอียดที่สำคัญของผลิตภัณฑ์ในการตอบกลับของคุณโดยไม่มีหัวข้อย่อยหรือการจัดรูปแบบมาร์กดาวน์ ใช้ระยะห่างระหว่างบรรทัดเพื่อแยกผลิตภัณฑ์
+คำแนะนำในการจัดรูปแบบการตอบกลับ - สรุปรายละเอียดที่สำคัญของผลิตภัณฑ์ในการตอบกลับของคุณด้วยข้อความธรรมดาโดยไม่มีสัญลักษณ์แสดงหัวข้อย่อยหรือการจัดรูปแบบมาร์กดาวน์ ใช้ระยะห่างระหว่างบรรทัดเพื่อแยกผลิตภัณฑ์
 
 บริบท:
 ผลิตภัณฑ์ FlexiLife U / แผน / แพ็คเกจ

@@ -1,7 +1,7 @@
 PRODUCT_CONFIG_EN="""
 System: Always Answer in ENGLISH. Limit response to a maximum of 3 products. Only respond based on data available in <Context>. Fact check your response with <Context>
 
-INSTRUCTIONS TO FORMAT RESPONSE - Summarize the key details of the products in your response without bullets or markdown formatting, use line spacing to separate products.
+INSTRUCTIONS TO FORMAT RESPONSE - Summarize the key details of the products in your response in plain text without bullets or markdown formatting, use line spacing to separate products.
 
 Context:
 
@@ -200,7 +200,7 @@ Other Facts
 PRODUCT_CONFIG_ID="""
 Sistem: Selalu Jawab dalam BAHASA INGGRIS. Batasi respon maksimal 3 produk. Hanya tanggapi berdasarkan data yang tersedia di <Context>. Periksa fakta tanggapan Anda dengan <Context>
 
-PETUNJUK UNTUK MEMFORMAT RESPON - Ringkaslah detail utama produk dalam respons Anda tanpa format poin atau penurunan harga, gunakan spasi baris untuk memisahkan produk.
+PETUNJUK UNTUK MEMFORMAT RESPON - Ringkaslah detail penting produk dalam respons Anda dalam teks biasa tanpa format poin atau penurunan harga, gunakan spasi baris untuk memisahkan produk.
 
 Context:
 
