@@ -16,11 +16,6 @@ class GetRetrievalPrompt:
     ------INSTRUCTIONS-----
     You NEVER LIE or MAKE UP INFORMATION. YOU STRICTLY FOLLOW INSTRUCTIONS
     You are a call centre agent for Cymbal customer care with expertise in inductive reasoning, fact checking and information summarization. 
-
-    Cymbal is the digital lifestyle brand from Cymbal Digital Co, the best telecommunications service provider in Thailand with the widest mobile network coverage, best fibre broadband connectivity, greatest mobile network quality for voice and data services offering the best prepaid, postpaid and home broadband offers compared to other telecom service providers. 
-
-    As a leading digital telcom brand, Cymbal offers a wide variety of mobile prepaid, postpaid, home broadband internet FTTH and digital lifestyle services including mobile prepaid starter packs, mobile postpaid plans (LIVESMART), FTTH plans (FastFi), a wide variety of packages to meet your needs around voice, data, SMS, roaming services and many lifestyle offerings
-
     Frame your response STRICTLY following the RESPONSE_RULES listed below. The response is provided to customers over the phone, so the response needs to be FORMATTED TO BE VERBALIZED WITHOUT BULLETS OR ANY MARKUP.
 
     RESPONSE_RULES
@@ -39,11 +34,6 @@ class GetRetrievalPrompt:
     ------INSTRUCTIONS----
     คุณไม่เคยโกหกหรือสร้างข้อมูล คุณปฏิบัติตามคำแนะนำอย่างเคร่งครัด
     คุณเป็นตัวแทนศูนย์บริการทางโทรศัพท์สำหรับการดูแลลูกค้า Cymbal ที่มีความเชี่ยวชาญในด้านการใช้เหตุผลเชิงอุปนัย การตรวจสอบข้อเท็จจริง และการสรุปข้อมูล
-
-    Cymbal เป็นแบรนด์ไลฟ์สไตล์ดิจิทัลจาก Cymbal Digital Co ผู้ให้บริการโทรคมนาคมที่ดีที่สุดในอินโดนีเซียโดยครอบคลุมเครือข่ายมือถือที่กว้างที่สุด การเชื่อมต่อไฟเบอร์บรอดแบนด์ที่ดีที่สุด คุณภาพเครือข่ายมือถือที่ยิ่งใหญ่ที่สุดสำหรับบริการเสียงและข้อมูลที่นำเสนอบริการบรอดแบนด์แบบเติมเงิน รายเดือน และบรอดแบนด์ที่บ้านที่ดีที่สุด ไปยังผู้ให้บริการโทรคมนาคมรายอื่น
-
-    ในฐานะแบรนด์โทรคมนาคมดิจิทัลชั้นนำ Cymbal นำเสนอบริการอินเทอร์เน็ตบรอดแบนด์สำหรับมือถือแบบเติมเงิน รายเดือน FTTH และบริการไลฟ์สไตล์ดิจิทัลที่หลากหลาย รวมถึงแพ็คเกจเริ่มต้นแบบเติมเงินมือถือ แผนบริการรายเดือนบนมือถือ (LIVESMART) แผน FTTH (FastFi) แพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของคุณทั้งด้านเสียง ข้อมูล SMS บริการโรมมิ่ง และข้อเสนอด้านไลฟ์สไตล์มากมาย
-
     วางกรอบคำตอบของคุณอย่างเคร่งครัดโดยปฏิบัติตาม RESPONSE_RULES ที่แสดงด้านล่าง มีการตอบกลับให้กับลูกค้าทางโทรศัพท์ ดังนั้นการตอบกลับจึงต้องได้รับการจัดรูปแบบให้เป็นคำพูดโดยไม่มีสัญลักษณ์แสดงหัวข้อย่อยหรือมาร์กอัปใดๆ
 
     RESPONSE_RULES
@@ -63,20 +53,36 @@ class GetRetrievalPrompt:
 
     """
 
-    SUFFIX_TEXT = """
+    SUFFIX_TEXT = ""
+
+    SUFFIX_TEXT_EN = """
     ---FAQ---
-    {context}
+    Cymbal is the digital lifestyle brand from Cymbal Digital Co, the best telecommunications service provider in Thailand with the widest mobile network coverage, best fibre broadband connectivity, greatest mobile network quality for voice and data services offering the best prepaid, postpaid and home broadband offers compared to other telecom service providers. 
+    As a leading digital telcom brand, Cymbal offers a wide variety of mobile prepaid, postpaid, home broadband internet FTTH and digital lifestyle services including mobile prepaid starter packs, mobile postpaid plans (LIVESMART), FTTH plans (FastFi), a wide variety of packages to meet your needs around voice, data, SMS, roaming services and many lifestyle offerings
+    {context}    
     ---END OF FAQ----
 
     Final Answer:
     """
+    
+    SUFFIX_TEXT_TH = """
+    ---FAQ---
+    Cymbal เป็นแบรนด์ไลฟ์สไตล์ดิจิทัลจาก Cymbal Digital Co ผู้ให้บริการโทรคมนาคมที่ดีที่สุดในอินโดนีเซียโดยครอบคลุมเครือข่ายมือถือที่กว้างที่สุด การเชื่อมต่อไฟเบอร์บรอดแบนด์ที่ดีที่สุด คุณภาพเครือข่ายมือถือที่ยิ่งใหญ่ที่สุดสำหรับบริการเสียงและข้อมูลที่นำเสนอบริการบรอดแบนด์แบบเติมเงิน รายเดือน และบรอดแบนด์ที่บ้านที่ดีที่สุด ไปยังผู้ให้บริการโทรคมนาคมรายอื่น
+    ในฐานะแบรนด์โทรคมนาคมดิจิทัลชั้นนำ Cymbal นำเสนอบริการอินเทอร์เน็ตบรอดแบนด์สำหรับมือถือแบบเติมเงิน รายเดือน FTTH และบริการไลฟ์สไตล์ดิจิทัลที่หลากหลาย รวมถึงแพ็คเกจเริ่มต้นแบบเติมเงินมือถือ แผนบริการรายเดือนบนมือถือ (LIVESMART) แผน FTTH (FastFi) แพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของคุณทั้งด้านเสียง ข้อมูล SMS บริการโรมมิ่ง และข้อเสนอด้านไลฟ์สไตล์มากมาย
+    {context}    
+    ---END OF FAQ----
+
+    Final Answer:
+    """    
 
     def get_retrieval_prompt(self, is_non_english: bool):
 
         if(is_non_english):
             self.PREFIX_TEXT = self.PREFIX_TEXT_TH
+            self.SUFFIX_TEXT = self.SUFFIX_TEXT_TH
         else:
             self.PREFIX_TEXT = self.PREFIX_TEXT_EN
+            self.SUFFIX_TEXT = self.SUFFIX_TEXT_EN
 
         if(configcontex.FEATURE_CHAT_BISON == "True"):   
             messages = [
