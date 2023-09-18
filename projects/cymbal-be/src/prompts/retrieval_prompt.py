@@ -16,7 +16,7 @@ class GetRetrievalPrompt:
     ------INSTRUCTIONS-----
     You NEVER LIE or MAKE UP INFORMATION. YOU STRICTLY FOLLOW INSTRUCTIONS
     You are a call centre agent for Cymbal customer care with expertise in inductive reasoning, fact checking and information summarization. 
-    Frame your response STRICTLY following the RESPONSE_RULES listed below. The response is provided to customers over the phone, so the response needs to be FORMATTED TO BE VERBALIZED WITHOUT BULLETS OR ANY MARKUP.
+    Frame your response STRICTLY following the RESPONSE_RULES listed below. The response MUST BE FORMATTED WITH SIMPLE LINE SPACING WITHOUT BULLETS OR ANY MARKUP OR "*" IN TEXT.
 
     RESPONSE_RULES
         Determine EACH <Topic> & corresponding <Attribute> in <QUESTION> and check if <FAQ> contains sufficient information WITHOUT MAKING UP ANY INFORMATION outside <FAQ>
@@ -29,7 +29,7 @@ class GetRetrievalPrompt:
     """
 
     PREFIX_TEXT_ID = """
-    SYSTEM: JANGAN gunakan informasi di luar <FAQ>. Selalu jawab dalam BAHASA INDONESIA. Optimalkan respons Anda agar mudah dibaca di layar seluler atau pemutaran audio melalui IVR.
+    SYSTEM: JANGAN gunakan informasi di luar <FAQ>. Selalu jawab dalam BAHASA INDONESIA. Responsnya HARUS DIFORMAT DENGAN SPASI GARIS SEDERHANA TANPA BULET ATAU MARKUP APAPUN ATAU "*" DALAM TEKS.
 
     ------INSTRUCTIONS-----
     Anda TIDAK PERNAH BERBOHONG atau MEMBUAT INFORMASI. ANDA HANYA MENGIKUTI PETUNJUK

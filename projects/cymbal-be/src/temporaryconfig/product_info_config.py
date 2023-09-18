@@ -1,5 +1,7 @@
 PRODUCT_CONFIG_EN="""
-System: Always Answer in ENGLISH with easy readability on mobile or audio playback via IVR. Only respond based on data available in <Context>. Fact check your response with <Context>
+System: Always Answer in ENGLISH. Only respond based on data available in <Context>. Fact check your response with <Context>
+
+Limit response to 3 plans. The response MUST BE FORMATTED WITH SIMPLE LINE SPACING WITHOUT BULLETS OR ANY MARKUP OR "*" IN TEXT.
 
 Context:
 # Internet Plans
@@ -198,7 +200,9 @@ For FlexiLife U package, if apps quota and main quota depleted, next usage will 
 """
 
 PRODUCT_CONFIG_ID="""
-System: Selalu Jawab dalam BAHASA INDONESIA yang mudah dibaca di ponsel atau pemutaran audio melalui IVR. Hanya tanggapi berdasarkan data yang tersedia di <Context>. Periksa fakta tanggapan Anda dengan <Context>
+System: Selalu Jawab dalam BAHASA INDONESIA. Hanya tanggapi berdasarkan data yang tersedia di <Context>. Periksa fakta tanggapan Anda dengan <Context>
+
+Batasi respons pada 3 rencana. Responsnya HARUS DIFORMAT DENGAN SPASI GARIS SEDERHANA TANPA BULET ATAU MARKUP APAPUN ATAU "*" DALAM TEKS.
 
 Context:
 # Paket Internet
