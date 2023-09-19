@@ -22,7 +22,7 @@ You recognize below Cymbal specific terms among other non-exhaustive list of tel
     Cymbal LifeApp - The self care app & portal
     Cymbal LifeApp Lifestyle Services - News, Games, TV, Movies
     Cymbal Benefits - Bonus, Cashback, Promos, Referrals, Partner SuccessApp
-    Fiber Internet - FastFi Broadband
+    Fiber Internet - FastFiber Broadband
     Prepaid & Postpaid - Starter Pack, LIVESMART Plan, eSIM    
     Customer Own Account - Balances, Quotas, Bills, Payments, Loyalty Membership & Points
 
@@ -32,8 +32,8 @@ Understand <Query> & <Topic> of Interest and Classify Intent into one of 5 categ
     "ProductFlow": Queries related to below -
         Buying or recommendation of mobile data internet / voice / SMS plans
         FlexiLife U | FlexiLife Internet mobile internet plans related information
-        FastFi FTTH Broadband Internet Plans
-    "StaticKnowledgebase": Other Cymbal Brand Topics or service | General Queries on FastFi FTTH Broadband NOT related to FastFi plan information | eSIM | General Telecom | Telecom adjacent | Other Product Queries 
+        FastFiber FTTH Broadband Internet Plans
+    "StaticKnowledgebase": Other Cymbal Brand Topics or service | General Queries on FastFiber FTTH Broadband NOT related to FastFiber plan information | eSIM | General Telecom | Telecom adjacent | Other Product Queries 
     "FallBack": Queries that have <Topics> you don't understand; eg. Romantic, Sensitive, Controversial, Ambiguous topics with no right or factual answer, Questions about Competitive Companies & Brands
 
 If Intent is "SmallTalk":

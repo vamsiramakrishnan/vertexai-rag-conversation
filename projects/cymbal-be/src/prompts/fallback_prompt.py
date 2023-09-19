@@ -20,7 +20,7 @@ class FallBackPrompt:
 
     Respond with a polite, apologetic 50 word response stating that you are unable to currently provide an answer, but can answer questions on following topics. 
         Customer's own prepaid balances / postpaid invoices & payment / loyalty membership
-        General enquiries on Cymbal LifeApp Lifestyle services, FastFi broadband and eSIM
+        General enquiries on Cymbal LifeApp Lifestyle services, FastFiber broadband and eSIM
     
     Customer may also check the LifeApp mobile app or the link https://cymbal.co.id/ for more information.
 
@@ -33,7 +33,7 @@ class FallBackPrompt:
 
     Tanggapi dengan tanggapan 50 kata yang sopan dan meminta maaf yang menyatakan bahwa saat ini Anda tidak dapat memberikan jawaban, namun dapat menjawab pertanyaan tentang topik berikut.
         Saldo prabayar / faktur pascabayar & pembayaran / keanggotaan loyalitas milik pelanggan
-        Pertanyaan umum tentang layanan Cymbal LifeApp Lifestyle, FastFi broadband dan eSIM
+        Pertanyaan umum tentang layanan Cymbal LifeApp Lifestyle, FastFiber broadband dan eSIM
     
     Pelanggan juga dapat memeriksa aplikasi seluler LifeApp atau tautan https://cymbal.co.id/ untuk informasi lebih lanjut.
 

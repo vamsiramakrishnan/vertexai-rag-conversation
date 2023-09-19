@@ -160,22 +160,22 @@ Context:
 * Call to Cymbal Limitless (5,000 min)	
 #### For - Long Validity, Yearly, Conference / Daily Apps / E-Commerce Apps / Streaming
 
-# FastFi Broadband Fibre FTTH Plans
-## FastFi Unlimited Broadband FTTH Packages
+# FastFiber Broadband Fibre FTTH Plans
+## FastFiber Unlimited Broadband FTTH Packages
 
-### FastFi 30 Mbps @ Rp 245,000/month
+### FastFiber 30 Mbps @ Rp 245,000/month
 #### Ideal for 5 - 7 Devices, Social media with video + streaming on HD + video conference (zoom, Gmeet)
 
-### FastFi 50 Mbps @ Rp 275,000/month
+### FastFiber 50 Mbps @ Rp 275,000/month
 #### Ideal for 8 - 12 Devices, Social media with video + streaming on laptop in HD quality + Video conference + faster download of film/game of 7GB + 2 internet CCTV Home
 
-### FastFi 100 Mbps @ Rp 345,000/month
+### FastFiber 100 Mbps @ Rp 345,000/month
 #### Ideal for 16 - 20 Devices, Social media with video + streaming on laptop/smart TV in 4K quality + Video conference + faster download of film/game of max 20GB + 3 internet CCTV home + online gaming in HD
 
-### FastFi 300 Mbps @ Rp 555,000/month
+### FastFiber 300 Mbps @ Rp 555,000/month
 #### Ideal for 20 devices with Smart Home Device, Social media with video + streaming on laptop/smart TV 4K quality+Video conference + Screen Sharing+ Audio+Online Gaming Experience (Sony, PS4, Xbox One, Nintendo Switch, PC/Mac/Mobile)+Smart Home
 
-### FastFi 500 Mbps @ Rp 655,000/month
+### FastFiber 500 Mbps @ Rp 655,000/month
 #### Ideal for 24 devices with Smart Home Device, Social media with video + streaming on laptop/Smart TV 4K quality+ Online Gaming + Vidoe Conference + 4K video streaming + Multiple Smart Home Device
 
 ## Includes FREE installation and WiFi Router device! T&C apply more info. Price exclude tax 11%. Installation and ONT (Wi-Fi) is included in the price up to 200m
@@ -361,22 +361,22 @@ Context:
 * Nelpon ke Cymbal Limitless (5.000 mnt)
 #### Untuk - Validitas Panjang, Tahunan, Konferensi / Aplikasi Harian / Aplikasi E-Commerce / Streaming
 
-# Paket FTTH Fiber Broadband FastFi
-## Paket FTTH Broadband Tanpa Batas FastFi
+# Paket FTTH Fiber Broadband FastFiber
+## Paket FTTH Broadband Tanpa Batas FastFiber
 
-### FastFi 30 Mbps @ Rp 245.000/bulan
+### FastFiber 30 Mbps @ Rp 245.000/bulan
 #### Ideal untuk 5 - 7 Perangkat, Media sosial dengan video + streaming pada konferensi video HD + (zoom, Gmeet)
 
-### FastFi 50 Mbps @ Rp 275.000/bulan
+### FastFiber 50 Mbps @ Rp 275.000/bulan
 #### Ideal untuk 8 - 12 Perangkat, Media sosial dengan video + streaming di laptop dalam kualitas HD + Konferensi video + download film/game 7GB lebih cepat + 2 internet CCTV Home
 
-### FastFi 100 Mbps @ Rp 345.000/bulan
+### FastFiber 100 Mbps @ Rp 345.000/bulan
 #### Ideal untuk 16 - 20 Perangkat, media sosial dengan video + streaming di laptop/smart TV dalam kualitas 4K + Konferensi video + pengunduhan film/game lebih cepat hingga maksimal 20GB + 3 internet CCTV rumah + game online dalam HD
 
-### FastFi 300 Mbps @ Rp 555.000/bulan
+### FastFiber 300 Mbps @ Rp 555.000/bulan
 #### Ideal untuk 20 perangkat dengan Perangkat Rumah Pintar, Media sosial dengan video + streaming di laptop/smart TV Kualitas 4K+Konferensi video + Berbagi Layar+ Audio+Pengalaman Game Online (Sony, PS4, Xbox One, Nintendo Switch, PC/ Mac/Seluler)+Rumah Pintar
 
-### FastFi 500 Mbps @ Rp 655.000/bulan
+### FastFiber 500 Mbps @ Rp 655.000/bulan
 #### Ideal untuk 24 perangkat dengan Perangkat Rumah Pintar, media sosial dengan video + streaming di laptop/Smart TV kualitas 4K+ Permainan Online + Konferensi Video + streaming video 4K + Beberapa Perangkat Rumah Pintar
 
 ## Termasuk pemasangan GRATIS dan perangkat Router WiFi! S&K berlaku info lebih lanjut. Harga belum termasuk pajak 11%. Instalasi dan ONT (Wi-Fi) sudah termasuk dalam harga hingga 200m

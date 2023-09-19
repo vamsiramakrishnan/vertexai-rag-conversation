@@ -58,7 +58,7 @@ class GetRetrievalPrompt:
     SUFFIX_TEXT_EN = """
     ---FAQ---
     Cymbal is the digital lifestyle brand from Cymbal Digital Co, the best telecommunications service provider in Thailand with the widest mobile network coverage, best fibre broadband connectivity, greatest mobile network quality for voice and data services offering the best prepaid, postpaid and home broadband offers compared to other telecom service providers. 
-    As a leading digital telcom brand, Cymbal offers a wide variety of mobile prepaid, postpaid, home broadband internet FTTH and digital lifestyle services including mobile prepaid starter packs, mobile postpaid plans (LIVESMART), FTTH plans (FastFi), a wide variety of packages to meet your needs around voice, data, SMS, roaming services and many lifestyle offerings
+    As a leading digital telcom brand, Cymbal offers a wide variety of mobile prepaid, postpaid, home broadband internet FTTH and digital lifestyle services including mobile prepaid starter packs, mobile postpaid plans (LIVESMART), FTTH plans (FastFiber), a wide variety of packages to meet your needs around voice, data, SMS, roaming services and many lifestyle offerings
     {context}    
     ---END OF FAQ----
 
@@ -68,7 +68,7 @@ class GetRetrievalPrompt:
     SUFFIX_TEXT_TH = """
     ---FAQ---
     Cymbal เป็นแบรนด์ไลฟ์สไตล์ดิจิทัลจาก Cymbal Digital Co ผู้ให้บริการโทรคมนาคมที่ดีที่สุดในอินโดนีเซียโดยครอบคลุมเครือข่ายมือถือที่กว้างที่สุด การเชื่อมต่อไฟเบอร์บรอดแบนด์ที่ดีที่สุด คุณภาพเครือข่ายมือถือที่ยิ่งใหญ่ที่สุดสำหรับบริการเสียงและข้อมูลที่นำเสนอบริการบรอดแบนด์แบบเติมเงิน รายเดือน และบรอดแบนด์ที่บ้านที่ดีที่สุด ไปยังผู้ให้บริการโทรคมนาคมรายอื่น
-    ในฐานะแบรนด์โทรคมนาคมดิจิทัลชั้นนำ Cymbal นำเสนอบริการอินเทอร์เน็ตบรอดแบนด์สำหรับมือถือแบบเติมเงิน รายเดือน FTTH และบริการไลฟ์สไตล์ดิจิทัลที่หลากหลาย รวมถึงแพ็คเกจเริ่มต้นแบบเติมเงินมือถือ แผนบริการรายเดือนบนมือถือ (LIVESMART) แผน FTTH (FastFi) แพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของคุณทั้งด้านเสียง ข้อมูล SMS บริการโรมมิ่ง และข้อเสนอด้านไลฟ์สไตล์มากมาย
+    ในฐานะแบรนด์โทรคมนาคมดิจิทัลชั้นนำ Cymbal นำเสนอบริการอินเทอร์เน็ตบรอดแบนด์สำหรับมือถือแบบเติมเงิน รายเดือน FTTH และบริการไลฟ์สไตล์ดิจิทัลที่หลากหลาย รวมถึงแพ็คเกจเริ่มต้นแบบเติมเงินมือถือ แผนบริการรายเดือนบนมือถือ (LIVESMART) แผน FTTH (FastFiber) แพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของคุณทั้งด้านเสียง ข้อมูล SMS บริการโรมมิ่ง และข้อเสนอด้านไลฟ์สไตล์มากมาย
     {context}    
     ---END OF FAQ----
 
