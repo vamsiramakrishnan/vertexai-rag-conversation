@@ -206,192 +206,192 @@ Context:
 
 Produk / Paket FlexiLife U
     FlexiLife U 5.5 GB / 30 Hari @ Rp 31000
-        Manfaat termasuk
-            Validitas 30 Hari
-            Bagian utama 1GB, Bagian aplikasi 4,5GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Paket termasuk
+            Masa berlaku 30 Hari
+            Kuota utama 1GB, Kuota aplikasi 4,5GB
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
 
     FlexiLife U 10 GB / 30 Hari @ Rp 52.000
-        Manfaat termasuk
-            Validitas 30 Hari
-            Bagian utama 2GB, Bagian aplikasi 8GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Paket termasuk
+            Masa berlaku 30 Hari
+            Kuota utama 2GB, Kuota aplikasi 8GB
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife U 20 GB / 30 Hari @ Rp 74000
-        Manfaat termasuk
-            Validitas 30 Hari
-            Bagian utama 3GB, Bagian aplikasi 17GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Paket termasuk
+            Masa berlaku 30 Hari
+            Kuota utama 3GB, Kuota aplikasi 17GB
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife U 35 GB / 30 Hari @ Rp 96.000
-        Manfaat termasuk
-            Validitas 30 Hari
-            Bagian utama 7GB, Bagian aplikasi 28GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Paket termasuk
+            Masa berlaku 30 Hari
+            Kuota utama 7GB, Kuota aplikasi 28GB
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
 
     FlexiLife U 45 GB / 30 Hari @ Rp 107000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 10 GB, Kuota aplikasi 35 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife U Jumbo 90 GB / 30 Hari @ Rp 162.000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 90 GB
             100 SMS
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
    
-Produk / Paket Harian FlexiLife Internet
+Produk / Paket mobile FlexiLife Internet
     FlexiLife Internet 1 GB / 2 Hari @ Rp 5000
-        Manfaat termasuk
-            Validitas 2 Hari
+        Paket termasuk
+            Masa berlaku 2 Hari
             Kuota utama 1 GB
-        Bagus Untuk - Anggaran Rendah / Jangka Pendek / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Ideal Untuk - Paket internet dengan jangka pendek / Video call / Aplikasi mobile / Aplikasi E-Commerce
    
     FlexiLife Internet 2 GB / 5 Hari @ Rp 10.000
-        Manfaat termasuk
-            Validitas 5 Hari
+        Paket termasuk
+            Masa berlaku 5 Hari
             Kuota utama 2 GB
-        Bagus Untuk - Anggaran Rendah / Jangka Pendek / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Ideal Untuk - Paket internet dengan jangka pendek / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife Internet 5 GB / 5 Hari @ Rp 15000
-        Manfaat termasuk
-            Validitas 5 Hari
+        Paket termasuk
+            Masa berlaku 5 Hari
             Kuota Utama 5
-        Bagus Untuk - Anggaran Rendah / Jangka Pendek / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Ideal Untuk - Paket internet dengan jangka pendek / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife Internet 7 GB / 7 Hari @ Rp 20.000
-        Manfaat termasuk
-            Validitas 7 Hari
+        Paket termasuk
+            Masa berlaku 7 Hari
             Kuota utama 7 GB
-        Bagus Untuk - Anggaran Rendah / Jangka Pendek / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Ideal Untuk - Paket internet dengan jangka pendek / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife Internet 15 GB / 3 Hari @ Rp 25.000
-        Manfaat termasuk
-            Validitas 3 Hari
+        Paket termasuk
+            Masa berlaku 3 Hari
             Kuota utama 15 GB
-        Bagus Untuk - Anggaran Rendah / Jangka Pendek / Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+        Ideal Untuk - Paket internet dengan jangka pendek / Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
 Produk / Paket Bulanan FlexiLife Internet
     FlexiLife Internet 3 GB / 30 Hari @ Rp 20.000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 3 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Anggaran Rendah / Aplikasi Konferensi / Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Anggaran Rendah / Aplikasi Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife Internet 5 GB / 30 Hari @ Rp 30000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 5 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Aplikasi Konferensi / Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Aplikasi Video call / Aplikasi mobile / Aplikasi E-Commerce
 
     FlexiLife Internet 12 GB / 30 Hari @ Rp 50000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 12 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
 
     FlexiLife Internet 24 GB / 30 Hari @ Rp 80000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 24 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife Internet 35 GB / 30 Hari @ Rp 100000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 35 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
 
     FlexiLife Internet 50 GB / 30 Hari @ Rp 120000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 50 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
 
     FlexiLife Internet 100 GB / 30 Hari @ Rp 150000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 100 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
     
     FlexiLife Internet 200 GB / 30 Hari @ Rp 200000
-        Manfaat termasuk
-            Validitas 30 Hari
+        Paket termasuk
+            Masa berlaku 30 Hari
             Kuota utama 200 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Game / Streaming / Konferensi / Aplikasi Harian / Aplikasi E-Commerce
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Game / Streaming / Video call / Aplikasi mobile / Aplikasi E-Commerce
    
 Produk / Paket FlexiLife Internet Long Validity
     FlexiLife Internet 100 GB / 90 Hari @ Rp 250000
-        Manfaat termasuk
-            Validitas 90 Hari
+        Paket termasuk
+            Masa berlaku 90 Hari
             Kuota utama 100 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Validitas Panjang, Aplikasi Konferensi / Harian / Aplikasi E-Commerce / Streaming
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Kenyamanan dengan masa berlaku yang panjang, Aplikasi Video call / mobile / Aplikasi E-Commerce / Streaming
 
     FlexiLife Internet 200 GB / 180 Hari @ Rp 450000
-        Manfaat termasuk
-            Validitas 180 Hari
+        Paket termasuk
+            Masa berlaku 180 Hari
             Kuota utama 200 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Validitas Panjang, Aplikasi Konferensi / Harian / Aplikasi E-Commerce / Streaming
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Kenyamanan dengan masa berlaku yang panjang, Aplikasi Video call / mobile / Aplikasi E-Commerce / Streaming
     
     FlexiLife Internet 400 GB / 360 Hari @ Rp 850000
-        Manfaat termasuk
-            Validitas 360 Hari
+        Paket termasuk
+            Masa berlaku 360 Hari
             Kuota utama 400 GB
-            Nelpon ke Cymbal Limitless (5.000 mnt)
-        Bagus Untuk - Validitas Panjang, Tahunan, Konferensi / Aplikasi Harian / Aplikasi E-Commerce / Streaming
+            Nelpon ke sesama Cymbal Limitless (5.000 mnt)
+        Ideal Untuk - Kenyamanan dengan masa berlaku yang panjang (1 Tahun), Video call / Aplikasi mobile / Aplikasi E-Commerce / Streaming
 
-Paket FTTH Broadband Tanpa Batas FastFiber
+Paket FTTH Broadband Unlimited FastFiber
 
     FastFiber 30 Mbps @ Rp 245.000/bulan
-        Bagus untuk 5 - 7 Perangkat, Media sosial dengan video + streaming pada konferensi video HD + (zoom, Gmeet)
+        Ideal untuk 5 - 7 Perangkat, Media sosial dengan video + streaming pada Video call video HD + (zoom, Gmeet)
 
     FastFiber 50 Mbps @ Rp 275.000/bulan
-        Bagus untuk 8 - 12 Perangkat, Media sosial dengan video + streaming di laptop dalam kualitas HD + Konferensi video + download film/game 7GB lebih cepat + 2 internet CCTV Home
+        Ideal untuk 8 - 12 Perangkat, Media sosial dengan video + streaming di laptop dalam kualitas HD + Video call video + download film/game hingga 7GB  + 2 internet CCTV Home
 
     FastFiber 100 Mbps @ Rp 345.000/bulan
-        Bagus untuk 16 - 20 Perangkat, media sosial dengan video + streaming di laptop/smart TV dalam kualitas 4K + Konferensi video + pengunduhan film/game lebih cepat hingga maksimal 20GB + 3 internet CCTV rumah + game online dalam HD
+        Ideal untuk 16 - 20 Perangkat, media sosial dengan video + streaming di laptop/smart TV dengan kualitas 4K + Video call + Download film/game lebih cepat hingga 20GB + 3 internet CCTV rumah + game online HD
 
     FastFiber 300 Mbps @ Rp 555.000/bulan
-        Bagus untuk 20 perangkat dengan Perangkat Rumah Pintar, Media sosial dengan video + streaming di laptop/smart TV Kualitas 4K+Konferensi video + Berbagi Layar+ Audio+Pengalaman Game Online (Sony, PS4, Xbox One, Nintendo Switch, PC/ Mac/Seluler)+Rumah Pintar
+        Ideal untuk 20 perangkat dengan Perangkat Smart Home, Media sosial dengan video + streaming di laptop/smart TV Kualitas 4K+Video call + Screen sharing untuk online game (Sony, PS4, Xbox One, Nintendo Switch, PC/ Mac/Seluler)+Smart Home
 
     FastFiber 500 Mbps @ Rp 655.000/bulan
-        Bagus untuk 24 perangkat dengan Perangkat Rumah Pintar, media sosial dengan video + streaming di laptop/Smart TV kualitas 4K+ Permainan Online + Konferensi Video + streaming video 4K + Beberapa Perangkat Rumah Pintar
+        Ideal untuk 24 perangkat dengan Perangkat Smart Home, media sosial dengan video + streaming di laptop/Smart TV kualitas 4K+ Game Online + Video call + streaming video 4K + Beberapa Perangkat Smart Home
 
-    Termasuk pemasangan GRATIS dan perangkat Router WiFi! S&K berlaku info lebih lanjut. Harga belum termasuk pajak 11%. Instalasi dan ONT (Wi-Fi) sudah termasuk dalam harga hingga 200m
+Paket sudah termasuk GRATIS instalasi dan perangkat Router WiFi! S&K berlaku. Harga belum termasuk pajak 11%. 
 
-Fakta lain
-    Anda dapat mendaftar/membeli Paket FlexiLife Internet melalui dial *123#, aplikasi LifeApp, Kunjungi Cymbal Whatsapp Official, e-Commerce dan Outlet Cymbal
+Tambahan informasi
+    Anda dapat mendaftar/membeli Paket FlexiLife Internet dengan menghubungi *123#, aplikasi LifeApp, menghubungi Whatsapp Official Cymbal, e-Commerce dan Outlet Cymbal
 
     FlexiLife Internet menerapkan perpanjangan otomatis
 
     Keunggulan Paket FlexiLife Internet antara lain:
         Paket Internet dengan kuota besar selama 24 jam di semua jaringan
-        Pulsa Safe, yang memungkinkan Anda untuk mengakses internet tanpa memotong Pulsa Anda meskipun kuota utama Anda telah habis. Akses internet saat Pulsa Safe berlaku, kecepatannya disesuaikan
-        Tidak ada TnC tersembunyi
+        Pulsa Safe, yang memungkinkan Anda untuk mengakses internet tanpa memotong Pulsa Anda meskipun kuota utama Anda telah habis. Kecepatan internet pada Pulsa Safe akan disesuaikan
+        Tanpa syarat & ketentuan
 
-    Jika kuota Paket FlexiLife Internet habis, Anda tetap bisa mengakses internet dengan Pulsa Safe yang kecepatannya akan disesuaikan
+    Jika kuota Paket FlexiLife Internet habis, Anda tetap dapat mengakses internet dengan Pulsa Safe yang kecepatannya akan disesuaikan
 
-    Pelanggan dapat melakukan registrasi/pembelian paket FlexiLife U melalui UMB *123#, aplikasi LifeApp, WA Official Cymbal, Outlet, E-Commerce atau convenience store
+    Pelanggan dapat melakukan registrasi/pembelian paket FlexiLife U melalui UMB *123#, aplikasi LifeApp, WA Official Cymbal, Outlet, E-Commerce atau gerai pembayaran retail terdekat
 
-    Semua Paket FlexiLife U akan diperpanjang secara otomatis yang akan berlaku selama pulsa mencukupi, dan sisa kuota utama juga akan terakumulasi.
+    Semua Paket FlexiLife U akan diperpanjang secara otomatis yang akan berlaku selama pulsa mencukupi, dan sisa kuota utama akan terakumulasi.
 
     Untuk Paket FlexiLife U, jika kuota aplikasi dan kuota utama habis, penggunaan selanjutnya akan menggunakan skema pulsa safe dengan kecepatan hingga 64 Kbps dan pelanggan akan mendapatkan notifikasi melalui SMS
 """

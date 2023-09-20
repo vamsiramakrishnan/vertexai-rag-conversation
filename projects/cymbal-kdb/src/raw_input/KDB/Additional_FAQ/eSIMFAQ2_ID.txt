@@ -1,7 +1,7 @@
 
 
 
-eSIM tidak dapat digunakan lebih dari 1 perangkat. Kode QR dari 1 nomor yang sudah dipindai dan dipasang di 1 perangkat tidak dapat dipindai lagi di perangkat lain.
+eSIM tidak dapat digunakan lebih dari 1 perangkat. Kode QR dari 1 nomor yang sudah dipindai dan dipasang di 1 perangkat tidak dapat dipindai lagi pada perangkat lain.
 
 
 Ada beberapa batasan penggunaan eSIM di beberapa perangkat. QR Code dari 1 nomor MSISDN yang sudah diunduh dan dipasang pada 1 perangkat pelanggan, tidak dapat diunduh pada perangkat lain
@@ -28,10 +28,10 @@ Jika perangkat akan diperbaiki, kami sarankan untuk menghapus profil eSIM dari p
 Cymbal tidak akan mengubah pengaturan pada perangkat yang menggunakan eSIM.
 
 
-Penyediaan eSIM yang sudah digunakan di perangkat lain tidak dapat dipindahkan ke perangkat baru
+eSIM yang sudah digunakan di perangkat lain tidak dapat dipindahkan ke perangkat baru
 
 
-Daftar perangkat yang mendukung eSIM dapat dicek di website cymbal.com/esim. Saat memilih perangkat, pastikan perangkat tersebut mendukung fitur eSIM. Perangkat tersebut rencananya akan resmi dijual di Indonesia dan IMEInya sudah terdaftar di Kementerian Perindustrian. Anda dapat mengecek status IMEI di https://imei.kemenperin.go.id/ atau menghubungi KOMINFO Contact Center 159. Cymbal tidak bertanggung jawab jika proses aktivasi eSIM gagal karena perangkat tidak mendukung layanan eSIM dan IMEI tidak terdaftar di Kementerian Industri
+Daftar perangkat yang mendukung eSIM dapat dicek di website cymbal.com/esim. Saat memilih perangkat, pastikan perangkat tersebut mendukung fitur eSIM. Perangkat tersebut harus merupakan perangkat resmi yang dijual di Indonesia dan memiliki IMEI yang terdaftar di Kementerian Perindustrian. Anda dapat mengecek status IMEI di https://imei.kemenperin.go.id/ atau menghubungi KOMINFO Contact Center 159. Cymbal tidak bertanggung jawab jika proses aktivasi eSIM gagal karena perangkat tidak mendukung layanan eSIM dan IMEI tidak terdaftar di Kementerian Perindustrian
 
 
 Tidak ada perbedaan untuk jenis perangkat eSIM, misalnya: iPhone, Samsung, Huawei, dll.
@@ -40,7 +40,7 @@ Tidak ada perbedaan untuk jenis perangkat eSIM, misalnya: iPhone, Samsung, Huawe
 Pengirim email untuk kode QR eSIM adalah esim@cymbal.com
 
 
-Jika aktivasi eSIM telah berhasil, namun pelanggan tidak dapat menggunakannya untuk SMS, panggilan, atau internet pelanggan harus menghubungi Cymbal Call Center 185 untuk mengatasi masalah tersebut.
+Pelanggan data menghubungi Cymbal Call Center 185 jika aktivasi eSIM telah berhasil, namun pelanggan tidak dapat menggunakannya untuk SMS, panggilan, atau internet.
 
 
 Apabila perangkat dengan Cymbal eSIM hilang, pelanggan dapat menghubungi Cymbal Call Center 185 untuk memblokir profil eSIM dan disarankan untuk mengunjungi Toko Cymbal terdekat untuk mengaktifkan kembali nomor Cymbal di kartu SIM fisik atau eSIM.

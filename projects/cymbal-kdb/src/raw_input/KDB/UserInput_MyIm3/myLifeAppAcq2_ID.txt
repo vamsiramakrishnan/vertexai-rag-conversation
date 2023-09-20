@@ -8,8 +8,8 @@ Syarat dan ketentuan bagi pengguna untuk memainkan Bonus Kicks adalah
 - Pelanggan telah menginstal aplikasi myLifeApp
 - Pelanggan membeli salah satu "Paket BonusPlay" di aplikasi myLifeApp atau klik link berikut https://bit.ly/bonusplaylifeapp
 - Pembelian dilakukan dengan semua metode pembayaran yang berlaku di myLifeApp
-- Transaksi pembelian paket diatas berstatus sukses (tidak gagal)
-- Setelah berhasil membeli salah satu Paket BonusPlay, pengguna akan mendapatkan pesan berupa pop up/inbox di myLifeApp. Pengguna dapat langsung memainkan BonusPlay dengan memilih tombol ""Mainkan Sekarang""".
+- Transaksi pembelian paket diatas berstatus sukses
+- Setelah berhasil membeli salah satu Paket BonusPlay, pengguna akan mendapatkan pesan berupa pop up/inbox di myLifeApp. Pengguna dapat langsung memainkan BonusPlay dengan memilih tombol "Mainkan Sekarang".
 
 
 Pelanggan diberikan waktu 30 menit setelah status pembelian paket berhasil untuk mengikuti BonusPlay.

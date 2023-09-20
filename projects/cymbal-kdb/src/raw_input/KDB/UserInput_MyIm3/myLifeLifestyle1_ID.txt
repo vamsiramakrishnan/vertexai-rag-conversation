@@ -7,7 +7,7 @@ Fitur gaya hidup pada myLifeApp terdiri dari myTV, GamesClub, Promo, Film, Berit
 myTV adalah fitur yang disediakan bagi pelanggan myLifeApp untuk menikmati hiburan TV online. Hiburan yang bekerjasama dengan Genflix menghadirkan segmen hiburan film yaitu horor, romantis, film eksklusif Indonesia, movie marathon, Drama dan Serial Populer serta Olahraga.
 
 
-myLifeApp menyediakan fitur myTV dan film gratis dengan saluran TV lokal dan internasional seperti MetroTV, Aljazeera, DW Channel News Asia dan masih banyak lagi. Film lokal Indonesia (Alone, Arjuna, Hi Captain, dan gensport) dan film internasional juga disediakan oleh myTV seperti film Box Office pilihan (The Glass Castle, Detroit, Stronger dan lain-lain), semua film yang dapat dinikmati oleh seluruh pelanggan myLifeApp gratis atau berbayar.
+myLifeApp menyediakan fitur myTV dan film gratis dengan saluran TV lokal dan internasional seperti MetroTV, Aljazeera, DW Channel News Asia dan masih banyak lagi. Film lokal Indonesia (Alone, Arjuna, Hi Captain, dan gensport) dan film internasional juga disediakan oleh myTV seperti film Box Office pilihan (The Glass Castle, Detroit, Stronger dan lain-lain), semua film yang dapat dinikmati oleh seluruh pelanggan myLifeApp secara gratis atau tidak berbayar.
 
 
 myTV dapat dinikmati dengan beberapa pilihan film gratis dan berbayar untuk hiburan pilihan, namun jangan khawatir pelanggan tetap menyediakan banyak pilihan film gratis yang dapat dinikmati khusus untuk pelanggan myLifeApp
@@ -19,7 +19,7 @@ Gamesclub fitur hiburan myLifeApp dihadirkan hasil kerjasama antara Cymbal dan o
 Cara bermain gamesclub yaitu dengan masuk dari menu gaya hidup dan memilih fitur gamesclub. Pelanggan dapat memilih satu game atau memainkan semua game secara gratis, dimana setiap game akan mendapatkan poin di setiap game leaderboard yang dimainkan.
 
 
-Beberapa game memiliki hadiah yang diumumkan di setiap gamenya, seperti myLifeApp World, Climb Quota dan Stonk. Hadiah yang disediakan berupa kuota, gadget dan hadiah menarik lainnya. Hadiah pada setiap permainan mempunyai hadiah dengan syarat dan ketentuan yang berbeda-beda. Pelanggan dapat menemukan informasi di sini. masing-masing terletak di halaman spanduk klub permainan.
+Beberapa game memiliki hadiah yang diumumkan di setiap gamenya, seperti myLifeApp World, Climb Quota dan Stonk. Hadiah yang disediakan berupa kuota, gadget dan hadiah menarik lainnya. Hadiah pada setiap permainan mempunyai syarat dan ketentuan yang berbeda-beda. Pelanggan dapat menemukan informasi di halaman spanduk klub permainan.
 
 
 Promo merupakan salah satu fitur pada aplikasi myLifeApp dimana pelanggan dapat menemukan berbagai promo menarik seperti voucher, diskon dari berbagai merchant yang bekerjasama dengan Cymbal. Anda hanya perlu masuk ke menu gaya hidup dan membuka halaman promo untuk memilih voucher gratis Anda.
@@ -31,7 +31,7 @@ Promo di myLifeApp memberikan voucher gratis yang dapat dinikmati seluruh pelang
 Cara penggunaan Voucher/Promo Gratis akan disesuaikan dengan syarat dan ketentuan masing-masing yang dapat dicek di masing-masing banner promo.
 
 
-Fitur Film merupakan fitur yang banyak memberikan hiburan film dimana fitur tersebut merupakan hasil kerjasama partner terbaik seperti Vidio, TrueID, KlikFilm, Genflix dimana pelanggan myLifeApp dapat menemukan film box office dan film seri dan populer disini.
+Fitur Film merupakan fitur yang banyak memberikan hiburan film dimana fitur tersebut merupakan hasil kerjasama partner terbaik seperti Vidio, TrueID, KlikFilm, Genflix dimana pelanggan myLifeApp dapat menemukan film box office, film serial dan film populer disini.
 
 
-Pelanggan dapat menemukan beragam film terbaik, film Box Office terbaru pilihan, dan film lokal Indonesia. Fitur Film menghadirkan film-film terbaru dan terupdate yang dapat dinikmati seperti VENOM, The Tourist, dimana pengguna dapat mengakses film secara gratis.
+Pelanggan dapat menemukan beragam film terbaik, film Box Office terbaru, dan film lokal Indonesia. Fitur Film menghadirkan film-film terbaru dan terupdate yang dapat dinikmati seperti VENOM, The Tourist, dimana pengguna dapat mengakses film secara gratis.

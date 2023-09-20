@@ -1,10 +1,10 @@
 
 
 
-eSIM adalah teknologi baru yang memungkinkan perangkat pelanggan mengakses jaringan Cymbal tanpa kartu SIM fisik. eSIM menyimpan nomor telepon, paket berlangganan, konfigurasi jaringan yang memungkinkan perangkat Anda terhubung ke jaringan Cymbal dengan mengoptimalkan fitur dual-sim di perangkat (kartu SIM fisik & eSIM). Info detailnya di: https://cymbal.com/esim
+eSIM adalah teknologi baru yang memungkinkan perangkat pelanggan mengakses jaringan Cymbal tanpa kartu SIM fisik. eSIM menyimpan nomor telepon, paket berlangganan, konfigurasi jaringan yang memungkinkan perangkat Anda terhubung ke jaringan Cymbal dengan memanfaatkan fitur dual-sim di perangkat (kartu SIM fisik & eSIM). Info detailnya di: https://cymbal.com/esim
 
 
-Keunggulan eSIM adalah mudah dan cepat karena mengoptimalkan fitur dual SIM pada perangkat telekomunikasi dan terhubung ke jaringan Cymbal tanpa kartu SIM fisik
+Keunggulan eSIM adalah mudah dan cepat karena memanfaatkan fitur dual SIM pada perangkat telekomunikasi dan terhubung ke jaringan Cymbal tanpa kartu SIM fisik
 
 
 Pelanggan dapat membeli dan mengaktifkan eSIM melalui langkah-langkah berikut.
@@ -16,13 +16,13 @@ Untuk eSIM Cymbal Pascabayar, pelanggan dapat mengunjungi 6 Store Cymbal :
 - Pondok Indah
 - Mangga Dua
 - Duta Mal
-Setelah mendapatkan nomor eSIM Cymbal dan seluruh informasi data terverifikasi, pelanggan akan menerima email berisi kode QR eSIM. Perangkat pelanggan harus terhubung ke internet sebelum memindai kode QR. Scan kode QR dan lanjutkan proses instalasi hingga selesai, kemudian dalam waktu maksimal 1x24 jam eSIM akan otomatis terpasang di perangkat. Pastikan nomor pelanggan telah berhasil Registrasi Prabayar atau Aktivasi Pascabayar untuk dapat menikmati layanan Cymbal Cymbal
+Setelah mendapatkan nomor eSIM Cymbal dan seluruh data telah terverifikasi, pelanggan akan menerima email berisi kode QR eSIM. Perangkat pelanggan harus terhubung ke internet sebelum memindai kode QR. Scan kode QR dan lanjutkan proses instalasi hingga selesai, kemudian dalam waktu maksimal 1x24 jam eSIM akan otomatis aktif. Pastikan nomor pelanggan telah melakukan Registrasi Prabayar atau Aktivasi Pascabayar untuk dapat menikmati layanan Cymbal
 
 
-Sampai saat ini, belum ada penawaran bundling khusus dengan Cymbal eSIM
+Sampai saat ini, belum ada penawaran bundling khusus untuk Cymbal eSIM
 
 
-Pelanggan dapat mengganti kartu SIM fisik saat ini dengan eSIM di 6 Toko Cymbal yang ditunjuk :
+Pelanggan dapat mengganti kartu SIM fisik saat ini dengan eSIM di 6 Toko Cymbal sebagai berikut:
 - Toko Pusat
 - Kota Kasablanka
 - Roxy
@@ -44,4 +44,4 @@ Untuk eSIM Cymbal pascabayar tersedia di 6 Store Cymbal:
 Apabila profil eSIM terhapus secara tidak sengaja dari perangkat, pelanggan dapat dengan mudah mengunduh kembali profil SIM ke perangkat dengan memindai ulang kode QR yang dikirimkan sebelumnya.
 
 
-Waktu pengunduhan profil eSIM tergantung pada kecepatan pengunduhan koneksi internet
+Waktu pengunduhan profil eSIM tergantung pada kecepatan internet
