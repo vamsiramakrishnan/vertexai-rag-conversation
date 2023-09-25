@@ -10,10 +10,19 @@ import asyncio
 logger = logging.getLogger(__name__)
 startup_lock = asyncio.Lock()
 
-
 class AgentFactory:
-    @staticmethod
-    async def create_agent(agent_type: str, app: FastAPI, config: AppConfig):
+    AGENT_CLASSES = {
+        "router_agent": RouterAgent,
+        "chat_agent": ChatAgent,
+        "conversational_chat_agent": ConversationalChatAgent,
+    }
+
+    @classmethod
+    async def create_agent(cls, agent_type: str, app: FastAPI, config: AppConfig):
+        agent_class = cls.AGENT_CLASSES.get(agent_type)
+        if agent_class is None:
+            raise ValueError(f"Invalid agent type: {agent_type}")
+
         if agent_type == "router_agent":
             BUCKET_NAME = (
                 "gs://"
@@ -23,23 +32,17 @@ class AgentFactory:
                 + "-"
                 + config.DEPLOYMENT_ENV
             )
-            return RouterAgent(
+            return agent_class(
                 bucket_name=BUCKET_NAME,
                 project_id=config.PROJECT_ID,
                 index_name=config.INDEX_EN,
                 index_name_id=config.INDEX_ID
             )
-        elif agent_type == "chat_agent":
-            return ChatAgent(project_id=config.PROJECT_ID, region=config.REGION)
-        elif agent_type == "conversational_chat_agent":
-            return ConversationalChatAgent(
-                project_id=config.PROJECT_ID, region=config.REGION
-            )
         else:
-            raise ValueError(f"Invalid agent type: {agent_type}")
+            return agent_class(project_id=config.PROJECT_ID, region=config.REGION)
 
-    @staticmethod
-    async def initialize_agents(app: FastAPI, config: AppConfig):
+    @classmethod
+    async def initialize_agents(cls, app: FastAPI, config: AppConfig):
         async with startup_lock:
             logger.info("********** Configuration **********"+config.getConfigAsString())
             if not hasattr(app.state, "agents"):  # check if already initialized
@@ -47,15 +50,9 @@ class AgentFactory:
                 vertexai.init(project=config.PROJECT_ID, location=config.REGION)
 
                 app.state.agents = {
-                    "router_agent": await AgentFactory.create_agent(
-                        "router_agent", app, config
-                    ),
-                    "chat_agent": await AgentFactory.create_agent(
-                        "chat_agent", app, config
-                    ),
-                    "conversational_chat_agent": await AgentFactory.create_agent(
-                        "conversational_chat_agent", app, config
-                    ),
+                    agent_type: await cls.create_agent(agent_type, app, config)
+                    for agent_type in cls.AGENT_CLASSES.keys()
                 }
 
                 logger.info("Ready to accept Application Requests")
+

@@ -13,7 +13,6 @@ from chains.reformat_answer_chain import ReformatAnswerChain
 from chains.product_query_chain import ProductQueryChain
 from google.cloud import translate_v2 as translate
 from google.cloud import translate as translate_nmt
-#from helpers.logging_configurator import logger, request_origin
 from helpers.logging_configurator import logger, request_origin, service_metrics
 from helpers.google_translate import TranslationService
 from helpers.service_metrics import ServiceMetrics
@@ -22,6 +21,10 @@ from models.llm_cr_be_models import *
 from helpers.vertexai import LoggingVertexAIEmbeddings
 
 class RouterAgent:
+    """
+    The RouterAgent class is responsible for routing the user's query to the appropriate chain for processing.
+    It also handles language detection and translation, and logs the process for debugging and analysis.
+    """
     def __init__(
         self,
         bucket_name: str = "gs://cymbal-kb-bucket",
@@ -31,6 +34,9 @@ class RouterAgent:
         index_name_id: str = "cymbal_kb_index_ID",
         log_level: int = logging.INFO,
     ):
+        """
+        Initializes the RouterAgent with the provided parameters.
+        """
         self.bucket_name = bucket_name
         self.project_id = project_id
         self.region = region
@@ -66,41 +72,68 @@ class RouterAgent:
 
     @property
     def default_language(self):
+        """
+        Returns the default language for the RouterAgent.
+        """
         return "en"
 
     @property
     def default_bucket_name(self):
+        """
+        Returns the default bucket name for the RouterAgent.
+        """
         return "gs://cymbal-kb-bucket"
 
     @property
     def default_project_id(self):
+        """
+        Returns the default project id for the RouterAgent.
+        """
         return "marc-genai-01"
 
     @property
     def default_region(self):
+        """
+        Returns the default region for the RouterAgent.
+        """
         return "us-central1"
 
     @property
     def default_index_names(self):
+        """
+        Returns the default index names for the RouterAgent.
+        """
         return {"en": "cymbal_kb_index_EN", "id": "cymbal_kb_index_ID"}
 
     @property
     def default_response(self):
+        """
+        Returns the default response for the RouterAgent.
+        """
         return {
             "responseType": "Fallback",
             "answer": "Could not understand what you said. Could you rephrase the question?",
         }
 
     def _setup_logger(self):
+        """
+        Sets up the logger for the RouterAgent.
+        """
         logger = logging.getLogger(__name__)
         return logger
 
     def log(self, level, message):
+        """
+        Logs a message at the specified level.
+        """
         self.logger.log(
             level, f"RouterAgent - Origin: {request_origin.get()} | {message}"
         )
 
     def reframe_query(self, query: str, detected_language: str, history_messages: List[Message]) -> str:
+        """
+        Reframes the query based on the detected language and history messages.
+        """
         try:
             if(history_messages and configcontex.FEATURE_REFRAME_QUERY == 'True'):
                 if (len(history_messages) >= 1):
@@ -120,6 +153,9 @@ class RouterAgent:
             return ""
 
     def reformat_answer(self, answer: str, detected_language: str) -> str:
+        """
+        Reformats the answer based on the detected language.
+        """
         try:
             if(answer and configcontex.FEATURE_REFORMAT_ANSWER == 'True'):
                 if(detected_language == 'id'):
@@ -136,6 +172,9 @@ class RouterAgent:
             return ""            
 
     def get_nlu_router_response(self, query: str) -> Union[Dict[str, str], str]:
+        """
+        Gets the NLU router response for the query.
+        """
         try:
             return self.nlu_router_chain.process_query(query=query)
         except Exception as e:
@@ -151,7 +190,9 @@ class RouterAgent:
         original_query: str, 
         detected_language: str
     ) -> Dict[str, Optional[str]]:
-        
+        """
+        Processes the intent based on the intent type, query, original query, and detected language.
+        """
         intent_type = intent_type.casefold()
         
         if(intent_type == 'staticknowledgebase' and configcontex.FEATURE_KDB_ID == 'True' and detected_language == 'id'):
@@ -204,6 +245,9 @@ class RouterAgent:
     def get_qa_response(
         self, query: str, nlu_router_response: Union[Dict[str, str], str], original_query: str, detected_language: str
     ) -> Dict[str, Union[str, Dict[str, str]]]:
+        """
+        Gets the QA response based on the query, NLU router response, original query, and detected language.
+        """
         default_response = self.default_response
         if isinstance(nlu_router_response, dict):
             intent = nlu_router_response.get("Intent")
@@ -220,7 +264,9 @@ class RouterAgent:
         return default_response
 
     def translate_query_if_needed(self, query: str, detected_language: str) -> str:
-        """Translates the query if it is not in English or Bahasa"""
+        """
+        Translates the query if it is not in English or Bahasa.
+        """
         if detected_language not in ["en"]:
             self.log(logging.INFO, f"Language detected {detected_language} is not en, translating query to English.")
             query = self.translation_service.translate_text_nmt(text=query, target="en")
@@ -229,19 +275,9 @@ class RouterAgent:
     def translate_response_if_needed(
         self, detected_language: str, qa_response: Dict[str, str]
     ) -> Dict[str, str]:
-        """Translates the response if the language of response and incoming query do not match"""
-        # Always detect response language and use to drive translation
-        # qa_response_language = self.translation_service.detect_language_nmt(
-        #     qa_response["answer"]
-        # )
-        # if (
-        #     detected_language != qa_response_language
-        #     and qa_response["responseType"] != "DynamicAPIFlow"
-        # ):
-        #     qa_response["answer"] = self.translation_service.translate_text_nmt(
-        #         text=qa_response["answer"], target=detected_language
-        #     )
-        
+        """
+        Translates the response if the language of response and incoming query do not match.
+        """
         bool_translate = False
         qa_response_type = qa_response["responseType"]       
          
@@ -268,6 +304,9 @@ class RouterAgent:
         return qa_response
 
     def invoke(self, query: str, history_messages: List[Message]) -> Dict[str, Union[str, Dict[str, str]]]:
+        """
+        Invokes the RouterAgent with the provided query and history messages.
+        """
         try:
             original_query = query
             detected_language = self.translation_service.detect_language_nmt(query)

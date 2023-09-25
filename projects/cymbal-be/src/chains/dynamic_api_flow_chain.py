@@ -1,5 +1,5 @@
 from typing import Dict, Union, Tuple, Optional
-from helpers.vertexai import LoggingVertexAI, LoggingVertexAIChat
+from helpers.vertexai import LoggingVertexAI, LoggingVertexAIChat, LoggingVertexAIEmbeddings
 from langchain.chains import LLMChain
 from helpers.json_parsers import (
     parse_malformed_dynamicapi_json,
@@ -7,16 +7,18 @@ from helpers.json_parsers import (
 )
 from helpers.logging_configurator import logger, request_origin
 from prompts.dynamic_api_prompt import DynamicAPIPrompt
-import logging
-from helpers.vertexai import LoggingVertexAIEmbeddings
 from langchain.vectorstores import FAISS
-import os
 from google.cloud import storage
 from config.config import configcontex
 from langchain.llms.vertexai import _VertexAICommon
-
+import logging
+import os
 
 class DynamicAPIFlowChain:
+    """
+    The DynamicAPIFlowChain class is responsible for handling the flow of the dynamic API.
+    It uses the LoggingVertexAI model to generate responses and the FAISS for similarity search.
+    """
     def __init__(
         self,
         bucket_name: str = "gs://cymbal-kb-bucket",
@@ -34,7 +36,7 @@ class DynamicAPIFlowChain:
         similarity_search_k: Optional[int] = 3,
     ):
         """
-        The constructor for the SmallTalkChain class.
+        Initializes the DynamicAPIFlowChain with a logger, a LoggingVertexAI model, a DynamicAPIPrompt, and a LLMChain.
         """
         self.bucket_name = self.strip_gs_prefix(bucket_name)
         self.folder_name = folder_name
@@ -97,6 +99,7 @@ class DynamicAPIFlowChain:
         return True
 
     def vectorstore_load_from_gcs(self):
+        """Loads the vectorstore from GCS."""
         path_name = os.path.join(self.folder_name, self.index_name)
         self.log(logging.INFO, f"Path Name:{path_name}")
         os.makedirs(path_name, exist_ok=True)
@@ -200,3 +203,4 @@ class DynamicAPIFlowChain:
             )
 
         return self.parse_llm_response(llm_response)
+

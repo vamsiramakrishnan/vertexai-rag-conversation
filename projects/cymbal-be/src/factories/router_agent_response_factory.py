@@ -8,26 +8,26 @@ from models.llm_cr_be_models import (
     FlowType,
 )
 
+RESPONSE_BUILDERS = {
+    "SmallTalk": "SmallTalkResponseBuilder",
+    "StaticKnowledgebaseQnA": "StaticKnowledgebaseQnAResponseBuilder",
+    "ProductFlow": "StaticKnowledgebaseQnAResponseBuilder",
+    "DynamicAPIFlow": "DynamicAPIFlowResponseBuilder",
+}
 
 class RouterAgentResponseFactory:
     @staticmethod
     def get_response_builder(response_type):
-        if response_type.casefold() == "SmallTalk".casefold():
-            return SmallTalkResponseBuilder()
-        elif response_type.casefold() == "StaticKnowledgebaseQnA".casefold():
-            return StaticKnowledgebaseQnAResponseBuilder()
-        elif response_type.casefold() == "ProductFlow".casefold():
-            return StaticKnowledgebaseQnAResponseBuilder()            
-        elif response_type.casefold() == "DynamicAPIFlow".casefold():
-            return DynamicAPIFlowResponseBuilder()
+        response_type = response_type.casefold()
+        builder = RESPONSE_BUILDERS.get(response_type)
+        if builder:
+            return globals()[builder]()
         else:
             return FallbackIntentResponseBuilder()
-
 
 class RouterAgentResponseBuilder:
     def build_response(self, llm_response, original_user_query):
         raise NotImplementedError()
-
 
 class SmallTalkResponseBuilder(RouterAgentResponseBuilder):
     def build_response(self, llm_response, original_user_query):
@@ -40,7 +40,6 @@ class SmallTalkResponseBuilder(RouterAgentResponseBuilder):
             originalUserQuery=original_user_query,
         )
 
-
 class StaticKnowledgebaseQnAResponseBuilder(RouterAgentResponseBuilder):
     def build_response(self, llm_response, original_user_query):
         static_knowledgebase_response = StaticKnowledgebaseQnAResponse(
@@ -51,7 +50,6 @@ class StaticKnowledgebaseQnAResponseBuilder(RouterAgentResponseBuilder):
             staticKnowledgebaseQnAResponse=static_knowledgebase_response,
             originalUserQuery=original_user_query,
         )
-
 
 class DynamicAPIFlowResponseBuilder(RouterAgentResponseBuilder):
     def build_response(self, llm_response, original_user_query):
@@ -69,7 +67,6 @@ class DynamicAPIFlowResponseBuilder(RouterAgentResponseBuilder):
             originalUserQuery=original_user_query,
         )
 
-
 class FallbackIntentResponseBuilder(RouterAgentResponseBuilder):
     def build_response(self, llm_response, original_user_query):
         fallback_intent_response = FallbackIntentResponse(
@@ -80,3 +77,4 @@ class FallbackIntentResponseBuilder(RouterAgentResponseBuilder):
             fallbackIntentResponse=fallback_intent_response,
             originalUserQuery=original_user_query,
         )
+

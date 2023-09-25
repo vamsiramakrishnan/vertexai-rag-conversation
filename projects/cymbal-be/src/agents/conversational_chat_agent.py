@@ -3,12 +3,15 @@ from typing import List, Tuple, Optional
 from models.llm_cr_be_models import LlmChatResponse, Message, SafetyAttributes, Example, Parameters
 from chains.chat_chain import ChatChain
 from helpers.google_translate import TranslationService
-#from helpers.logging_configurator import logger, request_origin
 from helpers.logging_configurator import logger, request_origin, service_metrics
 import re
 from helpers.service_metrics import ServiceMetrics
 
 class ConversationalChatAgent:
+    """
+    The ConversationalChatAgent class is responsible for handling the conversation with the user.
+    It uses the ChatChain to generate responses and the TranslationService to handle language translation.
+    """
     TEMPERATURE = 0
     MAX_OUTPUT_TOKENS = 128
     TOP_P = 0.95
@@ -16,18 +19,30 @@ class ConversationalChatAgent:
     DEFAULT_LANGUAGE = "en"
 
     def __init__(self, project_id: str = "marc-genai-01", region: str = "us-central1"):
+        """
+        Initializes the ConversationalChatAgent with a TranslationService and a logger.
+        """
         self.translation_service = TranslationService(project_id=project_id, region=region)
         self.logger = self._setup_logger()
 
     @staticmethod
     def _setup_logger() -> logging.Logger:
+        """
+        Sets up the logger for the ConversationalChatAgent.
+        """
         return logging.getLogger(__name__)
 
     def log(self, level: int, message: str) -> None:
+        """
+        Logs a message at a given level.
+        """
         self.logger.log(level, f"ChatAgent - Origin: {request_origin} | {message}")
 
     @staticmethod
     def _extract_message_history(messages: List[Message]) -> str:
+        """
+        Extracts the message history from a list of messages.
+        """
         if not messages:
             return ""
         else:
@@ -37,6 +52,9 @@ class ConversationalChatAgent:
 
     @staticmethod
     def _extract_examples(examples: List[Example]) -> str:
+        """
+        Extracts the examples from a list of examples.
+        """
         if not examples:
             return ""
         else:
@@ -46,6 +64,9 @@ class ConversationalChatAgent:
 
     @staticmethod
     def _extract_customer_question(text):
+        """
+        Extracts the customer's question from the text.
+        """
         match = re.search(r'(.*)(CUSTOMER_QUESTION:.*$)', text, re.DOTALL)
         if match:
             text_before = match.group(1)
@@ -55,6 +76,9 @@ class ConversationalChatAgent:
         return text_before, text_after
 
     def _translate_query_if_required(self, query: str, default_language: str = DEFAULT_LANGUAGE) -> Tuple[str, str]:
+        """
+        Translates the query if it is not in the default language.
+        """
         detected_language = self.translation_service.detect_language_nmt(query)
         if detected_language != default_language:
             translated_query = self.translation_service.translate_text_nmt(query, default_language)
@@ -63,21 +87,9 @@ class ConversationalChatAgent:
         return detected_language, translated_query
 
     def _translate_response_if_required(self, response: str, target_language: str) -> str:
-        """Translates the response if the language of response and incoming query do not match"""        
-        # detected_language = self.translation_service.detect_language_nmt(response)
-        # if detected_language != target_language:
-        #     translated_response = self.translation_service.translate_text_nmt(response, target_language)
-        # else:
-        #     translated_response = response
-        
-        # Translate only for non English targets
-        # if target_language != 'en':
-        #     translated_response = self.translation_service.translate_text_nmt(response, target_language)
-        # else:
-        #     translated_response = response
-        
-        # FORCE translate response. Even for high confidence EN scenarios, FORCE translation enabled since some balance desc in Indonesian Bahasa
-        # INEFFICIENT CODE. FIRES FOR ALL DYNAMIC FLOWS for EN, Indonesia Bahasa balance desc only for ACCT INFO dynamic flow
+        """
+        Translates the response if the language of response and incoming query do not match.
+        """
         if target_language != 'en':
             translated_response = self.translation_service.translate_text_nmt(response, target_language)
         else:
@@ -86,6 +98,9 @@ class ConversationalChatAgent:
         return translated_response
 
     def _prepare_model_prompt(self, context: str, examples: str, question: str, message_history: str) -> str:
+        """
+        Prepares the model prompt by combining the context, question, message history, and examples.
+        """
         return f"""
 Context:
 {context}
@@ -96,6 +111,9 @@ ANSWER:
 """
 
     def _generate_chat_response(self, model_prompt: str, parameters: Optional[Parameters]) -> str:
+        """
+        Generates a chat response using the ChatChain.
+        """
         vertexai_params = {
             "temperature": parameters.temperature if parameters and parameters.temperature else self.TEMPERATURE,
             "max_output_tokens": parameters.maxOutputTokens if parameters and parameters.maxOutputTokens else self.MAX_OUTPUT_TOKENS,
@@ -109,6 +127,9 @@ ANSWER:
         return chat_agent_answer
 
     def _extract_request_parameters(self, body) -> Tuple[str, str, List[Message], Optional[Parameters]]:
+        """
+        Extracts the request parameters from the body.
+        """
         chat_agent_request = body.llmChatRequest
 
         context = chat_agent_request.context or ""
@@ -119,6 +140,9 @@ ANSWER:
         return context, examples, messages, parameters
 
     def invoke(self, body) -> LlmChatResponse:
+        """
+        Invokes the ConversationalChatAgent with a given body.
+        """
         context, examples, messages, parameters = self._extract_request_parameters(body)
 
         service_metrics.get().setFlowType("ChatQA")
