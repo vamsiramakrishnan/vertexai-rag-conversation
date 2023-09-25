@@ -35,11 +35,11 @@ bar_empty=$(printf "%0.s " $(seq 1 50))
 
 # Env settings
 if [ $env = "dev" ]; then
-    url="https://crbe-llm-dev-v1-gw1-ryazos7xna-et.a.run.app/routeragent"
-    auth="x-api-key: AIzaSyDoghdbK7nAN4n8Aj7kk5X8sqpKp3b0yxY"
+   url="your url"
+    auth="x-api-key: API Key"
 elif [ $env = "uat" ]; then
-    url="https://crbe-llm-v1-gw1-ryazos7xna-et.a.run.app/routeragent"
-    auth="x-api-key: AIzaSyDoghdbK7nAN4n8Aj7kk5X8sqpKp3b0yxY"
+url="your url"
+auth="your-api-key"
 else
     url="http://localhost:8080/routeragent"
     auth="Authorization: Bearer $(gcloud auth print-identity-token)"
